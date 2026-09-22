@@ -1,8 +1,11 @@
-project_id = "ymasbdyfcgbombveutpt"
+project_id = "flskzrfmwheucskovaut"
 
 # Issuance uses x-tennis-iq-secret; redemption authenticates with the single-use code.
 [functions.tennis-iq-issue]
 verify_jwt = false
 
 [functions.tennis-iq-redeem]
+verify_jwt = false
+
+[functions.tennis-iq-paypal]
 verify_jwt = false

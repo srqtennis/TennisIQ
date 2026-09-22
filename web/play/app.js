@@ -14,9 +14,8 @@ const IQ_MIX = 0.75;
 const DIFF_LABEL = { rookie: "Rookie", club: "Club", tour: "Tour" };
 const LETTERS = ["A", "B", "C", "D"];
 const FREE_BALLS = 4;
-// Checkout must deliver the code returned by tennis-iq-issue in a ?code= link.
-const PAY_URL = "https://link.fastpaydirect.com/payment-link/6ab1e0e39f7ff2c808a76e64";
-const REDEEM_URL = "https://ymasbdyfcgbombveutpt.supabase.co/functions/v1/tennis-iq-redeem";
+// Purchase happens on the landing page (PayPal -> account entitlement).
+const PAY_URL = "../#own";
 
 const store = {
   get(k, fallback) {
@@ -64,9 +63,18 @@ function deal(q) {
   };
 }
 
-function owned() {
-  const unlock = store.get("unlock-v2", null);
-  return !!(unlock && unlock.device_id && unlock.device_id === store.get("device-id", null));
+const auth = { user: null, entitled: false, loaded: false };
+
+function owned() { return !!auth.entitled; }
+
+async function refreshAuth(force) {
+  try {
+    auth.user = await TIQ.user();
+    auth.entitled = auth.user ? !!(await TIQ.entitlement(force)) : false;
+  } catch {
+    auth.entitled = false;
+  }
+  auth.loaded = true;
 }
 
 let redeemPending = false;
@@ -80,39 +88,23 @@ async function redeemCode(value) {
     report("Enter the unlock code from your purchase email.");
     return;
   }
+  if (!auth.user) { report("Sign in first, then enter your code — it attaches to your account."); return; }
   redeemPending = true;
   if (button) button.disabled = true;
-  report("Unlocking this phone…");
+  report("Attaching this code to your account…");
   try {
-    // Persist before redeeming: blocked storage must never consume a code.
-    let device = store.get("device-id", null);
-    if (typeof device !== "string" || !device) device = crypto.randomUUID();
-    store.set("device-id", device);
-    if (store.get("device-id", null) !== device) throw new Error("storage");
-    const response = await fetch(REDEEM_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ code, device_id: device }),
-      signal: AbortSignal.timeout(15000),
-    });
-    if (!response.ok) throw new Error("network");
-    const result = await response.json();
-    if (result.ok !== true) {
-      report(result.reason === "used"
-        ? "This code has already been used. Contact SRQ Tennis if you need a phone reset."
+    const result = await TIQ.claimCode(code);
+    if (!result || result.ok !== true) {
+      report(result && result.reason === "used"
+        ? "This code was already used by another account. Contact SRQ Tennis."
         : "That code could not be redeemed. Check your purchase email and try again.");
       return;
     }
-    try {
-      store.set("unlock-v2", { device_id: device });
-    } catch {
-      report("Code accepted, but this browser could not save your unlock. Contact SRQ Tennis for a reset.");
-      return;
-    }
+    await refreshAuth(true);
     state.screen = "home";
     render();
   } catch {
-    report("Could not unlock. Check your connection and allow browser storage, then try again. If the code now says used, contact SRQ Tennis for a reset.");
+    report("Could not reach the server. Check your connection and try again.");
   } finally {
     redeemPending = false;
     if (button) button.disabled = false;
@@ -150,6 +142,8 @@ function render() {
 }
 
 function land(s) {
+  const signedIn = !!auth.user;
+  const who = signedIn ? escapeHtml(auth.user.email || "") : "";
   $app.innerHTML = `
     <div class="brand">
       <div class="mark"><div class="ball"></div></div>
@@ -164,31 +158,41 @@ function land(s) {
       <p>Rules, The Code, scoring, court specs. Four questions. Then $9.99 once — not a membership.</p>
       <button class="btn btn-primary" data-sample>Play the sample</button>
     </div>
+    ${signedIn ? `
     <div class="card">
-      <h2>$9.99 once</h2>
-      <p>1,584 balls. Daily Rally. Shot Clock. Practice by topic. Progress stays on this phone.</p>
-      <button class="btn btn-clay" data-pay>Own Tennis IQ</button>
+      <p class="kicker">Signed in</p>
+      <h2>${who}</h2>
+      <p>This account doesn't own Tennis IQ yet. One payment unlocks every phone you sign in on.</p>
+      <button class="btn btn-clay" data-pay>Own Tennis IQ — $9.99</button>
+      <button class="btn btn-ghost" data-signout>Sign out</button>
     </div>
-    ${s.owned ? `<p class="tiny center">This device is unlocked.</p>` : `
-    <p class="tiny center">Already paid? Enter the single-use code from your purchase email.</p>
+    <p class="tiny center">Bought before accounts? Enter the code from your purchase email.</p>
     <div class="card">
       <input id="code" aria-label="Unlock code" autocomplete="off" autocapitalize="characters" placeholder="SRQ-XXXX-XXXX" style="width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:#102418;color:var(--text);font:inherit" />
-      <button class="btn btn-ghost" data-code>Unlock this phone</button>
+      <button class="btn btn-ghost" data-code>Attach code to my account</button>
       <p id="code-message" role="status" aria-live="polite"></p>
+    </div>` : `
+    <div class="card">
+      <p class="kicker">Own it</p>
+      <h2>Sign in to play the full hopper</h2>
+      <p>Your purchase lives on your account, so a new phone or a cleared browser never locks you out.</p>
+      <button class="btn btn-primary" data-signin="google">Continue with Google</button>
+      <button class="btn btn-ghost" data-signin="apple">Continue with Apple</button>
+      <p class="tiny center" style="margin-top:10px">$9.99 once. No subscription.</p>
     </div>`}
   `;
-  $app.querySelector("[data-sample]").onclick = () => {
-    startGame({ mode: "sample", n: FREE_BALLS, timed: false });
-  };
-  $app.querySelector("[data-pay]").onclick = () => {
-    window.location.href = PAY_URL;
-  };
+  $app.querySelector("[data-sample]").onclick = () => startGame({ mode: "sample", n: FREE_BALLS, timed: false });
+  $app.querySelectorAll("[data-signin]").forEach(b => {
+    b.onclick = () => { b.disabled = true; TIQ.signIn(b.dataset.signin).catch(() => { b.disabled = false; }); };
+  });
+  const so = $app.querySelector("[data-signout]");
+  if (so) so.onclick = async () => { await TIQ.signOut(); await refreshAuth(true); render(); };
+  const pay = $app.querySelector("[data-pay]");
+  if (pay) pay.onclick = () => { window.location.href = PAY_URL; };
   const codeBtn = $app.querySelector("[data-code]");
   if (codeBtn) {
     codeBtn.onclick = () => redeemCode($app.querySelector("#code").value);
-    $app.querySelector("#code").onkeydown = event => {
-      if (event.key === "Enter") codeBtn.click();
-    };
+    $app.querySelector("#code").onkeydown = event => { if (event.key === "Enter") codeBtn.click(); };
   }
 }
 
@@ -216,7 +220,7 @@ function home(s) {
       <p class="kicker">Pressure</p>
       <h2>Shot Clock</h2>
       <p>Twenty seconds a question. Miss or timeout and the rally ends the point.</p>
-      <button class="btn btn-clay" data-go="timed">Timed 10</button>
+      <button class="btn btn-clay" data-go="timed">${s.owned ? "Timed 10" : "Locked — own it"}</button>
     </div>
     <div class="grid">
       <div class="card">
@@ -231,10 +235,10 @@ function home(s) {
       </div>
     </div>
     <div class="card">
-      <p class="kicker">Own it</p>
-      <h2>$9.99 once</h2>
-      <p>Not a subscription. Full hopper on iPhone. Web stays free while we test.</p>
-      <button class="btn btn-ghost" data-go="own">How it ships</button>
+      <p class="kicker">${s.owned ? "Account" : "Own it"}</p>
+      <h2>${s.owned ? escapeHtml(auth.user && auth.user.email || "Unlocked") : "$9.99 once"}</h2>
+      <p>${s.owned ? "Owned. Sign in on any phone to play." : "Not a subscription. One account, every device."}</p>
+      <button class="btn btn-ghost" data-go="own">${s.owned ? "Account" : "How it works"}</button>
     </div>
     <p class="tiny center" style="margin-top:16px">ITF + Friend at Court 2026. Add to Home Screen for the app feel.</p>
   `;
@@ -261,15 +265,17 @@ function own() {
     </div>
     <div class="card">
       <h2>What you own</h2>
-      <p>Full question library, Daily Rally, Shot Clock, Practice filters, offline hopper. Scores stay on the phone. No account.</p>
+      <p>Full question library, Daily Rally, Shot Clock, Practice filters, offline hopper. Purchase lives on your account; scores stay on the phone.</p>
     </div>
     <div class="card">
       <h2>What comes later</h2>
       <p>Optional later Tour Pass only if we ship new packs. Never paywall the rules you already bought.</p>
-      <button class="btn btn-clay" data-pay>Pay $9.99</button>
+      ${owned() ? `<button class="btn btn-ghost" data-signout>Sign out</button>` : `<button class="btn btn-clay" data-pay>Pay $9.99</button>`}
       <button class="btn btn-primary" data-home>Back</button>
     </div>
   `;
+  const so = $app.querySelector("[data-signout]");
+  if (so) so.onclick = async () => { await TIQ.signOut(); await refreshAuth(true); state.screen = "land"; render(); };
   $app.querySelectorAll("[data-home]").forEach(b => {
     b.onclick = () => { state.screen = owned() ? "home" : "land"; render(); };
   });
@@ -513,24 +519,30 @@ function escapeHtml(s) {
 
 const launchUrl = new URL(location.href);
 const launchCode = launchUrl.searchParams.get("code");
-// Strip credentials and retired bypass flags before any further navigation.
 for (const key of ["code", "owned", "unlock"]) launchUrl.searchParams.delete(key);
 history.replaceState(null, "", launchUrl.pathname + launchUrl.search + launchUrl.hash);
-if (owned()) state.screen = "home";
 
-fetch("./questions.json")
-  .then(r => r.json())
-  .then(data => {
-    state.bank = data.questions || [];
-    render();
-    if (launchCode && !owned()) {
-      $app.querySelector("#code").value = launchCode;
-      void redeemCode(launchCode);
-    }
-  })
-  .catch(err => {
-    $app.innerHTML = `<div class="card"><h2>Could not load the hopper</h2><p>${escapeHtml(String(err))}</p></div>`;
+$app.innerHTML = `<div class="card"><h2>Loading the hopper…</h2></div>`;
+Promise.all([
+  fetch("./questions.json").then(r => r.json()),
+  refreshAuth(false),
+]).then(([data]) => {
+  state.bank = data.questions || [];
+  if (owned()) state.screen = "home";
+  render();
+  if (launchCode && !owned() && auth.user) {
+    const input = $app.querySelector("#code");
+    if (input) input.value = launchCode;
+    void redeemCode(launchCode);
+  }
+  TIQ.onChange(async () => {
+    const was = owned();
+    await refreshAuth(true);
+    if (owned() !== was || state.screen === "land") { state.screen = owned() ? "home" : "land"; render(); }
   });
+}).catch(err => {
+  $app.innerHTML = `<div class="card"><h2>Could not load the hopper</h2><p>${escapeHtml(String(err))}</p></div>`;
+});
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./sw.js").catch(() => {});

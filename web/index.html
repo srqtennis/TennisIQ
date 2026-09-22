@@ -4,22 +4,360 @@
   <meta charset="UTF-8" />
   <meta name="referrer" content="no-referrer" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="theme-color" content="#07140e" />
-  <meta name="description" content="Tennis IQ — rules, scoring, court specs, history. Know the court. Win the argument." />
-  <title>Tennis IQ</title>
-  <link rel="manifest" href="./manifest.json" />
+  <title>Tennis IQ — Know the court. Win the argument.</title>
+  <meta name="description" content="1,584 tennis questions on rules, scoring, court specs, The Code, history and strategy — with the explanation after every one. $9.99 once. From SRQ Tennis, Sarasota." />
+  <meta property="og:title" content="Tennis IQ — Know the court. Win the argument." />
+  <meta property="og:description" content="Settle the line call. 1,584 questions with real explanations. $9.99 once, not a membership." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tennisiq.srqtennis.com/" />
+  <link rel="canonical" href="https://tennisiq.srqtennis.com/" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="./icon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    :root {
+      --bg:#07140e; --card:#12301f; --line:#2d5a3d; --gold:#d4b45a; --gold-2:#f0d78a;
+      --ball:#c8d64e; --clay:#c4623a; --clay-2:#e08a62; --text:#f4f6ee; --muted:#9cb5a3;
+      --right:#7dce8a; --wrong:#e07a6a; --font:"Outfit",system-ui,sans-serif; --serif:"Fraunces",Georgia,serif;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);-webkit-font-smoothing:antialiased}
+    body{min-height:100dvh;position:relative}
+    .court-bg{position:fixed;inset:0;pointer-events:none;z-index:0;
+      background:radial-gradient(1100px 520px at 50% -10%,#1a4a2c 0%,transparent 60%),linear-gradient(180deg,#0a1c12,#07140e 70%)}
+    .court-bg:after{content:"";position:absolute;inset:6% 10% 14%;border:1px solid rgba(207,217,184,.08);border-radius:4px;
+      background:linear-gradient(90deg,transparent 49.7%,rgba(207,217,184,.09) 49.7%,rgba(207,217,184,.09) 50.3%,transparent 50.3%),
+      linear-gradient(180deg,transparent 47.5%,rgba(207,217,184,.07) 47.5%,rgba(207,217,184,.07) 52.5%,transparent 52.5%)}
+    main{position:relative;z-index:1;max-width:960px;margin:0 auto;padding:0 16px calc(48px + env(safe-area-inset-bottom))}
+    header{position:relative;z-index:1;max-width:960px;margin:0 auto;padding:calc(14px + env(safe-area-inset-top)) 16px 0;display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .brand{display:flex;gap:10px;align-items:center}
+    .mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(160deg,#1e4a2c,#0d2418);border:1px solid var(--line);display:grid;place-items:center}
+    .ball{width:20px;height:20px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f4f8b0,var(--ball) 45%,#8a9a22);position:relative}
+    .ball:after{content:"";position:absolute;inset:3px;border:1.3px solid rgba(255,255,255,.5);border-radius:50%;border-left-color:transparent;border-right-color:transparent;transform:rotate(28deg)}
+    .brand b{font-family:var(--serif);font-size:18px;font-weight:650}
+    #nav-account{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);min-height:36px}
+    #nav-account .who{max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .link{background:none;border:0;color:var(--gold);font:inherit;font-size:13px;cursor:pointer;padding:6px 8px;text-decoration:underline}
+
+    .hero{padding:52px 0 28px;text-align:center}
+    .hero h1{font-family:var(--serif);font-weight:650;letter-spacing:-.025em;font-size:clamp(34px,7vw,60px);line-height:1.02;margin:0 0 14px}
+    .hero h1 em{font-style:normal;color:var(--gold-2)}
+    .hero p{color:var(--muted);font-size:clamp(16px,2.4vw,19px);line-height:1.5;max-width:600px;margin:0 auto 24px}
+    .cta-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+    .btn{appearance:none;border:0;border-radius:14px;padding:14px 20px;font:600 15px var(--font);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;transition:transform .08s,opacity .2s}
+    .btn:active{transform:scale(.98)} .btn:disabled{opacity:.55;cursor:default}
+    .btn-primary{background:linear-gradient(180deg,var(--gold-2),var(--gold));color:#1a1404}
+    .btn-clay{background:linear-gradient(180deg,var(--clay-2),var(--clay));color:#2a1008}
+    .btn-ghost{background:rgba(18,48,31,.7);color:var(--text);border:1px solid var(--line)}
+    .btn-white{background:#fff;color:#1f1f1f;border:1px solid #ddd}
+    .btn-black{background:#000;color:#fff;border:1px solid #333}
+    .btn svg{width:18px;height:18px;flex:none}
+    .tiny{font-size:12px;color:var(--muted);letter-spacing:.02em}
+    .center{text-align:center}
+
+    .proof{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin:22px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+    .proof li b{color:var(--gold);font-family:var(--serif);font-size:16px;margin-right:4px}
+
+    section{margin-top:44px}
+    .kicker{color:var(--gold);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin:0 0 6px}
+    h2{font-family:var(--serif);font-weight:650;font-size:clamp(24px,4vw,32px);letter-spacing:-.02em;margin:0 0 8px}
+    .lead{color:var(--muted);font-size:16px;line-height:1.55;margin:0 0 20px;max-width:640px}
+    .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:rgba(18,48,31,.88);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:0 22px 50px rgba(0,0,0,.35)}
+    .card h3{margin:0 0 6px;font-size:18px;font-family:var(--serif);font-weight:650}
+    .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
+
+    /* sample quiz */
+    .q{font-size:18px;line-height:1.4;font-family:var(--serif);font-weight:500;margin:6px 0 14px}
+    .choice{display:flex;gap:12px;align-items:center;width:100%;text-align:left;background:#102418;border:1px solid var(--line);border-radius:14px;padding:12px 14px;color:var(--text);font:500 15px var(--font);cursor:pointer;margin-bottom:8px}
+    .choice .ltr{width:26px;height:26px;border-radius:8px;background:rgba(212,180,90,.15);color:var(--gold);display:grid;place-items:center;font-weight:700;font-size:13px;flex:none}
+    .choice.right{border-color:var(--right);background:rgba(125,206,138,.12)}
+    .choice.wrong{border-color:var(--wrong);background:rgba(224,122,106,.12)}
+    .choice:disabled{cursor:default}
+    .explain{margin-top:10px;padding:12px 14px;border-left:3px solid var(--gold);background:rgba(212,180,90,.08);border-radius:0 12px 12px 0;font-size:14px;line-height:1.5;color:var(--text)}
+    .meta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+
+    /* pricing / account */
+    .own{display:grid;gap:14px;grid-template-columns:1fr;align-items:start}
+    @media(min-width:760px){.own{grid-template-columns:1.1fr .9fr}}
+    .price{font-family:var(--serif);font-size:52px;font-weight:650;color:var(--gold-2);line-height:1;margin:6px 0 2px}
+    .price small{font-size:16px;color:var(--muted);font-family:var(--font);font-weight:500;margin-left:6px}
+    ul.plain{margin:14px 0 0;padding:0 0 0 18px;color:var(--muted);font-size:14px;line-height:1.7}
+    .stack{display:flex;flex-direction:column;gap:10px}
+    #paypal-button-container{min-height:48px;margin-top:6px}
+    .status{font-size:13px;color:var(--muted);margin:10px 0 0;min-height:18px}
+    .status.ok{color:var(--right)} .status.err{color:var(--wrong)}
+    input.code{width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:#102418;color:var(--text);font:inherit;letter-spacing:.06em}
+
+    footer{margin-top:56px;padding-top:20px;border-top:1px solid rgba(45,90,61,.6);color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}
+    footer a{color:var(--muted)}
+    .hide{display:none!important}
+  </style>
 </head>
 <body>
   <div class="court-bg" aria-hidden="true"></div>
-  <div id="app"></div>
-  <script src="./app.js"></script>
+
+  <header>
+    <a class="brand" href="./" style="text-decoration:none;color:inherit"><span class="mark"><span class="ball"></span></span><b>Tennis IQ</b></a>
+    <div id="nav-account"><button class="link" data-scroll="#own">Sign in</button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="kicker">From SRQ Tennis · Sarasota</p>
+      <h1>Know the court.<br><em>Win the argument.</em></h1>
+      <p>A let on second serve. A ball that clips the net post. A serve you whiffed. Tennis IQ is 1,584 questions on the rules, scoring, court specs, The Code and history — with the explanation after every single one.</p>
+      <div class="cta-row">
+        <button class="btn btn-primary" data-scroll="#sample">Try 3 questions</button>
+        <button class="btn btn-ghost" data-scroll="#own">Own it — $9.99 once</button>
+      </div>
+      <ul class="proof">
+        <li><b>1,584</b> questions</li>
+        <li><b>9</b> topics</li>
+        <li><b>3</b> levels: Rookie · Club · Tour</li>
+        <li><b>1</b> payment, no subscription</li>
+      </ul>
+    </section>
+
+    <section id="sample">
+      <p class="kicker">Free sample</p>
+      <h2>Three balls. Real explanations.</h2>
+      <p class="lead">Every question ends with the why. That's the product — not the points.</p>
+      <div class="card" id="sample-card"></div>
+    </section>
+
+    <section>
+      <p class="kicker">Modes</p>
+      <h2>Built for league night, not a lecture hall.</h2>
+      <div class="grid">
+        <div class="card"><h3>Daily Rally</h3><p>Ten mixed questions. 75% rules, scoring, court, history and calls; 25% Slams. Read the explanation, go again.</p></div>
+        <div class="card"><h3>Shot Clock</h3><p>Twenty seconds a ball. Faster answers score more. Timeout and the point is gone.</p></div>
+        <div class="card"><h3>Practice</h3><p>Pick a topic and a level. Drill Rules at Tour level until you can call your own match.</p></div>
+        <div class="card"><h3>Library</h3><p>Browse the whole hopper by topic. Court, Gear, Scoring, Rules, History, Slams, Lingo, Strategy, Tour.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <p class="kicker">Sources</p>
+      <h2>ITF Rules of Tennis. USTA Friend at Court.</h2>
+      <p class="lead">Measurements follow the current ITF rules. Records are labeled by era — Open Era vs all-time — so nothing goes stale next week. Written by a USPTA Elite Professional with 30+ years on court.</p>
+    </section>
+
+    <section id="own">
+      <p class="kicker">Own it</p>
+      <h2>$9.99 once. Every phone you sign in on.</h2>
+      <div class="own">
+        <div class="card">
+          <div class="price">$9.99<small>one time</small></div>
+          <p>Not a membership. League players will pay ten dollars to settle a line call. They won't add another monthly charge next to court time.</p>
+          <ul class="plain">
+            <li>Full 1,584-question library with explanations</li>
+            <li>Daily Rally, Shot Clock, Practice, Library</li>
+            <li>Works offline once loaded — add it to your Home Screen</li>
+            <li>Your purchase lives on your account. New phone? Just sign in.</li>
+            <li>Never paywall the rules you already bought</li>
+          </ul>
+        </div>
+        <div class="card" id="account-card">
+          <!-- state: loading -->
+          <div data-state="loading"><p class="tiny">Checking your account…</p></div>
+
+          <!-- state: signed out -->
+          <div data-state="out" class="hide">
+            <h3>Step 1 — Sign in</h3>
+            <p style="margin-bottom:14px">Create your account in one tap. Payment is step 2.</p>
+            <div class="stack">
+              <button class="btn btn-white" data-signin="google">
+                <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.3l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.7 6c4.5-4.2 6.9-10.3 6.9-17.7z"/><path fill="#FBBC05" d="M10.5 28.6A14.5 14.5 0 0 1 9.5 24c0-1.6.3-3.2.8-4.6l-7.9-6.1A24 24 0 0 0 0 24c0 3.9.9 7.5 2.6 10.7l7.9-6.1z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.7-6c-2.1 1.4-4.9 2.3-8.2 2.3-6.3 0-11.6-4.1-13.5-9.9l-7.9 6.1C6.5 42.6 14.6 48 24 48z"/></svg>
+                Continue with Google
+              </button>
+              <button class="btn btn-black" data-signin="apple">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.3 1.2 9.7.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.6-1-2.6-3.8zM14 5.4c.7-.8 1.1-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></svg>
+                Continue with Apple
+              </button>
+            </div>
+            <p class="tiny" style="margin-top:12px">We store your email and whether you've paid. Nothing else. No tracking.</p>
+          </div>
+
+          <!-- state: signed in, not entitled -->
+          <div data-state="pay" class="hide">
+            <h3>Step 2 — Pay once</h3>
+            <p>Signed in as <b class="who" style="color:var(--text)"></b>. <button class="link" data-signout>Not you?</button></p>
+            <div id="paypal-button-container"></div>
+            <p class="status" id="pay-status"></p>
+            <details style="margin-top:14px">
+              <summary class="tiny" style="cursor:pointer">Bought before accounts? Enter your SRQ code</summary>
+              <div class="stack" style="margin-top:10px">
+                <input class="code" id="code" placeholder="SRQ-XXXX-XXXX" autocapitalize="characters" autocomplete="off" aria-label="Unlock code" />
+                <button class="btn btn-ghost" data-claim>Attach code to my account</button>
+                <p class="status" id="code-status"></p>
+              </div>
+            </details>
+          </div>
+
+          <!-- state: entitled -->
+          <div data-state="play" class="hide">
+            <h3>You own Tennis IQ.</h3>
+            <p>Signed in as <b class="who" style="color:var(--text)"></b>. Open the app, then Share → Add to Home Screen on iPhone.</p>
+            <div class="stack" style="margin-top:14px">
+              <a class="btn btn-primary" href="./play/">Open Tennis IQ</a>
+              <button class="btn btn-ghost" data-signout>Sign out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <p class="kicker">Straight answers</p>
+      <div class="grid">
+        <div class="card"><h3>Is it an app?</h3><p>It's a web app that installs to your Home Screen and works offline. An App Store version is in progress; your purchase carries over.</p></div>
+        <div class="card"><h3>New phone?</h3><p>Sign in with the same Google or Apple account. That's it.</p></div>
+        <div class="card"><h3>Refunds?</h3><p>Play the free sample first. If the full library isn't what you expected within 7 days, email SRQ Tennis and we'll sort it.</p></div>
+        <div class="card"><h3>Will there be new packs?</h3><p>Maybe an optional Tour Pass later. The rules you bought stay yours.</p></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© <span id="yr"></span> SRQ Tennis LLC · Sarasota, FL</span>
+      <span><a href="https://srqtennis.com">srqtennis.com</a> · <a href="./play/">Open the app</a></span>
+    </footer>
+  </main>
+
+  <script src="./play/auth.js"></script>
+  <script>
+  (function () {
+    // ---- config ----
+    // PayPal REST app client id (LIVE). Sandbox: swap the id and set PAYPAL_ENV=sandbox on the edge function.
+    const PAYPAL_CLIENT_ID = "REPLACE_WITH_PAYPAL_CLIENT_ID";
+    const PRICE = "9.99";
+
+    document.getElementById("yr").textContent = new Date().getFullYear();
+    document.querySelectorAll("[data-scroll]").forEach(b => b.onclick = () => document.querySelector(b.dataset.scroll).scrollIntoView({ behavior: "smooth", block: "start" }));
+
+    // ---- sample quiz (3 real questions) ----
+    const SAMPLE = [
+      { q: "You miss the ball completely on a serve swing. The call is…", c: ["Let", "Fault", "Hindrance", "Replay with no fault if it was first serve"], a: 1, e: "A whiff on the serve is a fault. If you abort the motion and never swing, you may start again.", cat: "Rules · Tour" },
+      { q: "A let on second serve…", c: ["Restores first serve", "Replays only the second serve", "Loses the point", "Gives the receiver a choice"], a: 1, e: "Only the second serve is replayed. The earlier fault stands.", cat: "Rules · Club" },
+      { q: "Net height at the center strap is…", c: ["3 ft 6 in", "3 ft", "2 ft 9 in", "4 ft"], a: 1, e: "3 ft (0.914 m) at the center; 3 ft 6 in at the posts. The sag is required, not a defect.", cat: "Court · Rookie" },
+    ];
+    const L = ["A", "B", "C", "D"];
+    let si = 0, picked = null, right = 0;
+    const card = document.getElementById("sample-card");
+    function esc(s) { return String(s).replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m])); }
+    function sample() {
+      if (si >= SAMPLE.length) {
+        card.innerHTML = `<p class="kicker">Result</p><h3>${right} of ${SAMPLE.length}</h3><p>${right === 3 ? "Tour brain. There are 1,581 more." : right === 2 ? "Club champion. Tight margins." : "First-ball project. The explanations are the point."}</p><div class="stack" style="margin-top:14px"><button class="btn btn-clay" data-scroll="#own">Own all 1,584 — $9.99</button><button class="btn btn-ghost" data-again>Play the 3 again</button></div>`;
+        card.querySelector("[data-scroll]").onclick = () => document.querySelector("#own").scrollIntoView({ behavior: "smooth" });
+        card.querySelector("[data-again]").onclick = () => { si = 0; right = 0; picked = null; sample(); };
+        return;
+      }
+      const q = SAMPLE[si];
+      card.innerHTML = `<div class="meta"><span>${q.cat}</span><span>Q ${si + 1}/${SAMPLE.length}</span></div><p class="q">${esc(q.q)}</p><div id="ch"></div><div id="after"></div>`;
+      const ch = card.querySelector("#ch");
+      q.c.forEach((c, i) => {
+        const b = document.createElement("button");
+        b.className = "choice"; b.innerHTML = `<span class="ltr">${L[i]}</span><span>${esc(c)}</span>`;
+        if (picked !== null) { b.disabled = true; if (i === q.a) b.classList.add("right"); else if (i === picked) b.classList.add("wrong"); }
+        b.onclick = () => { if (picked !== null) return; picked = i; if (i === q.a) right++; sample(); };
+        ch.appendChild(b);
+      });
+      if (picked !== null) {
+        card.querySelector("#after").innerHTML = `<div class="explain">${esc(q.e)}</div><button class="btn btn-primary" style="margin-top:12px;width:100%" data-next>${si + 1 === SAMPLE.length ? "See the number" : "Next ball"}</button>`;
+        card.querySelector("[data-next]").onclick = () => { si++; picked = null; sample(); };
+      }
+    }
+    sample();
+
+    // ---- account / purchase ----
+    const acct = document.getElementById("account-card");
+    const nav = document.getElementById("nav-account");
+    let me = null;
+    function show(stateName) {
+      acct.querySelectorAll("[data-state]").forEach(el => el.classList.toggle("hide", el.dataset.state !== stateName));
+    }
+    function setStatus(id, text, cls) { const el = document.getElementById(id); el.textContent = text || ""; el.className = "status " + (cls || ""); }
+
+    async function refresh() {
+      try {
+        me = await TIQ.user();
+        if (!me) {
+          nav.innerHTML = `<button class="link" data-scroll="#own">Sign in</button>`;
+          nav.querySelector("[data-scroll]").onclick = () => document.querySelector("#own").scrollIntoView({ behavior: "smooth" });
+          show("out"); return;
+        }
+        acct.querySelectorAll(".who").forEach(el => el.textContent = me.email || "your account");
+        const ent = await TIQ.entitlement(true);
+        nav.innerHTML = `<span class="who">${esc(me.email || "")}</span>${ent ? `<a class="btn btn-primary" style="min-height:36px;padding:8px 14px;font-size:13px" href="./play/">Play</a>` : ""}`;
+        if (ent) { show("play"); return; }
+        show("pay"); mountPayPal();
+      } catch (e) {
+        show("out");
+        console.error("[TennisIQ]", e);
+      }
+    }
+
+    acct.querySelectorAll("[data-signin]").forEach(b => b.onclick = () => {
+      b.disabled = true;
+      TIQ.signIn(b.dataset.signin, location.origin + "/#own").catch(err => { b.disabled = false; alert("Sign-in failed: " + err.message); });
+    });
+    acct.querySelectorAll("[data-signout]").forEach(b => b.onclick = async () => { await TIQ.signOut(); refresh(); });
+
+    const claimBtn = acct.querySelector("[data-claim]");
+    claimBtn.onclick = async () => {
+      const code = document.getElementById("code").value.trim().toUpperCase();
+      if (!/^SRQ-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(code)) return setStatus("code-status", "Enter the code from your purchase email.", "err");
+      claimBtn.disabled = true; setStatus("code-status", "Attaching…");
+      try {
+        const r = await TIQ.claimCode(code);
+        if (r && r.ok) { setStatus("code-status", "Done — this account owns Tennis IQ.", "ok"); refresh(); }
+        else setStatus("code-status", r && r.reason === "used" ? "That code was already used by another account. Contact SRQ Tennis." : "Code not recognized. Check your email and try again.", "err");
+      } catch { setStatus("code-status", "Could not reach the server. Try again.", "err"); }
+      claimBtn.disabled = false;
+    };
+
+    let paypalMounted = false;
+    function mountPayPal() {
+      if (paypalMounted) return;
+      if (PAYPAL_CLIENT_ID.startsWith("REPLACE")) { setStatus("pay-status", "Checkout is not configured yet (PayPal client id missing).", "err"); return; }
+      paypalMounted = true;
+      const s = document.createElement("script");
+      s.src = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(PAYPAL_CLIENT_ID)}&currency=USD&intent=capture&disable-funding=paylater,credit`;
+      s.onload = () => {
+        paypal.Buttons({
+          style: { layout: "vertical", color: "gold", shape: "rect", label: "pay", height: 48 },
+          createOrder: (_d, actions) => actions.order.create({
+            intent: "CAPTURE",
+            purchase_units: [{
+              description: "Tennis IQ — full library (one-time)",
+              custom_id: `${me.id}|${me.email}`,   // webhook reads this to grant the entitlement
+              amount: { currency_code: "USD", value: PRICE },
+            }],
+            application_context: { shipping_preference: "NO_SHIPPING", brand_name: "SRQ Tennis" },
+          }),
+          onApprove: async (_d, actions) => {
+            setStatus("pay-status", "Payment received. Unlocking…");
+            try { await actions.order.capture(); } catch { /* capture may already be done server-side */ }
+            // Webhook grants asynchronously; poll briefly.
+            for (let i = 0; i < 12; i++) {
+              await new Promise(r => setTimeout(r, 1500));
+              if (await TIQ.entitlement(true)) { setStatus("pay-status", "Unlocked.", "ok"); return refresh(); }
+            }
+            setStatus("pay-status", "Paid, but the unlock hasn't landed yet. Refresh in a minute — or email SRQ Tennis with your PayPal receipt.", "err");
+          },
+          onError: err => { console.error("[PayPal]", err); setStatus("pay-status", "PayPal error. Try again or use another card.", "err"); },
+          onCancel: () => setStatus("pay-status", "Checkout cancelled."),
+        }).render("#paypal-button-container");
+      };
+      s.onerror = () => setStatus("pay-status", "Could not load PayPal. Check your connection.", "err");
+      document.head.appendChild(s);
+    }
+
+    TIQ.onChange(() => refresh());
+    refresh();
+  })();
+  </script>
 </body>
 </html>

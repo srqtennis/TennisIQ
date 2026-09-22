@@ -1,5 +1,5 @@
-const CACHE = "tennis-iq-v9-audited-questions";
-const CORE = ["./index.html", "./styles.css", "./app.js", "./manifest.json", "./icon.svg"];
+const CACHE = "tennis-iq-v9-accounts";
+const CORE = ["./index.html", "./styles.css", "./app.js", "./auth.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
@@ -15,6 +15,8 @@ self.addEventListener("activate", event => {
 self.addEventListener("fetch", event => {
   const req = event.request;
   if (req.method !== "GET") return;
+  // Never cache auth/API traffic — only same-origin app files.
+  if (new URL(req.url).origin !== self.location.origin) return;
   event.respondWith(
     caches.match(req).then(hit => hit || fetch(req).then(res => {
       const copy = res.clone();

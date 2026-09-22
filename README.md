@@ -13,7 +13,7 @@ This repo is the working product for the side project.
 | `docs/TENNIS_IQ_LIBRARY.md` | Editorial reference; use `docs/QUESTION_AUDIT.md` for the shipped bank audit |
 | `TennisIQ/Resources/questions.json` | 1,584-question audited bank with explanations |
 | `TennisIQ/` | Native **SwiftUI iOS** app source |
-| `web/` | Playable iPhone-first PWA you can ship today |
+| `web/` | Landing page (`index.html`) + PWA at `web/play/` — Google/Apple sign-in, PayPal. See `docs/ACCOUNTS.md` |
 | `scripts/build_questions.py` | Legacy generator; do not rerun over the audited bank without reapplying and verifying corrections |
 
 ## Play it on iPhone tonight

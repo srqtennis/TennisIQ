@@ -4,11 +4,11 @@ The web source was recovered from the deployed tennisiq.srqtennis.com site becau
 
 ## Existing Supabase backend
 
-Project: `srq-data` (`ymasbdyfcgbombveutpt`). The existing `public.tennis_iq_codes` table has `code`, `contact_id`, `email`, `status`, `issued_at`, `redeemed_at`, and `device_id`, plus purchase metadata. `code` is unique; RLS is enabled. No table migration is needed.
+Project: `tennis-iq` (`flskzrfmwheucskovaut`) — moved out of srq-data 2026-09-22. The existing `public.tennis_iq_codes` table has `code`, `contact_id`, `email`, `status`, `issued_at`, `redeemed_at`, and `device_id`, plus purchase metadata. `code` is unique; RLS is enabled. No table migration is needed.
 
 The existing `tennis-iq-issue` function is preserved in this repo. GHL sends POST JSON containing `contact_id`, `email`, and optionally `first_name`, `order_id`, `amount` to:
 
-`https://ymasbdyfcgbombveutpt.supabase.co/functions/v1/tennis-iq-issue`
+`https://flskzrfmwheucskovaut.supabase.co/functions/v1/tennis-iq-issue`
 
 The `x-tennis-iq-secret` header must match Supabase's `TENNIS_IQ_ISSUE_SECRET`. Keep that secret in the GHL workflow and Supabase secrets only. The response contains `{ "code": "SRQ-XXXX-XXXX" }`. The workflow must deliver a link like `https://tennisiq.srqtennis.com/?code=SRQ-XXXX-XXXX` using the actual returned code. Issuance is not called by the browser. Its existing order lookup does not enforce concurrent order idempotency at the database level.
 
