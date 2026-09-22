@@ -15,7 +15,7 @@ const DIFF_LABEL = { rookie: "Rookie", club: "Club", tour: "Tour" };
 const LETTERS = ["A", "B", "C", "D"];
 const FREE_BALLS = 4;
 // Checkout must deliver the code returned by tennis-iq-issue in a ?code= link.
-const PAY_URL = "https://srq.tennis";
+const PAY_URL = "https://link.fastpaydirect.com/payment-link/6ab1e0e39f7ff2c808a76e64";
 const REDEEM_URL = "https://ymasbdyfcgbombveutpt.supabase.co/functions/v1/tennis-iq-redeem";
 
 const store = {

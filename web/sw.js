@@ -1,4 +1,4 @@
-const CACHE = "tennis-iq-v7-single-use";
+const CACHE = "tennis-iq-v8-checkout";
 const CORE = ["./index.html", "./styles.css", "./app.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", event => {

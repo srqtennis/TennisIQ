@@ -36,4 +36,4 @@ The new phone can then redeem the same code once.
 
 Run `node --test tests/unlock.test.cjs` (Node 22.13+). Coverage includes removed bypasses, manual and URL redemption, persistence, duplicate submission, storage/network errors, atomic claims, repeat denial, malformed bodies, and CORS. Live synthetic tests check concurrent redemption and repeat denial; synthetic rows are deleted afterwards.
 
-The purchase button retains the existing `https://srq.tennis` destination. A paid checkout and GHL delivery workflow were not configured or verified by this change.
+The purchase button opens `https://link.fastpaydirect.com/payment-link/6ab1e0e39f7ff2c808a76e64`. A paid checkout and GHL delivery workflow were not configured or verified by this change.
