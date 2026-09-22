@@ -43,4 +43,3 @@ Deno.serve(async (req) => {
   if (row.status === "redeemed") return json(req, { ok: false, reason: "used" });
   return json(req, { ok: false, reason: "revoked" });
 });
-

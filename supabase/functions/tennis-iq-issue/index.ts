@@ -47,4 +47,3 @@ Deno.serve(async (req) => {
   }
   return new Response(JSON.stringify({ error: "could not generate unique code" }), { status: 500, headers: { "Content-Type": "application/json" } });
 });
-
