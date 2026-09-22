@@ -1,0 +1,86 @@
+[
+  {
+    "file": "release-07-practice.png",
+    "device": "iPad Pro 13-inch (M5)",
+    "deviceId": "FEEF4993-DD19-4D0D-95E8-15C2B280DAFA",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052840.25,
+    "sourceResultBundle": "release/StoreKit-iPad-Screenshots.xcresult",
+    "sourceAttachment": "7AB1E008-5234-4C68-8F73-66B3E63241F9.png",
+    "width": 2064,
+    "height": 2752,
+    "sha256": "2f59ecb50795c1fbe48d9e877492dd8985133a334a06264b0124ff333ba851e7"
+  },
+  {
+    "file": "release-06-library.png",
+    "device": "iPad Pro 13-inch (M5)",
+    "deviceId": "FEEF4993-DD19-4D0D-95E8-15C2B280DAFA",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052831.187,
+    "sourceResultBundle": "release/StoreKit-iPad-Screenshots.xcresult",
+    "sourceAttachment": "CCF87C71-534A-4E2B-BD0F-52F7D348A384.png",
+    "width": 2064,
+    "height": 2752,
+    "sha256": "0a31389fdcbffc19ea50aacffe221ab46309328327dd84ecaa4279389c41e318"
+  },
+  {
+    "file": "release-05-unlocked-home.png",
+    "device": "iPad Pro 13-inch (M5)",
+    "deviceId": "FEEF4993-DD19-4D0D-95E8-15C2B280DAFA",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052827.805,
+    "sourceResultBundle": "release/StoreKit-iPad-Screenshots.xcresult",
+    "sourceAttachment": "76FF6133-AD39-4243-98F2-BFC525A5A0F4.png",
+    "width": 2064,
+    "height": 2752,
+    "sha256": "1a057f5c8e58196954f423618f4088da7296eea59a9da0dfdb97a57ee399249d"
+  },
+  {
+    "file": "release-04-paywall.png",
+    "device": "iPad Pro 13-inch (M5)",
+    "deviceId": "FEEF4993-DD19-4D0D-95E8-15C2B280DAFA",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052824.43,
+    "sourceResultBundle": "release/StoreKit-iPad-Screenshots.xcresult",
+    "sourceAttachment": "C01EA90C-337C-402A-887D-5E7951A6CD22.png",
+    "width": 2064,
+    "height": 2752,
+    "sha256": "02389d224f4f40e80d8f4a50888bd432ae17815ea60c9398768046d92a45d31c"
+  },
+  {
+    "file": "release-03-answer-explanation.png",
+    "device": "iPad Pro 13-inch (M5)",
+    "deviceId": "FEEF4993-DD19-4D0D-95E8-15C2B280DAFA",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052815.362,
+    "sourceResultBundle": "release/StoreKit-iPad-Screenshots.xcresult",
+    "sourceAttachment": "E0DA3038-32B3-4FE2-8EC6-12A6BAFB17F4.png",
+    "width": 2064,
+    "height": 2752,
+    "sha256": "24af696abf5a70c324618ef876aae1edeaede743cddbdf5e5cd3ee9f36a30ced"
+  },
+  {
+    "file": "release-02-free-gameplay.png",
+    "device": "iPad Pro 13-inch (M5)",
+    "deviceId": "FEEF4993-DD19-4D0D-95E8-15C2B280DAFA",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052812.471,
+    "sourceResultBundle": "release/StoreKit-iPad-Screenshots.xcresult",
+    "sourceAttachment": "6C7865BA-E8B5-4497-B116-0188DE57B4C3.png",
+    "width": 2064,
+    "height": 2752,
+    "sha256": "e8bcef5848d1632594bd1f85c26dfeeca65d46929b39fbb4cd7897238af6e941"
+  },
+  {
+    "file": "release-01-free-home.png",
+    "device": "iPad Pro 13-inch (M5)",
+    "deviceId": "FEEF4993-DD19-4D0D-95E8-15C2B280DAFA",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052807.954,
+    "sourceResultBundle": "release/StoreKit-iPad-Screenshots.xcresult",
+    "sourceAttachment": "4A264680-62E7-4845-A3CF-614EFB615D4F.png",
+    "width": 2064,
+    "height": 2752,
+    "sha256": "bf70eb9a3fb03d3428aa1408c3f96cb26a23249f9f192df359ab35fae805cbe2"
+  }
+]

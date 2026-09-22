@@ -1,0 +1,1770 @@
+{
+  "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+  "original_published_deploy_id": "6ab207a94adb57513f554471",
+  "original_deploy": {
+    "id": "6ab207a94adb57513f554471",
+    "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+    "build_id": null,
+    "state": "ready",
+    "name": "srq-tennis",
+    "url": "https://srq.tennis",
+    "ssl_url": "https://srq.tennis",
+    "admin_url": "https://app.netlify.com/projects/srq-tennis",
+    "deploy_url": "http://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+    "deploy_ssl_url": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+    "created_at": "2026-09-22T04:44:25.574Z",
+    "updated_at": "2026-09-22T04:46:38.596Z",
+    "user_id": "691d5733cc546fce2331b801",
+    "error_message": null,
+    "required": [],
+    "required_functions": [],
+    "required_edge_functions": [],
+    "commit_ref": null,
+    "review_id": null,
+    "branch": null,
+    "commit_url": null,
+    "skipped": null,
+    "locked": null,
+    "title": "Tennis IQ privacy and support pages \u2014 preserving existing site",
+    "commit_message": null,
+    "review_url": null,
+    "published_at": "2026-09-22T04:46:38.552Z",
+    "context": "deploy-preview",
+    "deploy_time": 1,
+    "available_functions": [
+      {
+        "n": "server",
+        "d": "afdb2a05d0320df4f9d31ac46116eecf27a83ab986a6c3f17e0c404118c749df",
+        "dn": "@netlify/vite-plugin server handler",
+        "g": "@netlify/vite-plugin@3.0.1",
+        "bd": {
+          "bootstrapVersion": "2.18.0",
+          "runtimeAPIVersion": 2
+        },
+        "ro": [
+          {
+            "p": "/*",
+            "l": null,
+            "e": "^(?:\\/(.*))\\/?$",
+            "m": [],
+            "ps": true
+          }
+        ],
+        "id": "11cec301ab328e8964cdc496d03a8fc56cbda46805a333296bb259147a0c66a1",
+        "a": "403869937646",
+        "c": "2026-09-08T18:04:10.317Z",
+        "im": "stream",
+        "m": 1024,
+        "obl": "netlify-observability-extension",
+        "oblv": 32,
+        "oid": "ad51863a1e5b8c224e8a691aced0c93c00093b66fda5462576611314d1528592",
+        "r": "nodejs22.x",
+        "rg": "us-east-2",
+        "s": 1982241
+      }
+    ],
+    "screenshot_url": "https://d33wubrfki0l68.cloudfront.net/6ab207a94adb57513f554471/screenshot_2026-09-22-04-44-27-0000.webp",
+    "committer": null,
+    "skipped_log": null,
+    "manual_deploy": true,
+    "plugin_state": "none",
+    "lighthouse_plugin_scores": null,
+    "links": {
+      "permalink": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+      "alias": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+      "branch": null
+    },
+    "framework": "tanstack-start",
+    "entry_path": null,
+    "views_count": null,
+    "function_schedules": [],
+    "public_repo": null,
+    "pending_review_reason": null,
+    "lighthouse": null,
+    "edge_functions_present": null,
+    "expires_at": null,
+    "blobs_region": "us-east-2",
+    "deploy_validations_report": null,
+    "strict_contributor_verification_failure": false,
+    "agent_runner_id": null,
+    "deploy_source": "api",
+    "database_branch_id": null,
+    "database_migrations": null,
+    "database_snapshots": null,
+    "has_source_zip": false,
+    "subdomain_alias": "6ab207a94adb57513f554471",
+    "functions_region": "cmh",
+    "functions_region_overrides": [],
+    "summary": {
+      "status": "ready",
+      "messages": [
+        {
+          "type": "info",
+          "title": "2 new files uploaded",
+          "description": "2 generated pages changed.",
+          "details": "New pages include:\n- tennis-iq/privacy/index.html\n- tennis-iq/support/index.html\n"
+        },
+        {
+          "type": "info",
+          "title": "No redirect rules processed",
+          "description": "This deploy did not include any redirect rules. [Learn more about redirects](https://docs.netlify.com/routing/redirects/)",
+          "details": ""
+        },
+        {
+          "type": "info",
+          "title": "No header rules processed",
+          "description": "This deploy did not include any header rules. [Learn more about headers](https://docs.netlify.com/routing/headers/)",
+          "details": ""
+        },
+        {
+          "type": "info",
+          "title": "1 function deployed",
+          "description": "We have deployed 1 function. [Visit your Functions](/projects/srq-tennis/logs/functions) for more information.",
+          "details": null
+        },
+        {
+          "type": "info",
+          "title": "No edge functions deployed",
+          "description": "This deploy did not include any edge functions. [Learn more about Edge Functions](https://docs.netlify.com/edge-functions/overview/)",
+          "details": null
+        }
+      ]
+    }
+  },
+  "original_files": [
+    {
+      "id": "/__grok/icon-180.png",
+      "path": "/__grok/icon-180.png",
+      "sha": "5e4f2f7d2d034c59fb820b647c476e59370d5861",
+      "mime_type": "image/png",
+      "size": 2100,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/__grok/install/assets/homescreen/glass-puzzle.svg",
+      "path": "/__grok/install/assets/homescreen/glass-puzzle.svg",
+      "sha": "00fdb01bc2828401a3b1ed459fe7fffaf0cdfac4",
+      "mime_type": "image/svg+xml",
+      "size": 1811,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/__grok/install/assets/homescreen/glass-share.svg",
+      "path": "/__grok/install/assets/homescreen/glass-share.svg",
+      "sha": "8dbdc04dc2a3aa030e62b03fe30d6fdb58f426f8",
+      "mime_type": "image/svg+xml",
+      "size": 2388,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/__grok/install/assets/homescreen/logo-grok.svg",
+      "path": "/__grok/install/assets/homescreen/logo-grok.svg",
+      "sha": "e665cefb287d296e348ccdeda3926558f87134af",
+      "mime_type": "image/svg+xml",
+      "size": 1059,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/__grok/install/assets/homescreen/ob-ipad.png",
+      "path": "/__grok/install/assets/homescreen/ob-ipad.png",
+      "sha": "c25470ae99812264adba2bbee29a15cfb00d8a7e",
+      "mime_type": "image/png",
+      "size": 101843,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/__grok/install/assets/homescreen/ob-phone.png",
+      "path": "/__grok/install/assets/homescreen/ob-phone.png",
+      "sha": "a19ada7561c81ceebcab68251d4d06939b6da560",
+      "mime_type": "image/png",
+      "size": 103612,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/__grok/install/assets/homescreen/plus.svg",
+      "path": "/__grok/install/assets/homescreen/plus.svg",
+      "sha": "b1204fba7c7fd77bdb30d0253f16fb51e3b79770",
+      "mime_type": "image/svg+xml",
+      "size": 2401,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/__grok/install/styles.css",
+      "path": "/__grok/install/styles.css",
+      "sha": "554b1638c0217a8d7f3f7d04a94e6a688932bc84",
+      "mime_type": "text/css",
+      "size": 6717,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/_-bhd7bdez.js",
+      "path": "/assets/_-bhd7bdez.js",
+      "sha": "911bec372ae6e53aa798fd279b9281d9a50b13da",
+      "mime_type": "application/javascript",
+      "size": 700,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/about-qi1rjckg.js",
+      "path": "/assets/about-qi1rjckg.js",
+      "sha": "543d3124b882a386e3453799c9433afc484a6c92",
+      "mime_type": "application/javascript",
+      "size": 4940,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/badge-cmnp7p5n.js",
+      "path": "/assets/badge-cmnp7p5n.js",
+      "sha": "6db4e83669d5aede22602f951d209f5dce51375f",
+      "mime_type": "application/javascript",
+      "size": 566,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/button-cqm4mtkc.js",
+      "path": "/assets/button-cqm4mtkc.js",
+      "sha": "5d6f8c96c23348b712d31ccde8ad804a72f2cb98",
+      "mime_type": "application/javascript",
+      "size": 31956,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/contact-blxyd4o9.js",
+      "path": "/assets/contact-blxyd4o9.js",
+      "sha": "0cc5cdcb1de1137649cf5d9207703921976d58db",
+      "mime_type": "application/javascript",
+      "size": 759,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/contact-section-cv1hhqg7.js",
+      "path": "/assets/contact-section-cv1hhqg7.js",
+      "sha": "6a94dcbab6cf4bed1b561dec0e521f243694c252",
+      "mime_type": "application/javascript",
+      "size": 7929,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/cta-band-62fvzjsv.js",
+      "path": "/assets/cta-band-62fvzjsv.js",
+      "sha": "4093b1b9d00f170e5b9c8e0a7d6b121848c64573",
+      "mime_type": "application/javascript",
+      "size": 1537,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/faq-section-cloka9hi.js",
+      "path": "/assets/faq-section-cloka9hi.js",
+      "sha": "a2340f4f9a9ff3d6bb081ae0e87a406878642140",
+      "mime_type": "application/javascript",
+      "size": 22822,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/index-bxr0wjdr.js",
+      "path": "/assets/index-bxr0wjdr.js",
+      "sha": "74e35212a8f8a1453709f8f1a2a5d492a05312f7",
+      "mime_type": "application/javascript",
+      "size": 409906,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/locations-qqny0btz.js",
+      "path": "/assets/locations-qqny0btz.js",
+      "sha": "51bf539d8c6d7efaa85e8c2f57d4d8a833c646c9",
+      "mime_type": "application/javascript",
+      "size": 2318,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/locations-section-draqccui.js",
+      "path": "/assets/locations-section-draqccui.js",
+      "sha": "ac9299e6c58cc569a8c64ef4c2498e90e205d14b",
+      "mime_type": "application/javascript",
+      "size": 3042,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/news-bb7lfjmi.js",
+      "path": "/assets/news-bb7lfjmi.js",
+      "sha": "0bb744ca7bcac21c4fd3de81c597e038e308c13e",
+      "mime_type": "application/javascript",
+      "size": 2161,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/page-hero-cykgufrw.js",
+      "path": "/assets/page-hero-cykgufrw.js",
+      "sha": "80bc0768597fb89c5ab32e6115b3c375189a71b7",
+      "mime_type": "application/javascript",
+      "size": 1023,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/privacy-bpduiozq.js",
+      "path": "/assets/privacy-bpduiozq.js",
+      "sha": "da8c07f016a393d3364502d0355ba017b0923e6a",
+      "mime_type": "application/javascript",
+      "size": 1818,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/private-lessons-d8h_l7kb.js",
+      "path": "/assets/private-lessons-d8h_l7kb.js",
+      "sha": "92bec4ebadc95f6625a989f0799193fcc1007fc6",
+      "mime_type": "application/javascript",
+      "size": 5035,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/programs-cknfkol5.js",
+      "path": "/assets/programs-cknfkol5.js",
+      "sha": "44e39d48bd004afdb9fd600c163a8350361daa72",
+      "mime_type": "application/javascript",
+      "size": 5719,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/reveal-dtd3pzjn.js",
+      "path": "/assets/reveal-dtd3pzjn.js",
+      "sha": "ec47bae546f4b33be183478b621d50e350640c48",
+      "mime_type": "application/javascript",
+      "size": 790,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/routes-crlp8sap.js",
+      "path": "/assets/routes-crlp8sap.js",
+      "sha": "df879aa91fd49fda1822176eea00f7078a143ad6",
+      "mime_type": "application/javascript",
+      "size": 12098,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/site-layout-cvoy7lbt.js",
+      "path": "/assets/site-layout-cvoy7lbt.js",
+      "sha": "b95416ca4ccb1718d59275be11ff828711412553",
+      "mime_type": "application/javascript",
+      "size": 24490,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/styles-txslf-bz.css",
+      "path": "/assets/styles-txslf-bz.css",
+      "sha": "fc73cfbf31a5ce2d6712c41251443c6fc97dd911",
+      "mime_type": "text/css",
+      "size": 69083,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/team-section-es-pymhm.js",
+      "path": "/assets/team-section-es-pymhm.js",
+      "sha": "494a220f26ea3a948411da3aae53b9238c7e2c35",
+      "mime_type": "application/javascript",
+      "size": 4843,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/assets/terms-vf9e823q.js",
+      "path": "/assets/terms-vf9e823q.js",
+      "sha": "6a8a0f858fb6730af52d4961140ebc42fcf7a406",
+      "mime_type": "application/javascript",
+      "size": 1795,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/favicon.svg",
+      "path": "/favicon.svg",
+      "sha": "80cde2afcf44d685279a43cd8a92f334b2b989df",
+      "mime_type": "image/svg+xml",
+      "size": 562,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/images/coach.jpg",
+      "path": "/images/coach.jpg",
+      "sha": "2cfde086a2a42e46897e4698ac28a154edb4075a",
+      "mime_type": "image/jpeg",
+      "size": 65895,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/images/courts.jpg",
+      "path": "/images/courts.jpg",
+      "sha": "cf63faa48326aaddd99d5425ff8d38632f3cdb3f",
+      "mime_type": "image/jpeg",
+      "size": 654707,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/images/hero.jpg",
+      "path": "/images/hero.jpg",
+      "sha": "a3f9fe035f8c1f91a52e9d33dfc934d9435eadc2",
+      "mime_type": "image/jpeg",
+      "size": 585406,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/images/logo.png",
+      "path": "/images/logo.png",
+      "sha": "4c2717b2128ca3e7524a36a56d8d74ffd76b6f87",
+      "mime_type": "image/png",
+      "size": 28806,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/images/still-life.jpg",
+      "path": "/images/still-life.jpg",
+      "sha": "7770eb1bea5d67f8244413affd1aaca5b5b13c5d",
+      "mime_type": "image/jpeg",
+      "size": 511827,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/netlify.toml",
+      "path": "/netlify.toml",
+      "sha": "fdd827a022bc201d446a04b9546e97f85458b6d7",
+      "mime_type": "application/octet-stream",
+      "size": 105,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/og.jpg",
+      "path": "/og.jpg",
+      "sha": "9d4526f169911022e92c06db6df7e97653354e79",
+      "mime_type": "image/jpeg",
+      "size": 108905,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/robots.txt",
+      "path": "/robots.txt",
+      "sha": "f8024f39fbc15580a8b2e1196f40fda19e20751e",
+      "mime_type": "text/plain",
+      "size": 64,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/sitemap.xml",
+      "path": "/sitemap.xml",
+      "sha": "a9c90a1f67f16cd815392b81bdf768ae83b31534",
+      "mime_type": "application/xml",
+      "size": 1065,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/tennis-iq/privacy/index.html",
+      "path": "/tennis-iq/privacy/index.html",
+      "sha": "4aa60a902a5aed9309b4d55c27ec9c3c3f97cac0",
+      "mime_type": "text/html",
+      "size": 2683,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    },
+    {
+      "id": "/tennis-iq/support/index.html",
+      "path": "/tennis-iq/support/index.html",
+      "sha": "3ab5a6e52a6e0edfc59597239301d4447304a1e0",
+      "mime_type": "text/html",
+      "size": 2753,
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "deploy_id": "6ab207a94adb57513f554471"
+    }
+  ],
+  "request": {
+    "draft": true,
+    "files": {
+      "/__grok/icon-180.png": "5e4f2f7d2d034c59fb820b647c476e59370d5861",
+      "/__grok/install/assets/homescreen/glass-puzzle.svg": "00fdb01bc2828401a3b1ed459fe7fffaf0cdfac4",
+      "/__grok/install/assets/homescreen/glass-share.svg": "8dbdc04dc2a3aa030e62b03fe30d6fdb58f426f8",
+      "/__grok/install/assets/homescreen/logo-grok.svg": "e665cefb287d296e348ccdeda3926558f87134af",
+      "/__grok/install/assets/homescreen/ob-ipad.png": "c25470ae99812264adba2bbee29a15cfb00d8a7e",
+      "/__grok/install/assets/homescreen/ob-phone.png": "a19ada7561c81ceebcab68251d4d06939b6da560",
+      "/__grok/install/assets/homescreen/plus.svg": "b1204fba7c7fd77bdb30d0253f16fb51e3b79770",
+      "/__grok/install/styles.css": "554b1638c0217a8d7f3f7d04a94e6a688932bc84",
+      "/assets/_-bhd7bdez.js": "911bec372ae6e53aa798fd279b9281d9a50b13da",
+      "/assets/about-qi1rjckg.js": "543d3124b882a386e3453799c9433afc484a6c92",
+      "/assets/badge-cmnp7p5n.js": "6db4e83669d5aede22602f951d209f5dce51375f",
+      "/assets/button-cqm4mtkc.js": "5d6f8c96c23348b712d31ccde8ad804a72f2cb98",
+      "/assets/contact-blxyd4o9.js": "0cc5cdcb1de1137649cf5d9207703921976d58db",
+      "/assets/contact-section-cv1hhqg7.js": "6a94dcbab6cf4bed1b561dec0e521f243694c252",
+      "/assets/cta-band-62fvzjsv.js": "4093b1b9d00f170e5b9c8e0a7d6b121848c64573",
+      "/assets/faq-section-cloka9hi.js": "a2340f4f9a9ff3d6bb081ae0e87a406878642140",
+      "/assets/index-bxr0wjdr.js": "74e35212a8f8a1453709f8f1a2a5d492a05312f7",
+      "/assets/locations-qqny0btz.js": "51bf539d8c6d7efaa85e8c2f57d4d8a833c646c9",
+      "/assets/locations-section-draqccui.js": "ac9299e6c58cc569a8c64ef4c2498e90e205d14b",
+      "/assets/news-bb7lfjmi.js": "0bb744ca7bcac21c4fd3de81c597e038e308c13e",
+      "/assets/page-hero-cykgufrw.js": "80bc0768597fb89c5ab32e6115b3c375189a71b7",
+      "/assets/privacy-bpduiozq.js": "da8c07f016a393d3364502d0355ba017b0923e6a",
+      "/assets/private-lessons-d8h_l7kb.js": "92bec4ebadc95f6625a989f0799193fcc1007fc6",
+      "/assets/programs-cknfkol5.js": "44e39d48bd004afdb9fd600c163a8350361daa72",
+      "/assets/reveal-dtd3pzjn.js": "ec47bae546f4b33be183478b621d50e350640c48",
+      "/assets/routes-crlp8sap.js": "df879aa91fd49fda1822176eea00f7078a143ad6",
+      "/assets/site-layout-cvoy7lbt.js": "b95416ca4ccb1718d59275be11ff828711412553",
+      "/assets/styles-txslf-bz.css": "fc73cfbf31a5ce2d6712c41251443c6fc97dd911",
+      "/assets/team-section-es-pymhm.js": "494a220f26ea3a948411da3aae53b9238c7e2c35",
+      "/assets/terms-vf9e823q.js": "6a8a0f858fb6730af52d4961140ebc42fcf7a406",
+      "/favicon.svg": "80cde2afcf44d685279a43cd8a92f334b2b989df",
+      "/images/coach.jpg": "2cfde086a2a42e46897e4698ac28a154edb4075a",
+      "/images/courts.jpg": "cf63faa48326aaddd99d5425ff8d38632f3cdb3f",
+      "/images/hero.jpg": "a3f9fe035f8c1f91a52e9d33dfc934d9435eadc2",
+      "/images/logo.png": "4c2717b2128ca3e7524a36a56d8d74ffd76b6f87",
+      "/images/still-life.jpg": "7770eb1bea5d67f8244413affd1aaca5b5b13c5d",
+      "/netlify.toml": "fdd827a022bc201d446a04b9546e97f85458b6d7",
+      "/og.jpg": "9d4526f169911022e92c06db6df7e97653354e79",
+      "/robots.txt": "f8024f39fbc15580a8b2e1196f40fda19e20751e",
+      "/sitemap.xml": "a9c90a1f67f16cd815392b81bdf768ae83b31534",
+      "/tennis-iq/privacy/index.html": "11936d99ab7216fc84adc27dd6ef4eb414563120",
+      "/tennis-iq/support/index.html": "5d6d3f6c73400d5e2ec84bac35000301d617f504"
+    },
+    "functions": {
+      "server": "afdb2a05d0320df4f9d31ac46116eecf27a83ab986a6c3f17e0c404118c749df"
+    },
+    "functions_config": {
+      "server": {
+        "display_name": "@netlify/vite-plugin server handler",
+        "generator": "@netlify/vite-plugin@3.0.1",
+        "build_data": {
+          "bootstrapVersion": "2.18.0",
+          "runtimeAPIVersion": 2
+        },
+        "routes": [
+          {
+            "pattern": "/*",
+            "expression": "^(?:\\/(.*))\\/?$",
+            "methods": [],
+            "prefer_static": true
+          }
+        ]
+      }
+    },
+    "function_schedules": [],
+    "framework": "tanstack-start",
+    "title": "Tennis IQ support and privacy: local progress and sharing"
+  },
+  "previous_deployment_evidence": {
+    "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+    "original_published_deploy_id": "6aa04db742570c18d4bd5c4f",
+    "original_deploy": {
+      "id": "6aa04db742570c18d4bd5c4f",
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "build_id": "6aa04db742570c18d4bd5c4d",
+      "state": "ready",
+      "name": "srq-tennis",
+      "url": "https://srq.tennis",
+      "ssl_url": "https://srq.tennis",
+      "admin_url": "https://app.netlify.com/projects/srq-tennis",
+      "deploy_url": "http://6aa04db742570c18d4bd5c4f--srq-tennis.netlify.app",
+      "deploy_ssl_url": "https://6aa04db742570c18d4bd5c4f--srq-tennis.netlify.app",
+      "created_at": "2026-09-08T18:02:31.554Z",
+      "updated_at": "2026-09-08T18:04:15.084Z",
+      "user_id": "691d5733cc546fce2331b801",
+      "error_message": null,
+      "required": [],
+      "required_functions": [],
+      "required_edge_functions": [],
+      "commit_ref": null,
+      "review_id": null,
+      "branch": null,
+      "commit_url": null,
+      "skipped": null,
+      "locked": null,
+      "title": "Deploy triggered by upload",
+      "commit_message": null,
+      "review_url": null,
+      "published_at": "2026-09-08T18:04:15.001Z",
+      "context": "production",
+      "deploy_time": 102,
+      "available_functions": [
+        {
+          "n": "server",
+          "d": "afdb2a05d0320df4f9d31ac46116eecf27a83ab986a6c3f17e0c404118c749df",
+          "dn": "@netlify/vite-plugin server handler",
+          "g": "@netlify/vite-plugin@3.0.1",
+          "bd": {
+            "bootstrapVersion": "2.18.0",
+            "runtimeAPIVersion": 2
+          },
+          "ro": [
+            {
+              "p": "/*",
+              "l": null,
+              "e": "^(?:\\/(.*))\\/?$",
+              "m": [],
+              "ps": true
+            }
+          ],
+          "id": "11cec301ab328e8964cdc496d03a8fc56cbda46805a333296bb259147a0c66a1",
+          "a": "403869937646",
+          "c": "2026-09-08T18:04:10.317Z",
+          "im": "stream",
+          "m": 1024,
+          "obl": "netlify-observability-extension",
+          "oblv": 32,
+          "oid": "ad51863a1e5b8c224e8a691aced0c93c00093b66fda5462576611314d1528592",
+          "r": "nodejs22.x",
+          "rg": "us-east-2",
+          "s": 1982241
+        }
+      ],
+      "screenshot_url": null,
+      "committer": null,
+      "skipped_log": null,
+      "manual_deploy": false,
+      "plugin_state": "none",
+      "lighthouse_plugin_scores": null,
+      "links": {
+        "permalink": "https://6aa04db742570c18d4bd5c4f--srq-tennis.netlify.app",
+        "alias": "https://srq.tennis",
+        "branch": null
+      },
+      "framework": "tanstack-start",
+      "entry_path": null,
+      "views_count": null,
+      "function_schedules": [],
+      "public_repo": null,
+      "pending_review_reason": null,
+      "lighthouse": null,
+      "edge_functions_present": null,
+      "expires_at": null,
+      "blobs_region": "us-east-2",
+      "deploy_validations_report": {
+        "id": "6aa04e126bd1fe550092b871",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      "strict_contributor_verification_failure": false,
+      "agent_runner_id": null,
+      "deploy_source": "api",
+      "database_branch_id": null,
+      "database_migrations": null,
+      "database_snapshots": null,
+      "has_source_zip": true,
+      "subdomain_alias": "6aa04db742570c18d4bd5c4f",
+      "functions_region": "cmh",
+      "functions_region_overrides": []
+    },
+    "original_files": [
+      {
+        "id": "/__grok/icon-180.png",
+        "path": "/__grok/icon-180.png",
+        "sha": "5e4f2f7d2d034c59fb820b647c476e59370d5861",
+        "mime_type": "image/png",
+        "size": 2100,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/__grok/install/assets/homescreen/glass-puzzle.svg",
+        "path": "/__grok/install/assets/homescreen/glass-puzzle.svg",
+        "sha": "00fdb01bc2828401a3b1ed459fe7fffaf0cdfac4",
+        "mime_type": "image/svg+xml",
+        "size": 1811,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/__grok/install/assets/homescreen/glass-share.svg",
+        "path": "/__grok/install/assets/homescreen/glass-share.svg",
+        "sha": "8dbdc04dc2a3aa030e62b03fe30d6fdb58f426f8",
+        "mime_type": "image/svg+xml",
+        "size": 2388,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/__grok/install/assets/homescreen/logo-grok.svg",
+        "path": "/__grok/install/assets/homescreen/logo-grok.svg",
+        "sha": "e665cefb287d296e348ccdeda3926558f87134af",
+        "mime_type": "image/svg+xml",
+        "size": 1059,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/__grok/install/assets/homescreen/ob-ipad.png",
+        "path": "/__grok/install/assets/homescreen/ob-ipad.png",
+        "sha": "c25470ae99812264adba2bbee29a15cfb00d8a7e",
+        "mime_type": "image/png",
+        "size": 101843,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/__grok/install/assets/homescreen/ob-phone.png",
+        "path": "/__grok/install/assets/homescreen/ob-phone.png",
+        "sha": "a19ada7561c81ceebcab68251d4d06939b6da560",
+        "mime_type": "image/png",
+        "size": 103612,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/__grok/install/assets/homescreen/plus.svg",
+        "path": "/__grok/install/assets/homescreen/plus.svg",
+        "sha": "b1204fba7c7fd77bdb30d0253f16fb51e3b79770",
+        "mime_type": "image/svg+xml",
+        "size": 2401,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/__grok/install/styles.css",
+        "path": "/__grok/install/styles.css",
+        "sha": "554b1638c0217a8d7f3f7d04a94e6a688932bc84",
+        "mime_type": "text/css",
+        "size": 6717,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/_-bhd7bdez.js",
+        "path": "/assets/_-bhd7bdez.js",
+        "sha": "911bec372ae6e53aa798fd279b9281d9a50b13da",
+        "mime_type": "application/javascript",
+        "size": 700,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/about-qi1rjckg.js",
+        "path": "/assets/about-qi1rjckg.js",
+        "sha": "543d3124b882a386e3453799c9433afc484a6c92",
+        "mime_type": "application/javascript",
+        "size": 4940,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/badge-cmnp7p5n.js",
+        "path": "/assets/badge-cmnp7p5n.js",
+        "sha": "6db4e83669d5aede22602f951d209f5dce51375f",
+        "mime_type": "application/javascript",
+        "size": 566,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/button-cqm4mtkc.js",
+        "path": "/assets/button-cqm4mtkc.js",
+        "sha": "5d6f8c96c23348b712d31ccde8ad804a72f2cb98",
+        "mime_type": "application/javascript",
+        "size": 31956,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/contact-blxyd4o9.js",
+        "path": "/assets/contact-blxyd4o9.js",
+        "sha": "0cc5cdcb1de1137649cf5d9207703921976d58db",
+        "mime_type": "application/javascript",
+        "size": 759,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/contact-section-cv1hhqg7.js",
+        "path": "/assets/contact-section-cv1hhqg7.js",
+        "sha": "6a94dcbab6cf4bed1b561dec0e521f243694c252",
+        "mime_type": "application/javascript",
+        "size": 7929,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/cta-band-62fvzjsv.js",
+        "path": "/assets/cta-band-62fvzjsv.js",
+        "sha": "4093b1b9d00f170e5b9c8e0a7d6b121848c64573",
+        "mime_type": "application/javascript",
+        "size": 1537,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/faq-section-cloka9hi.js",
+        "path": "/assets/faq-section-cloka9hi.js",
+        "sha": "a2340f4f9a9ff3d6bb081ae0e87a406878642140",
+        "mime_type": "application/javascript",
+        "size": 22822,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/index-bxr0wjdr.js",
+        "path": "/assets/index-bxr0wjdr.js",
+        "sha": "74e35212a8f8a1453709f8f1a2a5d492a05312f7",
+        "mime_type": "application/javascript",
+        "size": 409906,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/locations-qqny0btz.js",
+        "path": "/assets/locations-qqny0btz.js",
+        "sha": "51bf539d8c6d7efaa85e8c2f57d4d8a833c646c9",
+        "mime_type": "application/javascript",
+        "size": 2318,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/locations-section-draqccui.js",
+        "path": "/assets/locations-section-draqccui.js",
+        "sha": "ac9299e6c58cc569a8c64ef4c2498e90e205d14b",
+        "mime_type": "application/javascript",
+        "size": 3042,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/news-bb7lfjmi.js",
+        "path": "/assets/news-bb7lfjmi.js",
+        "sha": "0bb744ca7bcac21c4fd3de81c597e038e308c13e",
+        "mime_type": "application/javascript",
+        "size": 2161,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/page-hero-cykgufrw.js",
+        "path": "/assets/page-hero-cykgufrw.js",
+        "sha": "80bc0768597fb89c5ab32e6115b3c375189a71b7",
+        "mime_type": "application/javascript",
+        "size": 1023,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/privacy-bpduiozq.js",
+        "path": "/assets/privacy-bpduiozq.js",
+        "sha": "da8c07f016a393d3364502d0355ba017b0923e6a",
+        "mime_type": "application/javascript",
+        "size": 1818,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/private-lessons-d8h_l7kb.js",
+        "path": "/assets/private-lessons-d8h_l7kb.js",
+        "sha": "92bec4ebadc95f6625a989f0799193fcc1007fc6",
+        "mime_type": "application/javascript",
+        "size": 5035,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/programs-cknfkol5.js",
+        "path": "/assets/programs-cknfkol5.js",
+        "sha": "44e39d48bd004afdb9fd600c163a8350361daa72",
+        "mime_type": "application/javascript",
+        "size": 5719,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/reveal-dtd3pzjn.js",
+        "path": "/assets/reveal-dtd3pzjn.js",
+        "sha": "ec47bae546f4b33be183478b621d50e350640c48",
+        "mime_type": "application/javascript",
+        "size": 790,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/routes-crlp8sap.js",
+        "path": "/assets/routes-crlp8sap.js",
+        "sha": "df879aa91fd49fda1822176eea00f7078a143ad6",
+        "mime_type": "application/javascript",
+        "size": 12098,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/site-layout-cvoy7lbt.js",
+        "path": "/assets/site-layout-cvoy7lbt.js",
+        "sha": "b95416ca4ccb1718d59275be11ff828711412553",
+        "mime_type": "application/javascript",
+        "size": 24490,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/styles-txslf-bz.css",
+        "path": "/assets/styles-txslf-bz.css",
+        "sha": "fc73cfbf31a5ce2d6712c41251443c6fc97dd911",
+        "mime_type": "text/css",
+        "size": 69083,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/team-section-es-pymhm.js",
+        "path": "/assets/team-section-es-pymhm.js",
+        "sha": "494a220f26ea3a948411da3aae53b9238c7e2c35",
+        "mime_type": "application/javascript",
+        "size": 4843,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/assets/terms-vf9e823q.js",
+        "path": "/assets/terms-vf9e823q.js",
+        "sha": "6a8a0f858fb6730af52d4961140ebc42fcf7a406",
+        "mime_type": "application/javascript",
+        "size": 1795,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/favicon.svg",
+        "path": "/favicon.svg",
+        "sha": "80cde2afcf44d685279a43cd8a92f334b2b989df",
+        "mime_type": "image/svg+xml",
+        "size": 562,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/images/coach.jpg",
+        "path": "/images/coach.jpg",
+        "sha": "2cfde086a2a42e46897e4698ac28a154edb4075a",
+        "mime_type": "image/jpeg",
+        "size": 65895,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/images/courts.jpg",
+        "path": "/images/courts.jpg",
+        "sha": "cf63faa48326aaddd99d5425ff8d38632f3cdb3f",
+        "mime_type": "image/jpeg",
+        "size": 654707,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/images/hero.jpg",
+        "path": "/images/hero.jpg",
+        "sha": "a3f9fe035f8c1f91a52e9d33dfc934d9435eadc2",
+        "mime_type": "image/jpeg",
+        "size": 585406,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/images/logo.png",
+        "path": "/images/logo.png",
+        "sha": "4c2717b2128ca3e7524a36a56d8d74ffd76b6f87",
+        "mime_type": "image/png",
+        "size": 28806,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/images/still-life.jpg",
+        "path": "/images/still-life.jpg",
+        "sha": "7770eb1bea5d67f8244413affd1aaca5b5b13c5d",
+        "mime_type": "image/jpeg",
+        "size": 511827,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/netlify.toml",
+        "path": "/netlify.toml",
+        "sha": "fdd827a022bc201d446a04b9546e97f85458b6d7",
+        "mime_type": "application/octet-stream",
+        "size": 105,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/og.jpg",
+        "path": "/og.jpg",
+        "sha": "9d4526f169911022e92c06db6df7e97653354e79",
+        "mime_type": "image/jpeg",
+        "size": 108905,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/robots.txt",
+        "path": "/robots.txt",
+        "sha": "f8024f39fbc15580a8b2e1196f40fda19e20751e",
+        "mime_type": "text/plain",
+        "size": 64,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      },
+      {
+        "id": "/sitemap.xml",
+        "path": "/sitemap.xml",
+        "sha": "a9c90a1f67f16cd815392b81bdf768ae83b31534",
+        "mime_type": "application/xml",
+        "size": 1065,
+        "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+        "deploy_id": "6aa04db742570c18d4bd5c4f"
+      }
+    ],
+    "request": {
+      "draft": true,
+      "files": {
+        "/__grok/icon-180.png": "5e4f2f7d2d034c59fb820b647c476e59370d5861",
+        "/__grok/install/assets/homescreen/glass-puzzle.svg": "00fdb01bc2828401a3b1ed459fe7fffaf0cdfac4",
+        "/__grok/install/assets/homescreen/glass-share.svg": "8dbdc04dc2a3aa030e62b03fe30d6fdb58f426f8",
+        "/__grok/install/assets/homescreen/logo-grok.svg": "e665cefb287d296e348ccdeda3926558f87134af",
+        "/__grok/install/assets/homescreen/ob-ipad.png": "c25470ae99812264adba2bbee29a15cfb00d8a7e",
+        "/__grok/install/assets/homescreen/ob-phone.png": "a19ada7561c81ceebcab68251d4d06939b6da560",
+        "/__grok/install/assets/homescreen/plus.svg": "b1204fba7c7fd77bdb30d0253f16fb51e3b79770",
+        "/__grok/install/styles.css": "554b1638c0217a8d7f3f7d04a94e6a688932bc84",
+        "/assets/_-bhd7bdez.js": "911bec372ae6e53aa798fd279b9281d9a50b13da",
+        "/assets/about-qi1rjckg.js": "543d3124b882a386e3453799c9433afc484a6c92",
+        "/assets/badge-cmnp7p5n.js": "6db4e83669d5aede22602f951d209f5dce51375f",
+        "/assets/button-cqm4mtkc.js": "5d6f8c96c23348b712d31ccde8ad804a72f2cb98",
+        "/assets/contact-blxyd4o9.js": "0cc5cdcb1de1137649cf5d9207703921976d58db",
+        "/assets/contact-section-cv1hhqg7.js": "6a94dcbab6cf4bed1b561dec0e521f243694c252",
+        "/assets/cta-band-62fvzjsv.js": "4093b1b9d00f170e5b9c8e0a7d6b121848c64573",
+        "/assets/faq-section-cloka9hi.js": "a2340f4f9a9ff3d6bb081ae0e87a406878642140",
+        "/assets/index-bxr0wjdr.js": "74e35212a8f8a1453709f8f1a2a5d492a05312f7",
+        "/assets/locations-qqny0btz.js": "51bf539d8c6d7efaa85e8c2f57d4d8a833c646c9",
+        "/assets/locations-section-draqccui.js": "ac9299e6c58cc569a8c64ef4c2498e90e205d14b",
+        "/assets/news-bb7lfjmi.js": "0bb744ca7bcac21c4fd3de81c597e038e308c13e",
+        "/assets/page-hero-cykgufrw.js": "80bc0768597fb89c5ab32e6115b3c375189a71b7",
+        "/assets/privacy-bpduiozq.js": "da8c07f016a393d3364502d0355ba017b0923e6a",
+        "/assets/private-lessons-d8h_l7kb.js": "92bec4ebadc95f6625a989f0799193fcc1007fc6",
+        "/assets/programs-cknfkol5.js": "44e39d48bd004afdb9fd600c163a8350361daa72",
+        "/assets/reveal-dtd3pzjn.js": "ec47bae546f4b33be183478b621d50e350640c48",
+        "/assets/routes-crlp8sap.js": "df879aa91fd49fda1822176eea00f7078a143ad6",
+        "/assets/site-layout-cvoy7lbt.js": "b95416ca4ccb1718d59275be11ff828711412553",
+        "/assets/styles-txslf-bz.css": "fc73cfbf31a5ce2d6712c41251443c6fc97dd911",
+        "/assets/team-section-es-pymhm.js": "494a220f26ea3a948411da3aae53b9238c7e2c35",
+        "/assets/terms-vf9e823q.js": "6a8a0f858fb6730af52d4961140ebc42fcf7a406",
+        "/favicon.svg": "80cde2afcf44d685279a43cd8a92f334b2b989df",
+        "/images/coach.jpg": "2cfde086a2a42e46897e4698ac28a154edb4075a",
+        "/images/courts.jpg": "cf63faa48326aaddd99d5425ff8d38632f3cdb3f",
+        "/images/hero.jpg": "a3f9fe035f8c1f91a52e9d33dfc934d9435eadc2",
+        "/images/logo.png": "4c2717b2128ca3e7524a36a56d8d74ffd76b6f87",
+        "/images/still-life.jpg": "7770eb1bea5d67f8244413affd1aaca5b5b13c5d",
+        "/netlify.toml": "fdd827a022bc201d446a04b9546e97f85458b6d7",
+        "/og.jpg": "9d4526f169911022e92c06db6df7e97653354e79",
+        "/robots.txt": "f8024f39fbc15580a8b2e1196f40fda19e20751e",
+        "/sitemap.xml": "a9c90a1f67f16cd815392b81bdf768ae83b31534",
+        "/tennis-iq/privacy/index.html": "4aa60a902a5aed9309b4d55c27ec9c3c3f97cac0",
+        "/tennis-iq/support/index.html": "3ab5a6e52a6e0edfc59597239301d4447304a1e0"
+      },
+      "functions": {
+        "server": "afdb2a05d0320df4f9d31ac46116eecf27a83ab986a6c3f17e0c404118c749df"
+      },
+      "functions_config": {
+        "server": {
+          "display_name": "@netlify/vite-plugin server handler",
+          "generator": "@netlify/vite-plugin@3.0.1",
+          "build_data": {
+            "bootstrapVersion": "2.18.0",
+            "runtimeAPIVersion": 2
+          },
+          "routes": [
+            {
+              "pattern": "/*",
+              "expression": "^(?:\\/(.*))\\/?$",
+              "methods": [],
+              "prefer_static": true
+            }
+          ]
+        }
+      },
+      "function_schedules": [],
+      "framework": "tanstack-start",
+      "title": "Tennis IQ privacy and support pages \u2014 preserving existing site"
+    },
+    "status": "published_verified",
+    "draft_id": "6ab207a94adb57513f554471",
+    "draft_initial": {
+      "id": "6ab207a94adb57513f554471",
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "build_id": null,
+      "state": "uploading",
+      "name": "srq-tennis",
+      "url": "https://srq.tennis",
+      "ssl_url": "https://srq.tennis",
+      "admin_url": "https://app.netlify.com/projects/srq-tennis",
+      "deploy_url": "http://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+      "deploy_ssl_url": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+      "created_at": "2026-09-22T04:44:25.574Z",
+      "updated_at": "2026-09-22T04:44:25.849Z",
+      "user_id": "691d5733cc546fce2331b801",
+      "error_message": null,
+      "required": [
+        "4aa60a902a5aed9309b4d55c27ec9c3c3f97cac0",
+        "3ab5a6e52a6e0edfc59597239301d4447304a1e0"
+      ],
+      "required_functions": [],
+      "required_edge_functions": [],
+      "commit_ref": null,
+      "review_id": null,
+      "branch": null,
+      "commit_url": null,
+      "skipped": null,
+      "locked": null,
+      "title": "Tennis IQ privacy and support pages \u2014 preserving existing site",
+      "commit_message": null,
+      "review_url": null,
+      "published_at": null,
+      "context": "deploy-preview",
+      "deploy_time": null,
+      "available_functions": [],
+      "screenshot_url": null,
+      "committer": null,
+      "skipped_log": null,
+      "manual_deploy": true,
+      "plugin_state": "none",
+      "lighthouse_plugin_scores": null,
+      "links": {
+        "permalink": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+        "alias": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+        "branch": null
+      },
+      "framework": "tanstack-start",
+      "entry_path": null,
+      "views_count": null,
+      "function_schedules": [],
+      "public_repo": null,
+      "pending_review_reason": null,
+      "lighthouse": null,
+      "edge_functions_present": null,
+      "expires_at": null,
+      "blobs_region": "us-east-2",
+      "deploy_validations_report": null,
+      "strict_contributor_verification_failure": false,
+      "agent_runner_id": null,
+      "deploy_source": "api",
+      "database_branch_id": null,
+      "database_migrations": null,
+      "database_snapshots": null,
+      "has_source_zip": false,
+      "subdomain_alias": "6ab207a94adb57513f554471",
+      "functions_region": "cmh",
+      "functions_region_overrides": []
+    },
+    "draft_final": {
+      "id": "6ab207a94adb57513f554471",
+      "site_id": "0d580935-640d-4e1a-96f4-81e8c76d75da",
+      "build_id": null,
+      "state": "ready",
+      "name": "srq-tennis",
+      "url": "https://srq.tennis",
+      "ssl_url": "https://srq.tennis",
+      "admin_url": "https://app.netlify.com/projects/srq-tennis",
+      "deploy_url": "http://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+      "deploy_ssl_url": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+      "created_at": "2026-09-22T04:44:25.574Z",
+      "updated_at": "2026-09-22T04:44:27.082Z",
+      "user_id": "691d5733cc546fce2331b801",
+      "error_message": null,
+      "required": [],
+      "required_functions": [],
+      "required_edge_functions": [],
+      "commit_ref": null,
+      "review_id": null,
+      "branch": null,
+      "commit_url": null,
+      "skipped": null,
+      "locked": null,
+      "title": "Tennis IQ privacy and support pages \u2014 preserving existing site",
+      "commit_message": null,
+      "review_url": null,
+      "published_at": null,
+      "context": "deploy-preview",
+      "deploy_time": 1,
+      "available_functions": [
+        {
+          "n": "server",
+          "d": "afdb2a05d0320df4f9d31ac46116eecf27a83ab986a6c3f17e0c404118c749df",
+          "dn": "@netlify/vite-plugin server handler",
+          "g": "@netlify/vite-plugin@3.0.1",
+          "bd": {
+            "bootstrapVersion": "2.18.0",
+            "runtimeAPIVersion": 2
+          },
+          "ro": [
+            {
+              "p": "/*",
+              "l": null,
+              "e": "^(?:\\/(.*))\\/?$",
+              "m": [],
+              "ps": true
+            }
+          ],
+          "id": "11cec301ab328e8964cdc496d03a8fc56cbda46805a333296bb259147a0c66a1",
+          "a": "403869937646",
+          "c": "2026-09-08T18:04:10.317Z",
+          "im": "stream",
+          "m": 1024,
+          "obl": "netlify-observability-extension",
+          "oblv": 32,
+          "oid": "ad51863a1e5b8c224e8a691aced0c93c00093b66fda5462576611314d1528592",
+          "r": "nodejs22.x",
+          "rg": "us-east-2",
+          "s": 1982241
+        }
+      ],
+      "screenshot_url": null,
+      "committer": null,
+      "skipped_log": null,
+      "manual_deploy": true,
+      "plugin_state": "none",
+      "lighthouse_plugin_scores": null,
+      "links": {
+        "permalink": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+        "alias": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+        "branch": null
+      },
+      "framework": "tanstack-start",
+      "entry_path": null,
+      "views_count": null,
+      "function_schedules": [],
+      "public_repo": null,
+      "pending_review_reason": null,
+      "lighthouse": null,
+      "edge_functions_present": null,
+      "expires_at": null,
+      "blobs_region": "us-east-2",
+      "deploy_validations_report": null,
+      "strict_contributor_verification_failure": false,
+      "agent_runner_id": null,
+      "deploy_source": "api",
+      "database_branch_id": null,
+      "database_migrations": null,
+      "database_snapshots": null,
+      "has_source_zip": false,
+      "subdomain_alias": "6ab207a94adb57513f554471",
+      "functions_region": "cmh",
+      "functions_region_overrides": [],
+      "summary": {
+        "status": "ready",
+        "messages": [
+          {
+            "type": "info",
+            "title": "2 new files uploaded",
+            "description": "2 generated pages changed.",
+            "details": "New pages include:\n- tennis-iq/privacy/index.html\n- tennis-iq/support/index.html\n"
+          },
+          {
+            "type": "info",
+            "title": "No redirect rules processed",
+            "description": "This deploy did not include any redirect rules. [Learn more about redirects](https://docs.netlify.com/routing/redirects/)",
+            "details": ""
+          },
+          {
+            "type": "info",
+            "title": "No header rules processed",
+            "description": "This deploy did not include any header rules. [Learn more about headers](https://docs.netlify.com/routing/headers/)",
+            "details": ""
+          },
+          {
+            "type": "info",
+            "title": "1 function deployed",
+            "description": "We have deployed 1 function. [Visit your Functions](/projects/srq-tennis/logs/functions?scope=deploy:6ab207a94adb57513f554471) for more information.",
+            "details": null
+          },
+          {
+            "type": "info",
+            "title": "No edge functions deployed",
+            "description": "This deploy did not include any edge functions. [Learn more about Edge Functions](https://docs.netlify.com/edge-functions/overview/)",
+            "details": null
+          }
+        ]
+      }
+    },
+    "published_after": "6aa04db742570c18d4bd5c4f",
+    "validation": {
+      "file_count": 42,
+      "all_original_hashes_preserved": true,
+      "all_requested_hashes_preserved": true,
+      "function_metadata_equal": true,
+      "function_differences": {},
+      "plan_restrictions": "Explicit region and memory rejected with 422. Omitted those overrides so reuse retains existing/default values; compared resulting metadata.",
+      "routes": [
+        {
+          "path": "/",
+          "live": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 87843,
+            "body_sha256": "8867b2ba5299a64435eec7660e0deb38931cdc35b9518253c2e15f7935a0b791",
+            "visible_text_sha256": "c00461422fe58f3e5d7f90d0dadac89cc3dd9ed751dca4318608ab1efcad68be",
+            "title": [
+              "SRQ Tennis \u2014 Sarasota&#x27;s Player-First Tennis Academy"
+            ],
+            "sample": "SRQ Tennis \u2014 Sarasota&#x27;s Player-First Tennis Academy Skip to content Home Programs Privates About Locations Blog Contact Book a Lesson H"
+          },
+          "draft": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 87843,
+            "body_sha256": "45752200a7cf4777787770fe7b751b9748de9613b1641e63aeecc5c34d896266",
+            "visible_text_sha256": "c00461422fe58f3e5d7f90d0dadac89cc3dd9ed751dca4318608ab1efcad68be",
+            "title": [
+              "SRQ Tennis \u2014 Sarasota&#x27;s Player-First Tennis Academy"
+            ],
+            "sample": "SRQ Tennis \u2014 Sarasota&#x27;s Player-First Tennis Academy Skip to content Home Programs Privates About Locations Blog Contact Book a Lesson H"
+          },
+          "exact_body_equal": false,
+          "visible_text_equal": true
+        },
+        {
+          "path": "/programs",
+          "live": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 45938,
+            "body_sha256": "459f757b775533bafd38bf0e9ff58540924b73bd53f5ff5e34920f0318f45046",
+            "visible_text_sha256": "5414c7be0b121fecdf82f9f45a042f21e31828a0d631a149f7b2dd4da28ebe39",
+            "title": [
+              "Fall 2026 Junior Tennis Programs | SRQ Tennis Sarasota"
+            ],
+            "sample": "Fall 2026 Junior Tennis Programs | SRQ Tennis Sarasota Skip to content Home Programs Privates About Locations Blog Contact Book a Lesson Hom"
+          },
+          "draft": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 45938,
+            "body_sha256": "166992496b268d0f1860b6dec4e526d86c359ebcc4eb965a63c4f16a6fc93b3c",
+            "visible_text_sha256": "5414c7be0b121fecdf82f9f45a042f21e31828a0d631a149f7b2dd4da28ebe39",
+            "title": [
+              "Fall 2026 Junior Tennis Programs | SRQ Tennis Sarasota"
+            ],
+            "sample": "Fall 2026 Junior Tennis Programs | SRQ Tennis Sarasota Skip to content Home Programs Privates About Locations Blog Contact Book a Lesson Hom"
+          },
+          "exact_body_equal": false,
+          "visible_text_equal": true
+        },
+        {
+          "path": "/contact",
+          "live": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 28487,
+            "body_sha256": "36c38fb1bae87d8cea53634d9bf5402748de33fe2cc3b2d4949034574592a5a8",
+            "visible_text_sha256": "aa2882a66a35874ef7afccff416864b0c25163e10628d4d31a6211d5be542936",
+            "title": [
+              "Contact SRQ Tennis | Book a Lesson in Sarasota"
+            ],
+            "sample": "Contact SRQ Tennis | Book a Lesson in Sarasota Skip to content Home Programs Privates About Locations Blog Contact Book a Lesson Home Progra"
+          },
+          "draft": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 28487,
+            "body_sha256": "9814a885427cc667c766dcc5180d391fc32c8b29ed78d91a7c6fc766fdba43e1",
+            "visible_text_sha256": "aa2882a66a35874ef7afccff416864b0c25163e10628d4d31a6211d5be542936",
+            "title": [
+              "Contact SRQ Tennis | Book a Lesson in Sarasota"
+            ],
+            "sample": "Contact SRQ Tennis | Book a Lesson in Sarasota Skip to content Home Programs Privates About Locations Blog Contact Book a Lesson Home Progra"
+          },
+          "exact_body_equal": false,
+          "visible_text_equal": true
+        },
+        {
+          "path": "/privacy",
+          "live": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 19552,
+            "body_sha256": "b98b2194628767ec08527c6958eea50ac7e1a4415a58dd663b2ea910b07c6c2c",
+            "visible_text_sha256": "1c7bbd16fad22f4d39a873c74c40aa4b8c3cafe4c22a5df429cf8ccff7d4ec97",
+            "title": [
+              "Privacy Policy | SRQ Tennis"
+            ],
+            "sample": "Privacy Policy | SRQ Tennis Skip to content Home Programs Privates About Locations Blog Contact Book a Lesson Home Programs Privates About L"
+          },
+          "draft": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 19552,
+            "body_sha256": "5d8f1ee9057a1c3eb5751db99eb0d0849d04282b127c53a8f7033f2c3ae3cf69",
+            "visible_text_sha256": "1c7bbd16fad22f4d39a873c74c40aa4b8c3cafe4c22a5df429cf8ccff7d4ec97",
+            "title": [
+              "Privacy Policy | SRQ Tennis"
+            ],
+            "sample": "Privacy Policy | SRQ Tennis Skip to content Home Programs Privates About Locations Blog Contact Book a Lesson Home Programs Privates About L"
+          },
+          "exact_body_equal": false,
+          "visible_text_equal": true
+        },
+        {
+          "path": "/tennis-iq/privacy/",
+          "live": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 4986,
+            "body_sha256": "a3d734db887a539289c498ec3ddb58bc6b27685e63297daa10f42a790d2f45fd",
+            "visible_text_sha256": "11b638d74d0d35d3a044e22a1c2f6372494af7f70979030adfd8a4b13451fd3a",
+            "title": [
+              "SRQ Tennis \u2014 Sarasota&#x27;s Player-First Tennis Academy"
+            ],
+            "sample": "SRQ Tennis \u2014 Sarasota&#x27;s Player-First Tennis Academy 404 Out of bounds That page isn&#x27;t on this court. Head back to the academy home"
+          },
+          "draft": {
+            "status": 200,
+            "content_type": "text/html; charset=UTF-8",
+            "bytes": 2683,
+            "body_sha256": "e01056b149686573fafa9aa5aaf4f6075dc2d329a2bcf218d84c3fbb6bffbd71",
+            "visible_text_sha256": "80fd0d48cead5910e29df7268c8db91160807f6d640d240d75b3089eead8e3e2",
+            "title": [
+              "Tennis IQ Privacy Policy"
+            ],
+            "sample": "Tennis IQ Privacy Policy Support Privacy Tennis IQ Privacy Policy Tennis IQ works without an account. The app does not send your scores or g"
+          },
+          "exact_body_equal": false,
+          "visible_text_equal": false,
+          "draft_matches_prepared_html": true
+        },
+        {
+          "path": "/tennis-iq/support/",
+          "live": {
+            "status": 200,
+            "content_type": "text/html; charset=utf-8",
+            "bytes": 4986,
+            "body_sha256": "edd77123696bab6de0946911b1c6212dbcfdacfbcfa297a02d417eaaf180e534",
+            "visible_text_sha256": "11b638d74d0d35d3a044e22a1c2f6372494af7f70979030adfd8a4b13451fd3a",
+            "title": [
+              "SRQ Tennis \u2014 Sarasota&#x27;s Player-First Tennis Academy"
+            ],
+            "sample": "SRQ Tennis \u2014 Sarasota&#x27;s Player-First Tennis Academy 404 Out of bounds That page isn&#x27;t on this court. Head back to the academy home"
+          },
+          "draft": {
+            "status": 200,
+            "content_type": "text/html; charset=UTF-8",
+            "bytes": 2753,
+            "body_sha256": "2c5fcd0a65ca4202114a04ae0337cf2c2f9ae61749797dc88083aff8da648cfd",
+            "visible_text_sha256": "970f340e4c9e080d1404acd18a0593014de0f5e2bc49fd98dacc659f88594ba1",
+            "title": [
+              "Tennis IQ Support"
+            ],
+            "sample": "Tennis IQ Support Support Privacy Tennis IQ Support Need help or found a question that needs correcting? Email michael@srq.tennis with the q"
+          },
+          "exact_body_equal": false,
+          "visible_text_equal": false,
+          "draft_matches_prepared_html": true
+        }
+      ],
+      "html_difference_review": [
+        {
+          "path": "/",
+          "difference_regions": [
+            {
+              "original_length": 0,
+              "draft_length": 1,
+              "context": "dge-CmnP7p5n.js\"]}}},matches:$R[10]=[$R[11]={i:\"__root__\u0000\",u:179005232",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 3,
+              "draft_length": 2,
+              "context": "ge-CmnP7p5n.js\"]}}},matches:$R[10]=[$R[11]={i:\"__root__\u0000\",u:1790052322",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 0,
+              "draft_length": 1,
+              "context": "oot__\u0000\",u:1790052322866,s:\"success\",ssr:!0},$R[12]={i:\"\u0000\u0000\",u:179005232",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 3,
+              "draft_length": 2,
+              "context": "ot__\u0000\",u:1790052322866,s:\"success\",ssr:!0},$R[12]={i:\"\u0000\u0000\",u:1790052322",
+              "type": "dynamic value; omitted"
+            }
+          ],
+          "asset_and_link_attributes_equal": true
+        },
+        {
+          "path": "/programs",
+          "difference_regions": [
+            {
+              "original_length": 4,
+              "draft_length": 4,
+              "context": "dge-CmnP7p5n.js\"]}}},matches:$R[10]=[$R[11]={i:\"__root__\u0000\",u:179005234",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 4,
+              "draft_length": 4,
+              "context": "2341997,s:\"success\",ssr:!0},$R[12]={i:\"\u0000programs\u0000programs\",u:179005234",
+              "type": "dynamic value; omitted"
+            }
+          ],
+          "asset_and_link_attributes_equal": true
+        },
+        {
+          "path": "/contact",
+          "difference_regions": [
+            {
+              "original_length": 1,
+              "draft_length": 0,
+              "context": "ero-CykGufRW.js\"]}}},matches:$R[10]=[$R[11]={i:\"__root__\u0000\",u:179005234",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 2,
+              "draft_length": 3,
+              "context": "o-CykGufRW.js\"]}}},matches:$R[10]=[$R[11]={i:\"__root__\u0000\",u:17900523478",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 1,
+              "draft_length": 0,
+              "context": "052347860,s:\"success\",ssr:!0},$R[12]={i:\"\u0000contact\u0000contact\",u:179005234",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 2,
+              "draft_length": 3,
+              "context": "2347860,s:\"success\",ssr:!0},$R[12]={i:\"\u0000contact\u0000contact\",u:17900523478",
+              "type": "dynamic value; omitted"
+            }
+          ],
+          "asset_and_link_attributes_equal": true
+        },
+        {
+          "path": "/privacy",
+          "difference_regions": [
+            {
+              "original_length": 0,
+              "draft_length": 1,
+              "context": "ro-CykGufRW.js\"]}}},matches:$R[10]=[$R[11]={i:\"__root__\u0000\",u:1790052350",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 2,
+              "draft_length": 1,
+              "context": "o-CykGufRW.js\"]}}},matches:$R[10]=[$R[11]={i:\"__root__\u0000\",u:17900523503",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 0,
+              "draft_length": 1,
+              "context": "52350393,s:\"success\",ssr:!0},$R[12]={i:\"\u0000privacy\u0000privacy\",u:1790052350",
+              "type": "dynamic value; omitted"
+            },
+            {
+              "original_length": 2,
+              "draft_length": 1,
+              "context": "2350393,s:\"success\",ssr:!0},$R[12]={i:\"\u0000privacy\u0000privacy\",u:17900523503",
+              "type": "dynamic value; omitted"
+            }
+          ],
+          "asset_and_link_attributes_equal": true
+        }
+      ]
+    },
+    "draft_url": "https://6ab207a94adb57513f554471--srq-tennis.netlify.app",
+    "published_after_validation": "6aa04db742570c18d4bd5c4f",
+    "publication": {
+      "prior_id": "6aa04db742570c18d4bd5c4f",
+      "target_id": "6ab207a94adb57513f554471",
+      "status": "published_verified",
+      "published_id": "6ab207a94adb57513f554471",
+      "file_count": 42,
+      "all_original_hashes_preserved": true,
+      "all_requested_hashes_preserved": true,
+      "all_function_metadata_preserved": true,
+      "routes": [
+        {
+          "path": "/",
+          "status": 200,
+          "body_sha256": "ecfa237ee97617c611da795465753bb4ba86ca92877357d0ba65e6576898a9b8",
+          "visible_text_sha256": "c00461422fe58f3e5d7f90d0dadac89cc3dd9ed751dca4318608ab1efcad68be",
+          "matches_original_visible_content": true
+        },
+        {
+          "path": "/programs",
+          "status": 200,
+          "body_sha256": "7a6f2a0e1bb3033c2df249211207c65b35e54d07db5503f4c3e46ab56269a762",
+          "visible_text_sha256": "5414c7be0b121fecdf82f9f45a042f21e31828a0d631a149f7b2dd4da28ebe39",
+          "matches_original_visible_content": true
+        },
+        {
+          "path": "/contact",
+          "status": 200,
+          "body_sha256": "c1f689b1343b1ebd56cb2b33e28765ffe15d726294c3509f42130400d274b2f5",
+          "visible_text_sha256": "aa2882a66a35874ef7afccff416864b0c25163e10628d4d31a6211d5be542936",
+          "matches_original_visible_content": true
+        },
+        {
+          "path": "/privacy",
+          "status": 200,
+          "body_sha256": "922a4111573e7bf1049090ca3f22ff4ae4e4b819948e82bc843e490eb729f3e9",
+          "visible_text_sha256": "1c7bbd16fad22f4d39a873c74c40aa4b8c3cafe4c22a5df429cf8ccff7d4ec97",
+          "matches_original_visible_content": true
+        },
+        {
+          "path": "/tennis-iq/privacy/",
+          "status": 200,
+          "body_sha256": "e01056b149686573fafa9aa5aaf4f6075dc2d329a2bcf218d84c3fbb6bffbd71",
+          "visible_text_sha256": "80fd0d48cead5910e29df7268c8db91160807f6d640d240d75b3089eead8e3e2",
+          "matches_prepared_html": true
+        },
+        {
+          "path": "/tennis-iq/support/",
+          "status": 200,
+          "body_sha256": "2c5fcd0a65ca4202114a04ae0337cf2c2f9ae61749797dc88083aff8da648cfd",
+          "visible_text_sha256": "970f340e4c9e080d1404acd18a0593014de0f5e2bc49fd98dacc659f88594ba1",
+          "matches_prepared_html": true
+        }
+      ]
+    }
+  },
+  "status": "published_verified",
+  "draft_id": "6ab211f766046624fe434bbc",
+  "draft_url": "https://6ab211f766046624fe434bbc--srq-tennis.netlify.app",
+  "draft_validation": {
+    "all_40_other_files_preserved": true,
+    "function_metadata_equal": true,
+    "file_count": 42,
+    "routes": [
+      {
+        "path": "/",
+        "status": 200,
+        "body_sha256": "a1f7897bafc00563e837d545cf30eb696b6b69bdf3d1f4c8139a26d2bd9410b0",
+        "visible_text_sha256": "c00461422fe58f3e5d7f90d0dadac89cc3dd9ed751dca4318608ab1efcad68be",
+        "matches_original_visible_text": true,
+        "asset_link_attributes_equal": true
+      },
+      {
+        "path": "/programs",
+        "status": 200,
+        "body_sha256": "c5e629e1539fd222f1bd34efed2dd629a934744ebe53a2929e827b701f81aeae",
+        "visible_text_sha256": "5414c7be0b121fecdf82f9f45a042f21e31828a0d631a149f7b2dd4da28ebe39",
+        "matches_original_visible_text": true,
+        "asset_link_attributes_equal": true
+      },
+      {
+        "path": "/contact",
+        "status": 200,
+        "body_sha256": "2c37e92e0197b057aea97df2471e27577ca2510b8326bfc302c49f0d3d9de5c0",
+        "visible_text_sha256": "aa2882a66a35874ef7afccff416864b0c25163e10628d4d31a6211d5be542936",
+        "matches_original_visible_text": true,
+        "asset_link_attributes_equal": true
+      },
+      {
+        "path": "/privacy",
+        "status": 200,
+        "body_sha256": "05220b1163223c8dfb331cdd845e1939c6aa5fff8d371faf072e62eb0cd75f7c",
+        "visible_text_sha256": "1c7bbd16fad22f4d39a873c74c40aa4b8c3cafe4c22a5df429cf8ccff7d4ec97",
+        "matches_original_visible_text": true,
+        "asset_link_attributes_equal": true
+      },
+      {
+        "path": "/tennis-iq/privacy/",
+        "status": 200,
+        "body_sha256": "efd9090efad7f6441c18e8de70ef10918021993d6bdb0abbea77945a0eebadf7",
+        "visible_text_sha256": "626e85498454e13ca3f8de26cf334f5e23beadedb7d1e6856ff9f8b2da201a23",
+        "matches_prepared_html": true
+      },
+      {
+        "path": "/tennis-iq/support/",
+        "status": 200,
+        "body_sha256": "d17c62be8454fc8ddf97aa05ef1a497916092f737a923eaea269acb83a984ed3",
+        "visible_text_sha256": "defcd21e1818f6c6b415c7db89d36ebbf58faa0600710793614c79d2d0b7e624",
+        "matches_prepared_html": true
+      }
+    ]
+  },
+  "publication": {
+    "all_40_other_files_preserved": true,
+    "function_metadata_equal": true,
+    "file_count": 42,
+    "routes": [
+      {
+        "path": "/",
+        "status": 200,
+        "body_sha256": "647cbae7949bace9e04e47f9a9ade328f60e60e55c4d859d100223f3fb89328d",
+        "visible_text_sha256": "c00461422fe58f3e5d7f90d0dadac89cc3dd9ed751dca4318608ab1efcad68be",
+        "matches_original_visible_text": true,
+        "asset_link_attributes_equal": true
+      },
+      {
+        "path": "/programs",
+        "status": 200,
+        "body_sha256": "5172256d7e6a365c5ed87d09cc051e7de65d019c6604818fccfe8eac3ddf3314",
+        "visible_text_sha256": "5414c7be0b121fecdf82f9f45a042f21e31828a0d631a149f7b2dd4da28ebe39",
+        "matches_original_visible_text": true,
+        "asset_link_attributes_equal": true
+      },
+      {
+        "path": "/contact",
+        "status": 200,
+        "body_sha256": "bd3b6bae643d01cefc8079d1adc6cebd7978ed524d952f1c2b6c643f83a75ef8",
+        "visible_text_sha256": "aa2882a66a35874ef7afccff416864b0c25163e10628d4d31a6211d5be542936",
+        "matches_original_visible_text": true,
+        "asset_link_attributes_equal": true
+      },
+      {
+        "path": "/privacy",
+        "status": 200,
+        "body_sha256": "f1786a9b16fc2a445bd216b360b31db715176850f07bc847ecfaca53f5b57be1",
+        "visible_text_sha256": "1c7bbd16fad22f4d39a873c74c40aa4b8c3cafe4c22a5df429cf8ccff7d4ec97",
+        "matches_original_visible_text": true,
+        "asset_link_attributes_equal": true
+      },
+      {
+        "path": "/tennis-iq/privacy/",
+        "status": 200,
+        "body_sha256": "efd9090efad7f6441c18e8de70ef10918021993d6bdb0abbea77945a0eebadf7",
+        "visible_text_sha256": "626e85498454e13ca3f8de26cf334f5e23beadedb7d1e6856ff9f8b2da201a23",
+        "matches_prepared_html": true
+      },
+      {
+        "path": "/tennis-iq/support/",
+        "status": 200,
+        "body_sha256": "d17c62be8454fc8ddf97aa05ef1a497916092f737a923eaea269acb83a984ed3",
+        "visible_text_sha256": "defcd21e1818f6c6b415c7db89d36ebbf58faa0600710793614c79d2d0b7e624",
+        "matches_prepared_html": true
+      }
+    ],
+    "published_id": "6ab211f766046624fe434bbc"
+  }
+}

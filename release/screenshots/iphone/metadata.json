@@ -1,0 +1,86 @@
+[
+  {
+    "file": "release-07-practice.png",
+    "device": "iPhone 18 Pro Max",
+    "deviceId": "5C429BEC-AF57-45BD-834B-D4B6940EFE3F",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052759.402,
+    "sourceResultBundle": "release/StoreKit-iPhone-Screenshots.xcresult",
+    "sourceAttachment": "8B0473C5-821E-4220-9C49-E4AA37A3DAD7.png",
+    "width": 1320,
+    "height": 2868,
+    "sha256": "f8f23146a5c9e40d9b2da44329f1991bd135e4203d9d7abb98f5ea4887c6066f"
+  },
+  {
+    "file": "release-06-library.png",
+    "device": "iPhone 18 Pro Max",
+    "deviceId": "5C429BEC-AF57-45BD-834B-D4B6940EFE3F",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052751.04,
+    "sourceResultBundle": "release/StoreKit-iPhone-Screenshots.xcresult",
+    "sourceAttachment": "04CADD8E-423A-4B7A-BB72-A437748D1CB9.png",
+    "width": 1320,
+    "height": 2868,
+    "sha256": "3a64420f6c998a3db1a6aa699650034314eba042ae051c94f7e397899868733d"
+  },
+  {
+    "file": "release-05-unlocked-home.png",
+    "device": "iPhone 18 Pro Max",
+    "deviceId": "5C429BEC-AF57-45BD-834B-D4B6940EFE3F",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052747.833,
+    "sourceResultBundle": "release/StoreKit-iPhone-Screenshots.xcresult",
+    "sourceAttachment": "27F0969B-EA80-4062-B141-0BA807F659BF.png",
+    "width": 1320,
+    "height": 2868,
+    "sha256": "54adea615fa32765565d96104c23b1580d7f9f3cca265918cfd3e8fa71f3fd72"
+  },
+  {
+    "file": "release-04-paywall.png",
+    "device": "iPhone 18 Pro Max",
+    "deviceId": "5C429BEC-AF57-45BD-834B-D4B6940EFE3F",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052744.646,
+    "sourceResultBundle": "release/StoreKit-iPhone-Screenshots.xcresult",
+    "sourceAttachment": "DDEC0C98-E192-4A09-A9A3-800DCA6A982E.png",
+    "width": 1320,
+    "height": 2868,
+    "sha256": "97cf3a5e5622fc4014accfd6369c24131f869dc419949153a79e3a9a9c285538"
+  },
+  {
+    "file": "release-03-answer-explanation.png",
+    "device": "iPhone 18 Pro Max",
+    "deviceId": "5C429BEC-AF57-45BD-834B-D4B6940EFE3F",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052735.654,
+    "sourceResultBundle": "release/StoreKit-iPhone-Screenshots.xcresult",
+    "sourceAttachment": "36956118-123F-4E75-A0AE-F7B6D18AC818.png",
+    "width": 1320,
+    "height": 2868,
+    "sha256": "014b39b51357a4a0b7fb4bfb421c3e619a1167c01d5b3132e053894f041775a9"
+  },
+  {
+    "file": "release-02-free-gameplay.png",
+    "device": "iPhone 18 Pro Max",
+    "deviceId": "5C429BEC-AF57-45BD-834B-D4B6940EFE3F",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052732.892,
+    "sourceResultBundle": "release/StoreKit-iPhone-Screenshots.xcresult",
+    "sourceAttachment": "D9B169F8-4C27-4BD7-84AE-3FF200AE4A68.png",
+    "width": 1320,
+    "height": 2868,
+    "sha256": "fcbf348c30fc7342d89d89c203f918f057bef5b8eaf05daa96e141b816f0e499"
+  },
+  {
+    "file": "release-01-free-home.png",
+    "device": "iPhone 18 Pro Max",
+    "deviceId": "5C429BEC-AF57-45BD-834B-D4B6940EFE3F",
+    "test": "TennisIQStoreKitUITests/testReleaseScreenshots()",
+    "timestamp": 1790052729.364,
+    "sourceResultBundle": "release/StoreKit-iPhone-Screenshots.xcresult",
+    "sourceAttachment": "50C75A3E-E3CE-47FB-B0E3-3A7237648AAB.png",
+    "width": 1320,
+    "height": 2868,
+    "sha256": "c0b34262ed9816b7d98b7aaf0c8fa664bdff6ba7bc51f47ce416d270caf64706"
+  }
+]

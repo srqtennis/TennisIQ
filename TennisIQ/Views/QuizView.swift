@@ -1,12 +1,18 @@
 import SwiftUI
+import Combine
 
 struct QuizView: View {
     @EnvironmentObject var store: GameStore
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.scenePhase) private var scenePhase
 
     let config: QuizConfig
 
     @State private var deck: [Question] = []
+    @State private var roundID = UUID()
+    @State private var answers: [AnswerRecord] = []
+    @State private var summary: RoundSummary?
+    @State private var loadError: String?
     @State private var index = 0
     @State private var score = 0
     @State private var streak = 0
@@ -14,7 +20,8 @@ struct QuizView: View {
     @State private var picked: Int? = nil
     @State private var seconds = 20
     @State private var finished = false
-    @State private var timerOn = false
+    @State private var deadline: Date?
+    @State private var isVisible = false
 
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
@@ -24,29 +31,43 @@ struct QuizView: View {
     }
 
     var body: some View {
-        Group {
-            if finished {
-                ResultPane(score: score, total: deck.count, timed: config.timed, onAgain: reset, onHome: { dismiss() })
-            } else if let q = current {
-                questionPane(q)
-            } else {
-                ProgressView("Loading hopper…")
+        ScrollViewReader { proxy in
+            ScrollView {
+                Group {
+                    if finished, let summary {
+                        ResultPane(summary: summary, onAgain: reset, onHome: { dismiss() })
+                    } else if let q = current {
+                        questionPane(q)
+                    } else {
+                        VStack(spacing: 16) {
+                            Text(loadError ?? "No questions are available. Please reopen the app.")
+                            Button("Back") { dismiss() }
+                        }
+                    }
+                }
+                .padding(20)
+                .frame(maxWidth: .infinity, alignment: .top)
+                .id("quiz-top")
             }
+            .onChange(of: index) { _, _ in proxy.scrollTo("quiz-top", anchor: .top) }
+            .onChange(of: finished) { _, _ in proxy.scrollTo("quiz-top", anchor: .top) }
         }
-        .padding(20)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(Color(red: 0.04, green: 0.12, blue: 0.08).ignoresSafeArea())
         .navigationTitle("\(index + 1)/\(max(deck.count, 1))")
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear { if deck.isEmpty { deal() } }
-        .onReceive(timer) { _ in
-            guard config.timed, !finished, picked == nil, timerOn else { return }
-            if seconds <= 1 {
-                lock(-1)
-            } else {
-                seconds -= 1
-            }
+        .onAppear {
+            isVisible = true
+            if deck.isEmpty { deal() }
+            refreshTimer()
         }
+        .onDisappear {
+            isVisible = false
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { refreshTimer() }
+        }
+        .onReceive(timer) { _ in refreshTimer() }
     }
 
     @ViewBuilder
@@ -66,7 +87,9 @@ struct QuizView: View {
                 .tint(Color(red: 0.89, green: 0.76, blue: 0.42))
 
             Text(q.question)
+                .accessibilityIdentifier("quiz-question")
                 .font(.title3.weight(.semibold))
+                .fixedSize(horizontal: false, vertical: true)
                 .padding(.vertical, 4)
 
             ForEach(q.choices.indices, id: \.self) { i in
@@ -74,17 +97,27 @@ struct QuizView: View {
                     lock(i)
                 } label: {
                     Text(q.choices[i])
+                        .fixedSize(horizontal: false, vertical: true)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(14)
                         .background(choiceColor(q, i), in: RoundedRectangle(cornerRadius: 14))
                 }
                 .disabled(picked != nil)
                 .foregroundStyle(.white)
+                .accessibilityLabel(choiceAccessibilityLabel(q, i))
+                .accessibilityIdentifier("answer-\(i)")
             }
 
-            if picked != nil {
+            if let picked {
+                Text(picked == -1 ? "Time’s up" : (picked == q.answer ? "Correct" : "Not quite"))
+                    .font(.headline)
+                    .accessibilityAddTraits(.isHeader)
+                Text("Correct answer: \(q.choices[q.answer])")
+                    .font(.subheadline.weight(.semibold))
+                    .fixedSize(horizontal: false, vertical: true)
                 Text(q.explain)
                     .font(.subheadline)
+                    .fixedSize(horizontal: false, vertical: true)
                     .foregroundStyle(.secondary)
                     .padding(12)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -93,6 +126,7 @@ struct QuizView: View {
                 Button(index + 1 == deck.count ? "See result" : "Next ball") {
                     advance()
                 }
+                .accessibilityIdentifier(index + 1 == deck.count ? "finish-quiz" : "next-question")
                 .buttonStyle(.borderedProminent)
                 .tint(Color(red: 0.89, green: 0.76, blue: 0.42))
                 .foregroundStyle(.black)
@@ -100,6 +134,24 @@ struct QuizView: View {
             }
             Spacer()
         }
+    }
+
+    func choiceAccessibilityLabel(_ q: Question, _ i: Int) -> String {
+        guard let picked else { return "Answer \(i + 1): \(q.choices[i])" }
+        let status = i == q.answer ? "Correct answer" : (i == picked ? "Your answer, incorrect" : "Incorrect answer")
+        return "\(q.choices[i]). \(status)"
+    }
+
+    func startClock() {
+        seconds = 20
+        deadline = config.timed ? Date().addingTimeInterval(20) : nil
+    }
+
+    func refreshTimer() {
+        guard isVisible, scenePhase == .active, config.timed,
+              !finished, picked == nil, let deadline else { return }
+        seconds = max(0, Int(ceil(deadline.timeIntervalSinceNow)))
+        if seconds == 0 { lock(-1) }
     }
 
     func choiceColor(_ q: Question, _ i: Int) -> Color {
@@ -114,22 +166,41 @@ struct QuizView: View {
     func deal() {
         var pool = store.filtered(category: config.category, difficulty: config.difficulty)
         if pool.count < config.count { pool = store.questions }
-        deck = Array(pool.shuffled().prefix(config.count))
+        if let ids = config.questionIDs {
+            let byID = Dictionary(uniqueKeysWithValues: store.questions.map { ($0.id, $0) })
+            deck = ids.compactMap { byID[$0] }
+            if deck.count != ids.count || Set(ids).count != ids.count {
+                deck = []
+                loadError = "This question set is no longer available in this version. Create a new challenge."
+            }
+        } else {
+            deck = Array(pool.shuffled().prefix(config.count))
+        }
+        roundID = UUID()
+        answers = []
+        summary = nil
         index = 0
         score = 0
         streak = 0
         maxStreak = 0
         picked = nil
-        seconds = 20
         finished = false
-        timerOn = config.timed
+        startClock()
     }
 
     func lock(_ choice: Int) {
         guard picked == nil, let q = current else { return }
-        picked = choice
-        timerOn = false
-        if choice == q.answer {
+        let resolvedChoice: Int
+        if config.timed, let deadline {
+            seconds = max(0, Int(ceil(deadline.timeIntervalSinceNow)))
+            resolvedChoice = seconds == 0 ? -1 : choice
+        } else {
+            resolvedChoice = choice
+        }
+        picked = resolvedChoice
+        answers.append(AnswerRecord(questionID: q.id, category: q.category, difficulty: q.difficulty, isCorrect: resolvedChoice == q.answer))
+        deadline = nil
+        if resolvedChoice == q.answer {
             score += config.timed ? 12 + max(0, seconds) : 10
             streak += 1
             maxStreak = max(maxStreak, streak)
@@ -139,14 +210,17 @@ struct QuizView: View {
     }
 
     func advance() {
+        guard !finished, picked != nil, current != nil else { return }
         if index + 1 >= deck.count {
-            store.record(sessionScore: score, streak: maxStreak)
             finished = true
+            deadline = nil
+            let result = RoundSummary(id: roundID, mode: config.mode, correct: answers.filter(\.isCorrect).count, total: deck.count, points: score, bestStreak: maxStreak, questionIDs: deck.map(\.id))
+            store.record(result, answers: answers)
+            summary = result
         } else {
             index += 1
             picked = nil
-            seconds = 20
-            timerOn = config.timed
+            startClock()
         }
     }
 
@@ -154,41 +228,51 @@ struct QuizView: View {
 }
 
 struct ResultPane: View {
-    let score: Int
-    let total: Int
-    let timed: Bool
+    @EnvironmentObject var store: GameStore
+    @EnvironmentObject var purchases: PurchaseStore
+    let summary: RoundSummary
     let onAgain: () -> Void
     let onHome: () -> Void
 
-    var pct: Int {
-        let maxPts = total * (timed ? 32 : 10)
-        guard maxPts > 0 else { return 0 }
-        return Int((Double(score) / Double(maxPts)) * 100)
-    }
-
-    var line: String {
-        switch pct {
-        case 90...: return "Tour brain. Take the chair."
-        case 75..<90: return "Club champion. Tight margins."
-        case 55..<75: return "Solid league player. Keep drilling."
-        default: return "First-ball project. Read the notes and go again."
-        }
+    private var accuracy: Int { summary.total > 0 ? summary.correct * 100 / summary.total : 0 }
+    private var challengeURL: URL? {
+        guard summary.questionIDs.count == 10 else { return nil }
+        let byID = Dictionary(uniqueKeysWithValues: store.questions.map { ($0.id, $0) })
+        return try? ChallengeCodec.make(questions: summary.questionIDs.compactMap { byID[$0] }, bankVersion: store.bankVersion)
     }
 
     var body: some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 20) {
             Text("Tennis IQ").font(.caption).foregroundStyle(.secondary)
-            Text("\(pct)").font(.system(size: 64, weight: .bold))
+            Text("\(accuracy)%").font(.system(size: 64, weight: .bold))
+                .accessibilityIdentifier("quiz-results")
                 .foregroundStyle(Color(red: 0.89, green: 0.76, blue: 0.42))
-            Text(line).multilineTextAlignment(.center)
-            Text("\(score) points earned").font(.caption).foregroundStyle(.secondary)
+            Text("\(summary.correct) of \(summary.total) correct · \(summary.points) points")
+            if purchases.isUnlocked {
+                Text("Knowledge rating: \(store.progression.rating)/100 · \(store.progression.placementLabel)")
+                    .accessibilityIdentifier("result-rating")
+                HStack {
+                    ForEach(store.progression.badges.filter(\.isEarned)) { badge in
+                        Image(systemName: badge.symbol).accessibilityLabel(badge.title)
+                            .foregroundStyle(.yellow)
+                    }
+                }
+                ResultShareView(summary: summary, rating: store.progression.rating, isProvisional: store.progression.isProvisional)
+                if let challengeURL {
+                    ShareLink("Challenge a friend to these ten", item: challengeURL)
+                        .accessibilityIdentifier("share-round-challenge")
+                }
+            } else {
+                Text("Your local progress is saved. The permanent unlock includes your knowledge rating, badges and result cards.")
+                    .font(.footnote).foregroundStyle(.secondary)
+            }
             Button("Play again", action: onAgain)
                 .buttonStyle(.borderedProminent)
                 .tint(Color(red: 0.89, green: 0.76, blue: 0.42))
                 .foregroundStyle(.black)
-            Button("Home", action: onHome)
+            Button("Back", action: onHome)
         }
         .frame(maxWidth: .infinity)
-        .padding(.top, 40)
+        .padding(.top, 20)
     }
 }

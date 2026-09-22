@@ -1,0 +1,1338 @@
+{
+  "scope": "All 85 history and 53 tour entries in original question bank; every question, all choices, answer and explanation read. No question-bank edits made.",
+  "method": "Per-item official primary-source research. Verified means cited evidence corroborates the quiz proposition; correction means replacement needed before release; unresolved means not certified and must be resolved or quarantined. Not a guarantee of absolute truth.",
+  "counts": {
+    "verified": 100,
+    "correction": 38
+  },
+  "items": [
+    {
+      "id": "hist-01",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2022.pdf",
+        "https://www3.lta.org.uk/in-your-area/Warwickshire/news/2009-News/April-09/Ann-Jones-opens-new-facility-at-Leamington-Tennis-Club/",
+        "https://www.leamington-tennis-squash.co.uk/club-history/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hist-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2022.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hist-03",
+      "verdict": "verified",
+      "sources": [
+        "https://artsandculture.google.com/story/the-tennis-court-39-s-transformation-international-tennis-hall-of-fame/gwUx-QPMyspCQA"
+      ],
+      "rationale": "ITHF collection narrative directly documents Wingfield hourglass and 1877 Wimbledon rectangle."
+    },
+    {
+      "id": "hist-04",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/history-of-tennis/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hist-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hist-06",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/jimmy-van-alen/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hist-07",
+      "verdict": "verified",
+      "sources": [
+        "https://www.daviscup.com/en/about/history"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hist-08",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/history-of-tennis/"
+      ],
+      "rationale": "Clock-face chronology is disputed and not certified. Replace with directly documented scoring history.",
+      "replacement": {
+        "question": "Which scoring features did the MCC’s 1876 lawn-tennis rule revision adopt from real tennis?",
+        "choices": [
+          "Rally scoring to 21",
+          "Deuce and advantage",
+          "A 10-point match tiebreak",
+          "No-ad scoring"
+        ],
+        "answer": 1,
+        "explain": "The ITF’s history records that the MCC’s 1876 revisions adopted real tennis scoring with deuce and advantage and allowed two serves."
+      }
+    },
+    {
+      "id": "hist-09",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/history-of-tennis/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hist-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/events/olympics-la-2028/statistics/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "tour-01",
+      "verdict": "correction",
+      "sources": [
+        "https://www.atptour.com/rankings/rankings-faq.aspx"
+      ],
+      "rationale": "General 52-week answer is correct, but categorical statement that all points drop exactly 52 weeks later ignores exceptions.",
+      "replacement": {
+        "explain": "ATP and WTA rankings generally use a rolling 52-week period, with rules limiting which results count. Special expiry and mandatory-result rules can apply."
+      }
+    },
+    {
+      "id": "tour-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_14jan26.pdf"
+      ],
+      "rationale": "Winner-point values corroborated by official ATP rulebook, with Grand Slam item interpreted as senior tour singles."
+    },
+    {
+      "id": "tour-03",
+      "verdict": "correction",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Unbounded historical share claim replaced with a specific documented calendar surface fact.",
+      "replacement": {
+        "question": "On the 2026 ATP calendar, which surface is used at both Indian Wells and Miami?",
+        "explain": "The official ATP calendar lists Indian Wells and Miami as hard-court Masters 1000 events."
+      }
+    },
+    {
+      "id": "tour-04",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Appendix VII electronic review permits three unsuccessful appeals per set, with one additional appeal in a tiebreak; historical challenge-system wording is appropriately qualified."
+    },
+    {
+      "id": "tour-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/2280/balls-history-of-tennis-balls.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "tour-06",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usopen.org/en_US/news/articles/2017-04-11/us_open_by_the_numbers_12_Connors.html"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "num-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "ITF Rules: Rule 1 court widths; Appendix II racket length; Rule 5 tiebreak; wheelchair two-bounce rule. Verified corresponding item."
+    },
+    {
+      "id": "num-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "ITF Rules: Rule 1 court widths; Appendix II racket length; Rule 5 tiebreak; wheelchair two-bounce rule. Verified corresponding item."
+    },
+    {
+      "id": "num-12",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "56.0 g is the minimum for standard balls, not red/orange/green introductory balls. Scope the question.",
+      "replacement": {
+        "question": "What is the minimum mass of a standard yellow tennis ball, in grams?",
+        "explain": "ITF Appendix I specifies 56.0–59.4 g for standard Type 1, Type 2, Type 3 and high-altitude balls."
+      }
+    },
+    {
+      "id": "num-13",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "59.4 g standard-ball maximum needs scope because junior introductory balls have separate specifications.",
+      "replacement": {
+        "question": "What is the maximum mass of a standard yellow tennis ball, in grams?",
+        "explain": "ITF Appendix I specifies 56.0–59.4 g for standard Type 1, Type 2, Type 3 and high-altitude balls."
+      }
+    },
+    {
+      "id": "num-14",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "ITF Rules: Rule 1 court widths; Appendix II racket length; Rule 5 tiebreak; wheelchair two-bounce rule. Verified corresponding item."
+    },
+    {
+      "id": "num-15",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_14jan26.pdf"
+      ],
+      "rationale": "Winner-point values corroborated by official ATP rulebook, with Grand Slam item interpreted as senior tour singles."
+    },
+    {
+      "id": "num-16",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_14jan26.pdf"
+      ],
+      "rationale": "Winner-point values corroborated by official ATP rulebook, with Grand Slam item interpreted as senior tour singles."
+    },
+    {
+      "id": "num-17",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_14jan26.pdf"
+      ],
+      "rationale": "Winner-point values corroborated by official ATP rulebook, with Grand Slam item interpreted as senior tour singles."
+    },
+    {
+      "id": "num-18",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_14jan26.pdf"
+      ],
+      "rationale": "Winner-point values corroborated by official ATP rulebook, with Grand Slam item interpreted as senior tour singles."
+    },
+    {
+      "id": "num-19",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "ITF Rules: Rule 1 court widths; Appendix II racket length; Rule 5 tiebreak; wheelchair two-bounce rule. Verified corresponding item."
+    },
+    {
+      "id": "num-20",
+      "verdict": "correction",
+      "sources": [
+        "https://ausopen.com/articles/news/grand-slams-jointly-adopt-10-point-final-set-tiebreak"
+      ],
+      "rationale": "Add singles scope and two-point margin; some doubles formats replace the final set.",
+      "replacement": {
+        "question": "Since Roland Garros 2022, what is the target in a Grand Slam singles final-set tiebreak?",
+        "explain": "At 6–6 in the deciding set, play to 10 points, with a winning margin of at least two points."
+      }
+    },
+    {
+      "id": "num-21",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Appendix VII electronic review permits three unsuccessful appeals per set, with one additional appeal in a tiebreak; historical challenge-system wording is appropriately qualified."
+    },
+    {
+      "id": "num-22",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2022.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "num-23",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "num-24",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "num-25",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "num-26",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2021v3.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "num-27",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2021v3.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "card-13",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/history-of-tennis/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "card-14",
+      "verdict": "verified",
+      "sources": [
+        "https://artsandculture.google.com/story/the-tennis-court-39-s-transformation-international-tennis-hall-of-fame/gwUx-QPMyspCQA"
+      ],
+      "rationale": "ITHF collection narrative directly documents Wingfield hourglass and 1877 Wimbledon rectangle."
+    },
+    {
+      "id": "card-15",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2022.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "card-16",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/jimmy-van-alen/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "card-28",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/2280/balls-history-of-tennis-balls.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "card-29",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/rankings/rankings-faq/live"
+      ],
+      "rationale": "52-week rolling ranking is the general model; avoid interpreting as an exception-free expiry rule."
+    },
+    {
+      "id": "card-35",
+      "verdict": "verified",
+      "sources": [
+        "https://www.daviscup.com/en/about/history"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "card-36",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/events/olympics-la-2028/statistics/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "card-39",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/en_GB/about_wimbledon/clothing_and_equipment.html"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "event-surf-indian-wells",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-miami-open",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-monte-carlo",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-madrid",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-rome",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-queen’s-club",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-halle",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-cincinnati",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-shanghai",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "event-surf-paris-masters",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/what-is-the-2026-atp-tour-calendar"
+      ],
+      "rationale": "Corresponding tournament surface matches official 2026 calendar; current-calendar fact requires recheck if tournament changes surface."
+    },
+    {
+      "id": "edge-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/electronic-line-calling-release-april-2023"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "oly-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/events/olympics-la-2028/statistics/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "oly-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/own-the-podium-andre-agassi-atlanta-1996-olympic-champion/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "dc-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/about-us/organisation/faqs/?type=world-tennis"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "dc-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/about-us/organisation/faqs/?type=world-tennis"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "match-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/2888469/how-texas-played-a-critical-role-in-establishing-professional-womens-tennis"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "extra-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/rankings/rankings-faq/live"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "extra-5",
+      "verdict": "verified",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/2026MG/WTAMG26_WTARecordBook.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "extra-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/jean-borotra"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "extra-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/jean-borotra"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "extra-13",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/history-of-tennis/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "extra-16",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/atp-tour"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "extra-17",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/atp-tour"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "usta-l-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/coach-organize/tennis-tool-center/resource-library/usta-league/middlestates/middle-states-league-captain-resources.html"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "usta-l-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/play/adult-tennis/programs/national/usta-ntrp-ratings-faqs.html"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-01",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2022.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2022.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-03",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2022.pdf"
+      ],
+      "rationale": "Youngest singles champion and age corroborated; remove unsupported all-five-titles set-loss count and freeze record comparison at source year.",
+      "replacement": {
+        "question": "As recorded in Wimbledon’s 2022 compendium, who was its youngest ladies’ singles champion?",
+        "explain": "Lottie Dod won in 1887 at 15 years and 285 days."
+      }
+    },
+    {
+      "id": "wh-04",
+      "verdict": "verified",
+      "sources": [
+        "https://ausopen.com/articles/news/united-play-ao-2022-numbers"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/suzanne-lenglen"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-06",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/helen-wills-moody-roark"
+      ],
+      "rationale": "19-title split is right. Claimed 180 straight matches without dropping a set conflicts with Hall of Fame (161 consecutive matches, 141 without losing a set). Remove contested streak.",
+      "replacement": {
+        "explain": "Helen Wills won eight Wimbledon, seven US and four French singles championships, for 19 major singles titles."
+      }
+    },
+    {
+      "id": "wh-07",
+      "verdict": "correction",
+      "sources": [
+        "https://racquets.tennisfame.com/wood-racquets/molla-mallory/longwood-les-stoefen"
+      ],
+      "rationale": "Eight titles were 1915–18, 1920–22 and 1926, not all 1915–22.",
+      "replacement": {
+        "explain": "Mallory won eight US National singles titles: 1915–18, 1920–22 and 1926."
+      }
+    },
+    {
+      "id": "wh-08",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/maureen-connolly"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-09",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-11",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/"
+      ],
+      "rationale": "Hall of Fame and USGA give LPGA joining year as 1964, not 1963. Remove extraneous statue claim.",
+      "replacement": {
+        "explain": "Althea Gibson became the first Black woman to join the LPGA Tour in 1964."
+      }
+    },
+    {
+      "id": "wh-14",
+      "verdict": "verified",
+      "sources": [
+        "https://www.lta.org.uk/news/2018/april/british-tennis-celebrates-fiftieth-anniversary-of-the-open-era/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-15",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/4367451/the-original-9-55-years-of-a-defiant-revolution"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-16",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/4367451/the-original-9-55-years-of-a-defiant-revolution"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-17",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/4367451/the-original-9-55-years-of-a-defiant-revolution"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-18",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/3545936/serving-up-a-revolution-billie-jean-king-and-the-dawn-of-the-wta"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-19",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/4367451/the-original-9-55-years-of-a-defiant-revolution"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-20",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usopen.org/en_US/news/articles/2023-03-30/milestones_in_equality_a_long_climb_to_equal_prize_money_at_the_four_grand_slams.html"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-21",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/2888469/how-texas-played-a-critical-role-in-establishing-professional-womens-tennis"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-23",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/news/4513643/watch-trailer-for-the-netflix-chris-martina-the-final-set-chris-evert-martina-navratilova"
+      ],
+      "rationale": "Core 80 meetings verified; retain directly supported 43–37 and 14 finals, remove additional record comparison.",
+      "replacement": {
+        "explain": "Evert and Navratilova played 80 times, with Navratilova leading 43–37. Fourteen meetings were major singles finals."
+      }
+    },
+    {
+      "id": "wh-25",
+      "verdict": "correction",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/WTA24MG_WTALegends.pdf",
+        "https://wtafiles.wtatennis.com/pdf/publications/2026MG/WTAMG26_WTARecordBook.pdf",
+        "https://wtafiles.wtatennis.com/pdf/matchnotes/2025/903_preview.pdf"
+      ],
+      "rationale": "70 clay titles conflicts with WTA preview listing 66; remove side statistic and directly answer the streak question.",
+      "replacement": {
+        "choices": [
+          "32 matches",
+          "125 matches, from 1973 to 1979",
+          "18 major titles on clay",
+          "Unbroken since 1974"
+        ],
+        "explain": "Evert won 125 consecutive clay-court matches from 1973 to 1979. She also won seven Roland Garros singles titles."
+      }
+    },
+    {
+      "id": "wh-27",
+      "verdict": "verified",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/2026MG/WTAMG26_WTARecordBook.pdf",
+        "https://www.wtatennis.com/legends/140007/martina-navratilova"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-28",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/legends/140007/martina-navratilova"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-32",
+      "verdict": "correction",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/WTA24MG_WTALegends.pdf"
+      ],
+      "rationale": "Attack and absence are documented; causally explaining why title count stopped is speculative. Ask an objective question.",
+      "replacement": {
+        "question": "What interrupted Monica Seles’s career for more than two years beginning in 1993?",
+        "explain": "Seles was attacked on court in Hamburg in 1993. She returned in 1995 and won the 1996 Australian Open, her ninth major singles title."
+      }
+    },
+    {
+      "id": "wh-33",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/news/1701157/"
+      ],
+      "rationale": "Pregnancy assertion unsupported and potentially false; mother status is the documented 1980 achievement. Avoid floating latest-record claim.",
+      "replacement": {
+        "question": "What made Evonne Goolagong Cawley’s 1980 Wimbledon singles title especially significant?",
+        "choices": [
+          "She won as a 15-year-old",
+          "She became the first mother to win it since 1914",
+          "She played left-handed",
+          "She won on clay"
+        ],
+        "answer": 1,
+        "explain": "Goolagong Cawley won the 1980 Wimbledon singles title as a mother. It was her seventh major singles title."
+      }
+    },
+    {
+      "id": "wh-37",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/news/2768410/wta-honors-inspirational-career-of-serena-williams-press-release-after-loss"
+      ],
+      "rationale": "1999 answer correct, but explanation incorrectly calls Venus’s 2000–01 wins already completed.",
+      "replacement": {
+        "explain": "Serena Williams won her first major singles title at the 1999 US Open, beating Martina Hingis in the final at age 17."
+      }
+    },
+    {
+      "id": "wh-38",
+      "verdict": "correction",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/matchnotes/2020/2022.pdf"
+      ],
+      "rationale": "Subjective credit question excludes Oracene Price. Replace with objective documented parent coaches.",
+      "replacement": {
+        "question": "Which pair of parents coached Venus and Serena Williams?",
+        "choices": [
+          "Nick Bollettieri and Billie Jean King",
+          "Richard Williams and Oracene Price",
+          "Patrick Mouratoglou and Steffi Graf",
+          "John McEnroe and Chris Evert"
+        ],
+        "explain": "Their father Richard Williams and mother Oracene Price coached the sisters. Serena later also worked with Patrick Mouratoglou."
+      }
+    },
+    {
+      "id": "wh-39",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/players/120330/na-li"
+      ],
+      "rationale": "Answer correct. Remove ambiguous Osaka Haiti/Japan nationality shorthand and time-sensitive side tally.",
+      "replacement": {
+        "question": "Who became the first Asian woman to win a major singles title?",
+        "explain": "Li Na won Roland Garros in 2011 and the Australian Open in 2014, representing China."
+      }
+    },
+    {
+      "id": "wh-40",
+      "verdict": "verified",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/WTA24MG_WTALegends.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-41",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/legends/30458/kim-clijsters"
+      ],
+      "rationale": "Titles correct, but among this list falsely implies choices list multiple players.",
+      "replacement": {
+        "question": "Which statement about Kim Clijsters is correct?"
+      }
+    },
+    {
+      "id": "wh-42",
+      "verdict": "correction",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/2026MG/WTAMG26_WTARecordBook.pdf",
+        "https://wtafiles.wtatennis.com/pdf/publications/WTA24MG_WTALegends.pdf"
+      ],
+      "rationale": "Age is verified. Remove gratuitous unspecific banned wording while preserving supported point.",
+      "replacement": {
+        "explain": "Hingis became No. 1 on 31 March 1997 at 16 years and 182 days, the youngest player to reach the WTA singles top ranking."
+      }
+    },
+    {
+      "id": "wh-43",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/news/1721531/sharapova-soars-to-first-slam-title-at-wimbledon"
+      ],
+      "rationale": "Sharapova was seeded No.13, not unseeded.",
+      "replacement": {
+        "choices": [
+          "Defending champion",
+          "A 17-year-old No. 13 seed defeating Serena Williams",
+          "A clay specialist",
+          "Her fifth slam"
+        ],
+        "explain": "Sharapova beat Serena Williams in the 2004 final to win her first major singles title at age 17."
+      }
+    },
+    {
+      "id": "wh-44",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/fed-cup-renamed-billie-jean-king-cup-by-bnp-paribas/"
+      ],
+      "rationale": "Main answer verified; remove unnecessary Wightman Cup aside to keep explanation fully within source.",
+      "replacement": {
+        "explain": "The ITF renamed Fed Cup the Billie Jean King Cup in 2020."
+      }
+    },
+    {
+      "id": "wh-45",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/hazel-hotchkiss-wightman"
+      ],
+      "rationale": "Core dates and teams verified; unsupported attendance explanation removed and wartime interruption clarified.",
+      "replacement": {
+        "choices": [
+          "The women’s World Cup of soccer",
+          "A USA–Great Britain women’s team event held from 1923 to 1989",
+          "Mixed doubles at Wimbledon",
+          "The WTA Finals"
+        ],
+        "explain": "Hazel Wightman founded the competition. It was played annually except during World War II, and ended in 1989."
+      }
+    },
+    {
+      "id": "wh-47",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usopen.org/en_US/news/articles/2017-04-11/us_open_by_the_numbers_12_Connors.html",
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Wrong answer index: 1974 is correct, not 1977. Evert did not win US Open on grass; Connors alone has all-three singles titles.",
+      "replacement": {
+        "answer": 0,
+        "choices": [
+          "1974",
+          "1977",
+          "1978",
+          "1968"
+        ],
+        "explain": "The US Open used grass through 1974, green clay in 1975–77, and hard courts from 1978. Jimmy Connors won singles titles on all three surfaces."
+      }
+    },
+    {
+      "id": "wh-52",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/news/2252214/raducanu-triumphs-in-all-teen-final-over-fernandez-to-win-2021-us-open-title"
+      ],
+      "rationale": "Main 2021 qualifier accomplishment is supported; remove unsupported through-2026 future-sensitive assertion.",
+      "replacement": {
+        "explain": "Raducanu won the 2021 US Open as a qualifier, winning three qualifying matches and seven main-draw matches without losing a set."
+      }
+    },
+    {
+      "id": "wh-54",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/players/310053/hsieh-su-wei",
+        "https://www.itftennis.com/en/events/olympics-la-2028/statistics/"
+      ],
+      "rationale": "Peng/Hsieh won 2014 French Open doubles, not US Open. Political date claim also wrong (2021 not 2018) and unnecessary; remove entire aside.",
+      "replacement": {
+        "question": "Which Chinese player reached the 2024 Australian Open women’s singles final?",
+        "explain": "Zheng Qinwen reached the 2024 Australian Open final against Aryna Sabalenka and later won singles gold at the Paris Olympics."
+      }
+    },
+    {
+      "id": "wh-57",
+      "verdict": "verified",
+      "sources": [
+        "https://racquets.tennisfame.com/wood-racquets/molla-mallory/longwood-les-stoefen",
+        "https://www.tennisfame.com/hall-of-famers/inductees/helen-wills-moody-roark",
+        "https://www.tennisfame.com/hall-of-famers/inductees/margaret-smith-court"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-58",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/maria-bueno"
+      ],
+      "rationale": "Seven-title tally supported; replace unprovable generational causal flourish.",
+      "replacement": {
+        "explain": "Maria Bueno won three Wimbledon and four US singles championships, all before the Open Era."
+      }
+    },
+    {
+      "id": "wh-59",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/dorothea-lambert-chambers/"
+      ],
+      "rationale": "Titles extend through 1914; strictly Edwardian years ended in 1910. Replace broad label with exact range.",
+      "replacement": {
+        "choices": [
+          "A WTA CEO",
+          "A seven-time Wimbledon singles champion between 1903 and 1914",
+          "A calendar Golden Slam winner",
+          "An Original 9 member"
+        ],
+        "explain": "Dorothea Lambert Chambers won seven Wimbledon singles titles between 1903 and 1914."
+      }
+    },
+    {
+      "id": "wh-60",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/news/3545936/serving-up-a-revolution-billie-jean-king-and-the-dawn-of-the-wta"
+      ],
+      "rationale": "Women played paid tours before 1970 (e.g. Lenglen); replace vague first tour with bounded circuit question.",
+      "replacement": {
+        "question": "Which women-only professional circuit grew from the Original 9’s 1970 Houston breakaway?",
+        "explain": "The Virginia Slims Circuit expanded in 1971 and helped lay the foundations for the WTA, founded in 1973."
+      }
+    },
+    {
+      "id": "wh-61",
+      "verdict": "verified",
+      "sources": [
+        "https://www.rolandgarros.com/fr-fr/article/des-original-9-succes-circuit-wta-50-ans-1970-2020"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-63",
+      "verdict": "verified",
+      "sources": [
+        "https://www.billiejeanking.com/tennis/world-teamtennis/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-65",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/legends/10060/tracy-austin",
+        "https://wtafiles.wtatennis.com/pdf/publications/WTA24MG_WTALegends.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wh-66",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/yvon-petra",
+        "https://www.wtatennis.com/players/120330/na-li",
+        "https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/"
+      ],
+      "rationale": "Asian-born without women is false: Yvon Petra born in Vietnam won Wimbledon 1946. Scope all firsts precisely; replace unsupported Ashe aside.",
+      "replacement": {
+        "question": "Which set of women’s tennis firsts is correct?",
+        "choices": [
+          "Althea Gibson: first Black major singles champion; Billie Jean King: first WTA president; Li Na: first Asian woman major singles champion",
+          "Naomi Osaka: first Black major champion; Chris Evert: first WTA president",
+          "Margaret Court: first Black major champion",
+          "Virginia Wade: first Asian major champion"
+        ],
+        "answer": 0,
+        "explain": "Gibson broke the major singles barrier in 1956; King became the WTA’s first president in 1973; Li Na won Roland Garros in 2011."
+      }
+    },
+    {
+      "id": "wh-68",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/news/4232797/listening-to-history-rare-recordings-highlight-the-fight-for-womens-tennis"
+      ],
+      "rationale": "Main cause supported; official retrospectives differ on 1/8 versus 1/10 purse comparison, so remove exact ratio.",
+      "replacement": {
+        "explain": "The large prize-money disparity at the Pacific Southwest event helped spur the Original 9’s breakaway. Gladys Heldman organized the Houston tournament that led to the Virginia Slims Circuit."
+      }
+    },
+    {
+      "id": "wh-70",
+      "verdict": "verified",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/WTA24MG_WTALegends.pdf",
+        "https://www.tennisfame.com/hall-of-famers/inductees/margaret-smith-court",
+        "https://www.tennisfame.com/hall-of-famers/inductees/helen-wills-moody-roark",
+        "https://www.wtatennis.com/news/2768410/wta-honors-inspirational-career-of-serena-williams-press-release-after-loss"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wd-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/margaret-smith-court",
+        "https://wtafiles.wtatennis.com/pdf/publications/WTA24MG_WTALegends.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wd-08",
+      "verdict": "correction",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/WTA24MG_WTALegends.pdf",
+        "https://www.wtatennis.com/legends/140007/martina-navratilova",
+        "https://www.usopen.org/en_US/news/articles/2018-08-01/2018-08-01_50_for_50_martina_navratilova_fourtime_womens_singles_champion.html"
+      ],
+      "rationale": "Avoid unqualified oldest across every discipline; pin record to documented 2006 achievement.",
+      "replacement": {
+        "question": "Who won the 2006 US Open mixed doubles title at age 49?",
+        "choices": [
+          "Ken Rosewall",
+          "Martina Navratilova, partnering Bob Bryan",
+          "Venus Williams",
+          "Pancho Gonzales"
+        ],
+        "explain": "Navratilova won with Bob Bryan. It was her 10th major mixed doubles title; she also won 31 major women’s doubles titles. Her first major title was the 1974 French Open mixed doubles with Iván Molina."
+      }
+    },
+    {
+      "id": "wd-11",
+      "verdict": "correction",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/publications/2026MG/WTAMG26_WTARecordBook.pdf",
+        "https://www.wtatennis.com/legends/190061/pam-shriver"
+      ],
+      "rationale": "177 title leader correct. Shriver count conflicts between WTA profile (111) and 2026 record book (106); omit disputed side statistic.",
+      "replacement": {
+        "choices": [
+          "Rosie Casals",
+          "Martina Navratilova",
+          "Pam Shriver",
+          "Natasha Zvereva"
+        ],
+        "explain": "The WTA’s 2026 record book lists Navratilova first with 177 doubles titles. She also won 167 singles titles."
+      }
+    },
+    {
+      "id": "wd-12",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usopen.org/en_US/news/articles/2018-08-01/2018-08-01_50_for_50_martina_navratilova_fourtime_womens_singles_champion.html"
+      ],
+      "rationale": "Definition supported; simplify examples to directly verified 1987 achievement.",
+      "replacement": {
+        "explain": "Martina Navratilova achieved this at the 1987 US Open by winning women’s singles, women’s doubles, and mixed doubles."
+      }
+    },
+    {
+      "id": "wd-16",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/legends/140007/martina-navratilova"
+      ],
+      "rationale": "109 streak verified; future prediction it will not be sniffed is not a fact.",
+      "replacement": {
+        "explain": "Navratilova and Shriver won 109 consecutive doubles matches in the 1980s."
+      }
+    },
+    {
+      "id": "wd-19",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/4367451/the-original-9-55-years-of-a-defiant-revolution",
+        "https://wtafiles.wtatennis.com/pdf/publications/2026MG/WTAMG26_WTARecordBook.pdf",
+        "https://www.tennisfame.com/hall-of-famers/inductees/rosie-casals/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "wd-23",
+      "verdict": "correction",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/matchnotes/2025/905_MX.pdf",
+        "https://www.wtatennis.com/news/2768410/wta-honors-inspirational-career-of-serena-williams-press-release-after-loss"
+      ],
+      "rationale": "Main team achievement supported; vague Golden/Super Slam conversation aside not verifiable as a factual proposition.",
+      "replacement": {
+        "explain": "Venus and Serena Williams completed their career Golden Slam in women’s doubles together at the 2001 Australian Open, after winning Olympic doubles gold in 2000."
+      }
+    },
+    {
+      "id": "sf-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "sf-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "sf-3",
+      "verdict": "verified",
+      "sources": [
+        "https://wimbledon2017.archive.ix-events.com/en_GB/atoz/grass_courts.html"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "sf-4",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usopen.org/en_US/news/articles/2017-04-11/us_open_by_the_numbers_12_Connors.html",
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Evert never won US Open singles on grass.",
+      "replacement": {
+        "explain": "The US Open used green clay at Forest Hills in 1975–77 and moved to hard courts at Flushing Meadows in 1978. Chris Evert won US Open singles titles on clay and hard courts."
+      }
+    },
+    {
+      "id": "sf-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/rankings/rankings-faq.aspx",
+        "https://www.wtatennis.com/news/1922290/wta-unveils-comprehensive-rebrand"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "sf-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/qualifying-2023-inside-the-game"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "sf-7",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wtatennis.com/news/1922290/wta-unveils-comprehensive-rebrand"
+      ],
+      "rationale": "Biggest besides slams overlooks WTA Finals; retain comparable tier.",
+      "replacement": {
+        "explain": "The WTA adopted 1000, 500, and 250 category names in 2021 to align with the ATP naming structure. WTA 1000 sits above WTA 500 and WTA 250."
+      }
+    },
+    {
+      "id": "hx-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.lta.org.uk/news/2018/april/british-tennis-celebrates-fiftieth-anniversary-of-the-open-era/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hx-2",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Only double needs singles restriction: calendar Grand Slams exist in doubles and mixed too.",
+      "replacement": {
+        "question": "Which man won the calendar Grand Slam in singles in both 1962 and 1969?",
+        "explain": "Rod Laver swept the four major singles titles as an amateur in 1962 and in the Open Era in 1969. Don Budge first achieved the singles Grand Slam in 1938."
+      }
+    },
+    {
+      "id": "hx-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hx-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.daviscup.com/en/about/history"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hx-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/own-the-podium-andre-agassi-atlanta-1996-olympic-champion/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hx-8",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2022.pdf"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "hx-9",
+      "verdict": "verified",
+      "sources": [
+        "https://artsandculture.google.com/story/the-tennis-court-39-s-transformation-international-tennis-hall-of-fame/gwUx-QPMyspCQA"
+      ],
+      "rationale": "ITHF collection narrative directly documents Wingfield hourglass and 1877 Wimbledon rectangle."
+    },
+    {
+      "id": "hx-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/history-of-tennis/"
+      ],
+      "rationale": "Keyed answer and factual explanation corroborated by the cited official reference."
+    },
+    {
+      "id": "jr-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "ITF Rules: Rule 1 court widths; Appendix II racket length; Rule 5 tiebreak; wheelchair two-bounce rule. Verified corresponding item."
+    }
+  ]
+}

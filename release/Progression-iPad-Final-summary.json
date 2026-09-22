@@ -1,0 +1,45 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "FEEF4993-DD19-4D0D-95E8-15C2B280DAFA",
+        "deviceName" : "iPad Pro 13-inch (M5)",
+        "modelName" : "iPad Pro 13-inch (M5)",
+        "osBuildNumber" : "24A434",
+        "osVersion" : "27.0",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 0,
+      "passedTests" : 3,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "TennisIQ · Built with macOS 27.0",
+  "expectedFailures" : 0,
+  "failedTests" : 0,
+  "finishTime" : 1790055918.865,
+  "passedTests" : 3,
+  "result" : "Passed",
+  "runtimeWarnings" : [
+
+  ],
+  "skippedTests" : 0,
+  "startTime" : 1790055746.957,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+
+  ],
+  "title" : "Test - TennisIQ",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 3
+}

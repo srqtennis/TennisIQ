@@ -4,3 +4,8 @@ DerivedData/
 *.xcuserstate
 .vscode/
 __pycache__/
+
+DerivedData-release/
+release/*.xcarchive/
+release/*.xcresult/
+release/*.ipa

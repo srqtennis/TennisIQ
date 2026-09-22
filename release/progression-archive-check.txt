@@ -1,0 +1,14 @@
+PASS archive contains TennisIQ.app
+PASS bundle ID
+PASS release version 1.0
+PASS primary app icon
+PASS encryption declaration
+PASS friendly challenge URL scheme
+PASS no tracking or developer collection declared
+PASS local preferences required-reason declaration
+PASS audited bank bundled unchanged
+PASS no local StoreKit test catalog shipped
+PASS no test bundle shipped
+PASS compiled assets present
+NOT UPLOAD READY: signing deliberately skipped; local packaging evidence only.
+0 failed checks

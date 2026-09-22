@@ -1,0 +1,29 @@
+{
+  "identifier" : "82A91A6B-3448-4923-9C69-0E17FC2F5809",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "8639412750",
+      "localizations" : [
+        {
+          "description" : "Own all solo modes, ratings and challenges.",
+          "displayName" : "Full Game Unlock",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.srqtennis.TennisIQ.fullunlock",
+      "referenceName" : "Full Game Unlock",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [],
+  "version" : { "major" : 3, "minor" : 0 }
+}
