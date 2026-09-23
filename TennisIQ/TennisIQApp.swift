@@ -4,6 +4,7 @@ import SwiftUI
 struct TennisIQApp: App {
     @StateObject private var store = GameStore()
     @StateObject private var purchases = PurchaseStore()
+    @StateObject private var gameCenter = GameCenterService()
     @Environment(\.scenePhase) private var scenePhase
 
     var body: some Scene {
@@ -11,7 +12,11 @@ struct TennisIQApp: App {
             RootView()
                 .environmentObject(store)
                 .environmentObject(purchases)
-                .task { await purchases.load() }
+                .environmentObject(gameCenter)
+                .task {
+                    gameCenter.authenticate()
+                    await purchases.load()
+                }
                 .onChange(of: scenePhase) { _, phase in
                     if phase == .active { Task { await purchases.refreshEntitlements() } }
                 }
