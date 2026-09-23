@@ -3,6 +3,7 @@ import Combine
 
 struct QuizView: View {
     @EnvironmentObject var store: GameStore
+    @EnvironmentObject var gameCenter: GameCenterService
     @Environment(\.dismiss) private var dismiss
     @Environment(\.scenePhase) private var scenePhase
 
@@ -20,6 +21,8 @@ struct QuizView: View {
     @State private var picked: Int? = nil
     @State private var seconds = 20
     @State private var finished = false
+    @State private var newBest = false
+    @State private var perfectRound = false
     @State private var deadline: Date?
     @State private var isVisible = false
 
@@ -35,7 +38,7 @@ struct QuizView: View {
             ScrollView {
                 Group {
                     if finished, let summary {
-                        ResultPane(summary: summary, onAgain: reset, onHome: { dismiss() })
+                        ResultPane(summary: summary, isNewBest: newBest, isPerfectRound: perfectRound, onAgain: reset, onHome: { dismiss() })
                     } else if let q = current {
                         questionPane(q)
                     } else {
@@ -185,6 +188,8 @@ struct QuizView: View {
         maxStreak = 0
         picked = nil
         finished = false
+        newBest = false
+        perfectRound = false
         startClock()
     }
 
@@ -215,7 +220,12 @@ struct QuizView: View {
             finished = true
             deadline = nil
             let result = RoundSummary(id: roundID, mode: config.mode, correct: answers.filter(\.isCorrect).count, total: deck.count, points: score, bestStreak: maxStreak, questionIDs: deck.map(\.id))
+            let priorBest = store.bestScore
             store.record(result, answers: answers)
+            newBest = config.mode == "rally" && result.points > priorBest
+            perfectRound = result.total >= 10 && result.correct == result.total
+            gameCenter.submitScore(result.points, mode: config.mode)
+            gameCenter.reportAchievements(store.progression.unlockedBadgeIDs)
             summary = result
         } else {
             index += 1
@@ -230,7 +240,10 @@ struct QuizView: View {
 struct ResultPane: View {
     @EnvironmentObject var store: GameStore
     @EnvironmentObject var purchases: PurchaseStore
+    @StateObject private var review = ReviewPromptController()
     let summary: RoundSummary
+    var isNewBest = false
+    var isPerfectRound = false
     let onAgain: () -> Void
     let onHome: () -> Void
 
@@ -274,5 +287,10 @@ struct ResultPane: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.top, 20)
+        .onAppear {
+            review.requestIfAppropriate(newBestScore: isNewBest,
+                                        isPerfectRound: isPerfectRound,
+                                        completedRounds: store.progression.completedRounds)
+        }
     }
 }
