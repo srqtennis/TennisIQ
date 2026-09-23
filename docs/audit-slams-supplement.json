@@ -1,0 +1,239 @@
+{
+  "entries": [
+    {
+      "id": "slam-01",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "ITF tournament histories and Grand Slam list support the selected answer."
+    },
+    {
+      "id": "slam-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "ITF tournament histories and Grand Slam list support the selected answer."
+    },
+    {
+      "id": "slam-04",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "ITF tournament histories and Grand Slam list support the selected answer."
+    },
+    {
+      "id": "slam-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "ITF tournament histories and Grand Slam list support the selected answer."
+    },
+    {
+      "id": "slam-03",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Normal annual order needs an exception qualifier, e.g. 2020.",
+      "replacement": {
+        "question": "In the normal modern calendar, what is the order of the four majors?"
+      }
+    },
+    {
+      "id": "slam-06",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/",
+        "https://www.itftennis.com/en/news-and-media/articles/alcott-de-groot-seal-golden-slam-as-kunieda-retains-us-open-title/"
+      ],
+      "rationale": "Avoid unqualified only-ever claim across wheelchair disciplines.",
+      "replacement": {
+        "question": "Who won all four women’s singles majors and Olympic singles gold in 1988?",
+        "explain": "Steffi Graf completed this calendar Golden Slam in 1988."
+      }
+    },
+    {
+      "id": "slam-07",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Replace drifting mid-2020s wording with explicit historical cutoff.",
+      "replacement": {
+        "question": "At the end of 2025, which man held the most Grand Slam singles titles, excluding wheelchair events?",
+        "explain": "At that cutoff, Djokovic had 24 major singles titles, Nadal 22 and Federer 20."
+      }
+    },
+    {
+      "id": "slam-08",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Remove subjective greatest-dynasty claim.",
+      "replacement": {
+        "explain": "Rafael Nadal won 14 Roland-Garros men’s singles titles from 2005 through 2022."
+      }
+    },
+    {
+      "id": "slam-09",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Bound record in time.",
+      "replacement": {
+        "question": "Through the 2025 Championships, who held the Open Era record for Wimbledon men’s singles titles?"
+      }
+    },
+    {
+      "id": "slam-10",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Remove editorial judgement of era strength; identify historical comparison.",
+      "replacement": {
+        "question": "At the end of 2025, who held the women’s Grand Slam singles title record across amateur and Open Eras, excluding wheelchair events?",
+        "explain": "Margaret Court won 24: 13 before the Open Era and 11 during it."
+      }
+    },
+    {
+      "id": "slam-11",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wimbledon.com/pdf/Wimbledon_Compendium_2021v3.pdf"
+      ],
+      "rationale": "Remove unsupported sole-cause explanation of later rule changes.",
+      "replacement": {
+        "explain": "Isner won the fifth set 70–68. The first-round match took 11 hours 5 minutes over three days."
+      }
+    },
+    {
+      "id": "slam-12",
+      "verdict": "correction",
+      "sources": [
+        "https://ausopen.com/history/memorable-moments/2012-great-tennis-match-all-time"
+      ],
+      "rationale": "Official AO history confirms the final and time; bound comparison.",
+      "replacement": {
+        "question": "Through the end of 2025, which was the longest Grand Slam singles final by playing time?"
+      }
+    },
+    {
+      "id": "slam-13",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/",
+        "https://www.usopen.org/en_US/video/watch/2026/us-open-rewind-september-10-1978-connors-beats-borg-in-nyc/17890559118788455"
+      ],
+      "rationale": "Surface eras and Connors three-surface wins confirmed."
+    },
+    {
+      "id": "slam-14",
+      "verdict": "correction",
+      "sources": [
+        "https://www.wimbledon.com/en_GB/about_wimbledon/clothing_and_equipment.html"
+      ],
+      "rationale": "Current clothing rules confirm key and limited trim; add undershorts length condition.",
+      "replacement": {
+        "explain": "Players wear almost entirely white, with limited trim under the detailed rules. Since 2023, female players may wear mid/dark undershorts no longer than their shorts or skirt."
+      }
+    },
+    {
+      "id": "slam-15",
+      "verdict": "correction",
+      "sources": [
+        "https://www.atptour.com/en/rankings/rankings-faq"
+      ],
+      "rationale": "Specify tour and season; prevents junior/wheelchair exceptions.",
+      "replacement": {
+        "question": "Under the 2026 ATP singles ranking table, how many points does a Grand Slam champion earn?"
+      }
+    },
+    {
+      "id": "city-Australian Open",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Modern host city and surface supported by ITF tournament overview."
+    },
+    {
+      "id": "month-Australian Open",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/",
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Normal seasonal placement, not a promise for every historical edition.",
+      "replacement": {
+        "question": "In the normal modern calendar, when does Australian Open sit?"
+      }
+    },
+    {
+      "id": "city-Roland-Garros",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Modern host city and surface supported by ITF tournament overview."
+    },
+    {
+      "id": "month-Roland-Garros",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/",
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Normal seasonal placement, not a promise for every historical edition.",
+      "replacement": {
+        "question": "In the normal modern calendar, when does Roland-Garros sit?"
+      }
+    },
+    {
+      "id": "city-Wimbledon",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Modern host city and surface supported by ITF tournament overview."
+    },
+    {
+      "id": "month-Wimbledon",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/",
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Normal seasonal placement, not a promise for every historical edition.",
+      "replacement": {
+        "question": "In the normal modern calendar, when does Wimbledon sit?"
+      }
+    },
+    {
+      "id": "city-US Open",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      ],
+      "rationale": "Modern host city and surface supported by ITF tournament overview."
+    },
+    {
+      "id": "month-US Open",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/tours/grand-slam-tournaments/",
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Normal seasonal placement, not a promise for every historical edition.",
+      "replacement": {
+        "question": "In the normal modern calendar, when does US Open sit?"
+      }
+    }
+  ]
+}

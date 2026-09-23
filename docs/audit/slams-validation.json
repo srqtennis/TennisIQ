@@ -1,0 +1,75 @@
+{
+  "scope": "403 proposed corrections applied in memory to original-bank.json; question bank not modified",
+  "counts": {
+    "structurally_valid_corrections": 403,
+    "champion_keys_preserved_and_correct": 27,
+    "historical_surface_corrected_keys_match": 27,
+    "count_answers_match_independent_tables": 83,
+    "corrected_reverse_year_unique_correct_answers": 7,
+    "rewritten_negative_unique_correct_answers": 232
+  },
+  "manual_semantic_review_count": 27,
+  "errors": [],
+  "reverse_year_corrections": [
+    {
+      "id": "rev-roland-garros-Rafael-Nadal-2005",
+      "valid_answer_indexes": [
+        2
+      ],
+      "key": 2,
+      "pass": true
+    },
+    {
+      "id": "rev-roland-garros-Carlos-Alcaraz-2024",
+      "valid_answer_indexes": [
+        1
+      ],
+      "key": 1,
+      "pass": true
+    },
+    {
+      "id": "rev-wimbledon-Björn-Borg-1976",
+      "valid_answer_indexes": [
+        3
+      ],
+      "key": 3,
+      "pass": true
+    },
+    {
+      "id": "rev-wimbledon-Roger-Federer-2003",
+      "valid_answer_indexes": [
+        2
+      ],
+      "key": 2,
+      "pass": true
+    },
+    {
+      "id": "rev-us-open-Stefan-Edberg-1991",
+      "valid_answer_indexes": [
+        1
+      ],
+      "key": 1,
+      "pass": true
+    },
+    {
+      "id": "rev-us-open-Roger-Federer-2004",
+      "valid_answer_indexes": [
+        0
+      ],
+      "key": 0,
+      "pass": true
+    },
+    {
+      "id": "rev-us-open-Novak-Djokovic-2011",
+      "valid_answer_indexes": [
+        2
+      ],
+      "key": 2,
+      "pass": true
+    }
+  ],
+  "manual_review": "Reviewed all 27 other revised question/answer/explanation combinations. Clarified wh-12 non-wheelchair scope; wh-55 now uses numeric choices. No answer-key inconsistencies remain.",
+  "count_explanation_review": "All 83 explanations now use display names. Combined totals list subtotals by major; individual-tournament counts list winning years in ascending order.",
+  "audit_sha256": "6a8684e9a8b0958a4ef7bbb148deb9ee9b8a701f8ec1c1d0468f8e0bf62da3ce",
+  "original_bank_sha256": "ce16cfb3f36efe53e84070fea944f7a775eefa7708f1944e080f446dece4dcab"
+}

@@ -1,0 +1,2701 @@
+{
+  "scope": [
+    "rules",
+    "scoring",
+    "court",
+    "equipment"
+  ],
+  "source_bank_sha256": "ce16cfb3f36efe53e84070fea944f7a775eefa7708f1944e080f446dece4dcab",
+  "review_method": "Every question, all choices, answer index, and explanation read. Rulebook exceptions and scope checked. 73 generated game-scoring states recomputed independently. Proposed corrections require application; verified does not claim mathematical certainty.",
+  "counts": {
+    "verified": 258,
+    "correction": 51
+  },
+  "computed_scoring_count": 73,
+  "questions": [
+    {
+      "id": "court-01",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-03",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-04",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-06",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Net height is fixed; posts themselves may extend up to one inch above the cord.",
+      "replacement": {
+        "explain": "The net is supported at 3 feet 6 inches (1.07 m) at the posts and held at 3 feet (0.914 m) in the center. Posts may extend no more than 1 inch above the net cord."
+      }
+    },
+    {
+      "id": "court-07",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-08",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-09",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "court-11",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Unsupported purpose claim removed.",
+      "replacement": {
+        "explain": "ITF Rule 1 permits baselines up to 4 inches (10 cm) wide. Other lines are 1–2 inches, with the center service line and center mark exactly 2 inches wide."
+      }
+    },
+    {
+      "id": "court-12",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "equip-01",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "https://www.itftennis.com/media/2280/balls-history-of-tennis-balls.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "What colours are permitted for standard adult tennis balls under ITF Appendix I?"
+      }
+    },
+    {
+      "id": "equip-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "equip-03",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "https://www.itftennis.com/media/2100/balls-ball-approval-tests.pdf"
+      ],
+      "rationale": "Modern approval method specifies a rigid high-mass surface; avoid asserting concrete is mandatory.",
+      "replacement": {
+        "explain": "The rebound test drops the ball from 254 cm (100 inches) onto a smooth, rigid, horizontal surface of high mass. A standard Type 2 ball must rebound within 135–147 cm (53–58 inches)."
+      }
+    },
+    {
+      "id": "equip-04",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Use official ITF metric specification, which takes precedence.",
+      "replacement": {
+        "choices": [
+          "27 inches",
+          "28 inches",
+          "29 inches",
+          "32 inches"
+        ],
+        "explain": "ITF Appendix II limits overall racket length to 73.7 cm (29.0 inches). The common 27-inch adult racket length is not the maximum."
+      }
+    },
+    {
+      "id": "equip-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "equip-06",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/2280/balls-history-of-tennis-balls.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "score-01",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Folk etymology is not verified; retain scoring fact.",
+      "replacement": {
+        "explain": "Under ITF Rule 5, a player with no points has a score of love."
+      }
+    },
+    {
+      "id": "score-02",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Historical 45-to-40 claim not established by the rulebook.",
+      "replacement": {
+        "explain": "ITF Rule 5 uses love, 15, 30 and 40. At 40–40 the score is deuce, and a two-point margin is needed to win a standard advantage game."
+      }
+    },
+    {
+      "id": "score-03",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "score-04",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "score-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "score-06",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "score-07",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/5986/grand-slam-rulebook-2026-f2.pdf"
+      ],
+      "rationale": "Some doubles formats replace the final set; specify singles.",
+      "replacement": {
+        "question": "Since 2022, a Grand Slam singles main-draw deciding set at 6–6 is decided by…",
+        "explain": "All four majors use a first-to-10, win-by-two tiebreak at 6–6 in a singles deciding set."
+      }
+    },
+    {
+      "id": "score-08",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Explanation included an incorrect/non-explanatory 1–2 example.",
+      "replacement": {
+        "question": "Under standard tiebreak end-change rules, when do players first change ends?",
+        "explain": "Players change ends after every six points, first after point six; for example, at 3–3, 4–2, or 5–1."
+      }
+    },
+    {
+      "id": "score-09",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "score-10",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/5986/grand-slam-rulebook-2026-f2.pdf"
+      ],
+      "rationale": "Qualifying is not universally best-of-five; scope main draw.",
+      "replacement": {
+        "question": "Men’s singles main-draw matches at Grand Slam tournaments are played in which format?",
+        "explain": "The Grand Slam rulebook prescribes best-of-five for men’s singles main-draw matches. Women’s singles main-draw matches use best-of-three."
+      }
+    },
+    {
+      "id": "score-11",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Mixed doubles deciding point has a same-gender receiver rule.",
+      "replacement": {
+        "explain": "At deuce, one deciding point wins the game. In singles and same-gender doubles, the receiving side chooses the receiving court. In mixed doubles, the receiver must be the same gender as the server; receiving positions are not changed for that point."
+      }
+    },
+    {
+      "id": "score-12",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_25jan26.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "score-13",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "score-14",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "rules-01",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "rules-02",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "Under the standard service-let rule, a serve clips the net and lands in the correct service box. What is the call?"
+      }
+    },
+    {
+      "id": "rules-03",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "rules-04",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "rules-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "rules-06",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "rules-07",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "rules-08",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Toss winner may choose ends or defer, so may not personally choose service.",
+      "replacement": {
+        "question": "Who has the first choice of serving, receiving, selecting an end, or asking the opponent to choose before a match?",
+        "explain": "The toss winner may choose serve/receive, choose an end, or require the opponent to choose. The opponent makes the remaining choice under ITF Rule 9."
+      }
+    },
+    {
+      "id": "rules-09",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "rules-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "phys-03",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "score-call-0-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-0-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-0-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-0-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-0-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-1-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-1-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-1-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-1-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-1-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-2-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-2-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-2-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-2-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-2-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-3-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-3-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-3-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-3-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-3-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-4-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-4-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-4-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-call-4-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-8",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-9",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-11",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "score-next-12",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "set-state-5-4-1",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Tied or trailing games were falsely described as in your favor; grammar also fixed.",
+      "replacement": {
+        "question": "Games are 5–4 (your games listed first). You win the next game. What happens in a standard tiebreak set?"
+      }
+    },
+    {
+      "id": "set-state-5-4-0",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Tied or trailing games were falsely described as in your favor; grammar also fixed.",
+      "replacement": {
+        "question": "Games are 5–4 (your games listed first). Your opponent wins the next game. What happens in a standard tiebreak set?"
+      }
+    },
+    {
+      "id": "set-state-6-5-1",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Tied or trailing games were falsely described as in your favor; grammar also fixed.",
+      "replacement": {
+        "question": "Games are 6–5 (your games listed first). You win the next game. What happens in a standard tiebreak set?"
+      }
+    },
+    {
+      "id": "set-state-6-5-0",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Tied or trailing games were falsely described as in your favor; grammar also fixed.",
+      "replacement": {
+        "question": "Games are 6–5 (your games listed first). Your opponent wins the next game. What happens in a standard tiebreak set?"
+      }
+    },
+    {
+      "id": "set-state-5-5-1",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Tied or trailing games were falsely described as in your favor; grammar also fixed.",
+      "replacement": {
+        "question": "Games are 5–5 (your games listed first). You win the next game. What happens in a standard tiebreak set?"
+      }
+    },
+    {
+      "id": "set-state-4-5-1",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Tied or trailing games were falsely described as in your favor; grammar also fixed.",
+      "replacement": {
+        "question": "Games are 4–5 (your games listed first). You win the next game. What happens in a standard tiebreak set?"
+      }
+    },
+    {
+      "id": "set-state-0-5-0",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Tied or trailing games were falsely described as in your favor; grammar also fixed.",
+      "replacement": {
+        "question": "Games are 0–5 (your games listed first). Your opponent wins the next game. What happens in a standard tiebreak set?"
+      }
+    },
+    {
+      "id": "tb-6-5-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "tb-6-6-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "tb-6-6-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "tb-7-6-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "tb-7-6-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "tb-9-8-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "tb-9-8-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "num-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-8",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-9",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "num-11",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "card-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "card-1",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Lets can require additional attempts; distinguish allowed faults from total attempts.",
+      "replacement": {
+        "question": "Under standard rules, how many consecutive service faults lose the point?",
+        "explain": "The first fault allows a second serve. A second consecutive fault loses the point; service lets do not count as faults."
+      }
+    },
+    {
+      "id": "card-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "card-3",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "Under standard ITF tiebreak end-change rules, players change ends every…"
+      }
+    },
+    {
+      "id": "card-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "card-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "card-26",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "What colours are permitted for standard adult tennis balls under ITF Appendix I?"
+      }
+    },
+    {
+      "id": "card-27",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/2280/balls-history-of-tennis-balls.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "card-31",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "Under the standard service-let rule, a net-cord let on second serve…"
+      }
+    },
+    {
+      "id": "card-32",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "card-42",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "card-43",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "card-44",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "card-45",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "card-47",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "card-48",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "card-49",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "edge-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "edge-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "edge-2",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "In standard non-wheelchair tennis, the ball bounces twice on your side before you return it. What happens?"
+      }
+    },
+    {
+      "id": "edge-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "edge-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "edge-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "dbl-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "dbl-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "dbl-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_25jan26.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "dbl-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "fmt-1",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/5986/grand-slam-rulebook-2026-f2.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "Men’s singles main-draw matches at Grand Slam tournaments are played in which format?"
+      }
+    },
+    {
+      "id": "fmt-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/5986/grand-slam-rulebook-2026-f2.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "fmt-3",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_25jan26.pdf"
+      ],
+      "rationale": "ATP rulebook directly establishes format; use precise ATP Tour scope.",
+      "replacement": {
+        "question": "Standard ATP Tour singles matches are played in which format?",
+        "explain": "ATP Tour singles matches use best-of-three tiebreak sets. Grand Slam men’s main-draw singles is governed separately and uses best-of-five."
+      }
+    },
+    {
+      "id": "fmt-4",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Remove contradictory false opening of explanation.",
+      "replacement": {
+        "explain": "A best-of-five match is won by the first player or team to win three sets. The shortest completed result is 3–0 in sets.",
+        "question": "What is the shortest possible score in sets for a completed best-of-five match, excluding retirement or default?"
+      }
+    },
+    {
+      "id": "bo5-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "bo3-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rules 5-7 and Appendix VI."
+    },
+    {
+      "id": "jr-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "jr-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "extra-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "extra-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "extra-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "extra-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "extra-14",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Original explanation oversimplifies racket construction rules and asserts unsourced history.",
+      "replacement": {
+        "question": "Under ITF racket rules, is a hitting surface with strings in more than one plane permitted?",
+        "choices": [
+          "Yes, always",
+          "No — the hitting surface must be flat with the required crossed-string pattern",
+          "Only on clay",
+          "Only for professionals"
+        ],
+        "answer": 1,
+        "explain": "ITF Rule 4, Cases 1–2, and Appendix II require a flat hitting surface with one generally uniform pattern of crossed strings."
+      }
+    },
+    {
+      "id": "extra-15",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_25jan26.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "extra-23",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "fac-00",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "fac-01",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "fac-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "fac-03",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-8",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-9",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-11",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-12",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-13",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-14",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-15",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-16",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Service-let deadline can be earlier than the return becoming dead.",
+      "replacement": {
+        "choices": [
+          "Only the receiver",
+          "Any player, promptly, before the return goes out or is hit by the serving team",
+          "Only the chair",
+          "Only the server"
+        ],
+        "explain": "The Code §27 permits any player to call a service let before the return goes out of play or is hit by the server or partner. For an apparent or near ace, the call must be prompt."
+      }
+    },
+    {
+      "id": "code-17",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-18",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-19",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-20",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-21",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-22",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-23",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-24",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-25",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-26",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-27",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-28",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Warning not a prerequisite to all hindrance rulings.",
+      "replacement": {
+        "explain": "The Code §37 reserves grunting-hindrance rulings to officials. The official orders a let or loss of point depending on whether the player was previously warned."
+      }
+    },
+    {
+      "id": "code-29",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-30",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-31",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-32",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-33",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-34",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-35",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-36",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-37",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-38",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-39",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "code-40",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "usta-c-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "usta-c-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "usta-c-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "usta-c-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "usta-c-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "wd-22",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Receiving error correction is not always immediate; mid-set shuffle wording misleading.",
+      "replacement": {
+        "explain": "ITF Rules 14–15 permit new serving and receiving orders at the start of a new set. During a set, the chosen orders remain in force. Rule 27 separately governs errors; a receiving-order error continues for the rest of that game and is corrected for the next receiving game."
+      }
+    },
+    {
+      "id": "call-01",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-03",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-04",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-05",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-06",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-07",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-08",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-09",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-11",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-12",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-13",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-14",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Dropped shoe is not automatically a lost point; remove false equivalence.",
+      "replacement": {
+        "explain": "ITF Rule 24(g): a racket touching the net while the ball is in play loses the point, even when dropped. The Code §36 separately says a dropped racket or shoe is not grounds for a let."
+      }
+    },
+    {
+      "id": "call-15",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-16",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Original wording incorrectly implies a warning must always precede a ruling.",
+      "replacement": {
+        "choices": [
+          "Take the point yourself",
+          "Seek an official; only an official may rule grunting a hindrance and apply the appropriate remedy",
+          "Automatic default",
+          "Legal always"
+        ],
+        "explain": "The Code §37 reserves this ruling to officials. A let or loss of point depends on whether the offending player has already been warned."
+      }
+    },
+    {
+      "id": "call-17",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-18",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-19",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-20",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-21",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Ambiguous number of agreed/disputed points.",
+      "replacement": {
+        "question": "What’s the call: you and your opponent disagree about the score but agree on some points. Which method should you try first?",
+        "explain": "The Code §32 first counts agreed points and games and replays disputed ones. Next try a mutually agreeable score; finally use a racket spin or coin toss. A coin toss can also resolve disputed service order or the court for a replayed point."
+      }
+    },
+    {
+      "id": "call-22",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-23",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-24",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-25",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-26",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-27",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-28",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-29",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "call-30",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against The Code / USTA comments."
+    },
+    {
+      "id": "sc-prog-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-8",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-9",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-11",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-12",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-13",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-14",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-15",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-16",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-17",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-18",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-19",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-20",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-21",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-22",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-23",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-24",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-25",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-26",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-27",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-28",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-29",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-30",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-31",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-32",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-33",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-34",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-35",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "sc-prog-36",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Rule 5 scoring independently recomputed; keyed answer and distractors checked."
+    },
+    {
+      "id": "ct-x-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-8",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-9",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-11",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-12",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-x-13",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "For international competition, what minimum run-back behind each baseline does ITF Appendix X recommend?"
+      }
+    },
+    {
+      "id": "ct-x-14",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "For international competition, what minimum side run-off beyond each doubles sideline does ITF Appendix X recommend?"
+      }
+    },
+    {
+      "id": "ct-m-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-m-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-m-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Rule 1 / court diagram."
+    },
+    {
+      "id": "ct-m-4",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Two choices are correct: net at posts and singles-stick support are both 1.07 m.",
+      "replacement": {
+        "choices": [
+          "Net height at the posts",
+          "Net height at center",
+          "Length of the center mark",
+          "Center strap drop"
+        ]
+      }
+    },
+    {
+      "id": "tm-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "https://www.atptour.com/-/media/files/rulebook/2026/2026-rulebook_25jan26.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "tm-2",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "First game changeover has no rest; odd last game uses set break.",
+      "replacement": {
+        "question": "During a standard set, what is the maximum rest time at a normal changeover after the third game or a later odd game?",
+        "explain": "ITF Rule 29 allows up to 90 seconds at normal changeovers. There is no rest after the first game of each set or during a tiebreak. A set break is up to 120 seconds."
+      }
+    },
+    {
+      "id": "tm-3",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "A tiebreak-ended set still earns the standard set break.",
+      "replacement": {
+        "explain": "ITF Rule 29 allows up to 120 seconds at the end of each set, including a set completed by a tiebreak. Announced event-specific alternative provisions may apply."
+      }
+    },
+    {
+      "id": "tm-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "tm-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "tm-6",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "Vague rec default clock cannot be universalized.",
+      "replacement": {
+        "question": "Under the standard USTA tournament lateness table, a player more than how many minutes late is normally defaulted?",
+        "explain": "USTA Friend at Court Table 16 normally imposes default when a player is more than 15 minutes late. The Referee and applicable event regulations govern enforcement."
+      }
+    },
+    {
+      "id": "eq-x-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/2280/balls-history-of-tennis-balls.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "eq-x-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "eq-x-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "eq-x-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "eq-x-5",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "ITF Appendix II specifies 31.7 cm; SI specifications take precedence.",
+      "replacement": {
+        "choices": [
+          "12.5 inches (31.7 cm)",
+          "15 inches",
+          "10 inches",
+          "29 inches"
+        ]
+      }
+    },
+    {
+      "id": "eq-x-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "eq-x-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "eq-x-8",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "ITF permits orange lengths from 58 to 60 feet; 60 is USTA specification.",
+      "replacement": {
+        "question": "In the standard USTA orange-ball format, the court length is…",
+        "explain": "USTA orange-ball tennis uses a 60-foot court. ITF Appendix VIII permits an orange-court length between 58 and 60 feet."
+      }
+    },
+    {
+      "id": "eq-x-9",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/officiating/friendatcourt.pdf"
+      ],
+      "rationale": "ITF permits red court range; 36 ft is standard USTA length.",
+      "replacement": {
+        "question": "In the standard USTA red-ball format, the court length is…",
+        "explain": "USTA red-ball tennis uses a 36-foot court. ITF Appendix VIII permits a red-court length between 36 and 42 feet."
+      }
+    },
+    {
+      "id": "eq-x-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against Appendices I, II, VIII."
+    },
+    {
+      "id": "fmt-5",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/5986/grand-slam-rulebook-2026-f2.pdf"
+      ],
+      "rationale": "Main-draw scope missing from explanatory comparison.",
+      "replacement": {
+        "explain": "Best-of-three means the first player to win two sets wins the match. Grand Slam women’s singles main draws use this format; men’s singles main draws use best-of-five."
+      }
+    },
+    {
+      "id": "fmt-6",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/5986/grand-slam-rulebook-2026-f2.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "Men’s singles main-draw matches at Grand Slam tournaments are played in which format?"
+      }
+    },
+    {
+      "id": "fmt-7",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/5986/grand-slam-rulebook-2026-f2.pdf"
+      ],
+      "rationale": "Specify singles and eliminate confusing 2019 contrast.",
+      "replacement": {
+        "question": "In Wimbledon singles main draws, what happens at 6–6 in the deciding set under the format introduced in 2022?",
+        "explain": "A first-to-10, win-by-two tiebreak decides the match."
+      }
+    },
+    {
+      "id": "iqr-1",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Scope clarification prevents an otherwise valid alternative format or exception.",
+      "replacement": {
+        "question": "Under the standard service-let rule, a serve clips the net and lands in the correct service box. What is the call?"
+      }
+    },
+    {
+      "id": "iqr-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "iqr-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "iqr-4",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Airborne feet may cross the vertical baseline plane before contact.",
+      "replacement": {
+        "question": "During a standard serve, the server’s feet must not touch the baseline or court until…",
+        "explain": "ITF Rule 18 prohibits touching the baseline or court during the service motion. The server may jump and be airborne over the line before contact."
+      }
+    },
+    {
+      "id": "iqr-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "iqr-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "iqr-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "iqr-8",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Checked question, keyed answer, alternatives and explanation against applicable ITF playing rules."
+    },
+    {
+      "id": "iqr-9",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Doubles-net posts are permanent fixtures in singles with singles sticks; wrong rule citation.",
+      "replacement": {
+        "question": "In doubles, a rally ball hits a net post and then lands in the opponents’ court. What is the call?",
+        "explain": "ITF Rule 25 permits this return in doubles. In singles played with a doubles net and singles sticks, the outside net posts are permanent fixtures: hitting them before the ball lands loses the point."
+      }
+    },
+    {
+      "id": "iqr-10",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      ],
+      "rationale": "Fixture contact after correct bounce instead wins the point for striker.",
+      "replacement": {
+        "question": "Your shot hits a roof or an overhead camera before it bounces in the opponent’s court. What is the result?",
+        "explain": "Under ITF Rules 2 and 13, touching a permanent fixture before the ball lands loses the point. If a ball first bounces in the correct court and then touches a permanent fixture, the striker wins the point."
+      }
+    }
+  ]
+}

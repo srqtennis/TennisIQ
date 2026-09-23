@@ -1,0 +1,792 @@
+{
+  "scope": [
+    "lingo",
+    "strategy"
+  ],
+  "entries": [
+    {
+      "id": "lingo-01",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lingo-03",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lingo-04",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lingo-07",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lingo-10",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "card-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "card-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "card-9",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "card-30",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "shot-0",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "shot-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "shot-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lg-x-7",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lg-x-8",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lg-x-9",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lg-x-15",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html"
+      ],
+      "rationale": "Answer matches the USTA definition; choices checked."
+    },
+    {
+      "id": "lingo-02",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "shot-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "shot-4",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "shot-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "extra-18",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "extra-19",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "extra-20",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "lg-x-1",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "lg-x-3",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "lg-x-5",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "lg-x-16",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Answer matches the corresponding glossary term; explanatory details reviewed."
+    },
+    {
+      "id": "lingo-09",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Walkover applies before a match starts; retirement after start. Code defaults are a separate category."
+    },
+    {
+      "id": "card-40",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary"
+      ],
+      "rationale": "Walkover applies before a match starts; retirement after start. Code defaults are a separate category."
+    },
+    {
+      "id": "lg-x-6",
+      "verdict": "verified",
+      "sources": [
+        "https://ushsta.org/inside-out-forehand-drill/"
+      ],
+      "rationale": "Inside-out forehand definition and handedness checked."
+    },
+    {
+      "id": "shot-6",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/sections/eastern/pdfs/17105_C_NY_19_NetGeneration_Wheelchair_Tennis_Coaches_Curriculum_Orange.pdf"
+      ],
+      "rationale": "USTA swing-volley drill uses midcourt floaters and a full swinging action."
+    },
+    {
+      "id": "grip-2",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennis.com.au/wp-content/uploads/2010/08/Stroke-and-Tactical-Fundamentals.pdf"
+      ],
+      "rationale": "Continental grip uses supported by Tennis Australia."
+    },
+    {
+      "id": "nick-nadal",
+      "verdict": "verified",
+      "sources": [
+        "https://www.rolandgarros.com/en-us/article/rg2025-the-king-of-clay-lives-on-but-impossible-is-dead"
+      ],
+      "rationale": "Tournament confirms nickname and 14 titles."
+    },
+    {
+      "id": "nick-sampras",
+      "verdict": "verified",
+      "sources": [
+        "https://www.atptour.com/en/news/nitto-atp-finals-50-years-sampras-german-dominance"
+      ],
+      "rationale": "ATP calls Sampras Pistol Pete."
+    },
+    {
+      "id": "nick-laver",
+      "verdict": "verified",
+      "sources": [
+        "https://www.tennisfame.com/hall-of-famers/inductees/rod-laver"
+      ],
+      "rationale": "Hall of Fame confirms The Rocket."
+    },
+    {
+      "id": "nick-edberg",
+      "verdict": "verified",
+      "sources": [
+        "https://www.usopen.org/en_US/news/articles/2018-05-15/2018-05-15_50_for_50_boris_becker_1989_mens_singles_champion.html"
+      ],
+      "rationale": "US Open confirms Becker nickname; question is about Becker despite ID."
+    },
+    {
+      "id": "nick-agassi",
+      "verdict": "verified",
+      "sources": [
+        "https://www.itftennis.com/en/news-and-media/articles/own-the-podium-andre-agassi-atlanta-1996-olympic-champion/"
+      ],
+      "rationale": "ITF confirms Olympic gold and career Golden Slam."
+    },
+    {
+      "id": "wh-64",
+      "verdict": "verified",
+      "sources": [
+        "https://www.wtatennis.com/news/1367607/about-the-wta"
+      ],
+      "rationale": "WTA confirms 1970 Houston contracts and Virginia Slims origins."
+    },
+    {
+      "id": "card-10",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/pdfs/1%20court%20concept%20with%20%281%29%2060%20and%20%282%29%2036s.pdf",
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/improve-your-tennis-game--approaching-the-net-in-singles.html"
+      ],
+      "rationale": "Geometric coaching inference from regulation court dimensions; not a guarantee of point outcome."
+    },
+    {
+      "id": "strat-07",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/pdfs/1%20court%20concept%20with%20%281%29%2060%20and%20%282%29%2036s.pdf",
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/improve-your-tennis-game--approaching-the-net-in-singles.html"
+      ],
+      "rationale": "Geometric coaching inference from regulation court dimensions; not a guarantee of point outcome."
+    },
+    {
+      "id": "strat-04",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/es/content/dam/usta/2026-pdfs/usta-public-parks-resource-guide.pdf"
+      ],
+      "rationale": "General surface tendency and coaching recommendation, not a universal rule."
+    },
+    {
+      "id": "strat-05",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/es/content/dam/usta/2026-pdfs/usta-public-parks-resource-guide.pdf"
+      ],
+      "rationale": "General surface tendency and coaching recommendation, not a universal rule."
+    },
+    {
+      "id": "card-33",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/es/content/dam/usta/2026-pdfs/usta-public-parks-resource-guide.pdf"
+      ],
+      "rationale": "General surface tendency and coaching recommendation, not a universal rule."
+    },
+    {
+      "id": "card-34",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/es/content/dam/usta/2026-pdfs/usta-public-parks-resource-guide.pdf"
+      ],
+      "rationale": "General surface tendency and coaching recommendation, not a universal rule."
+    },
+    {
+      "id": "st-x-2",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/es/content/dam/usta/2026-pdfs/usta-public-parks-resource-guide.pdf"
+      ],
+      "rationale": "General surface tendency and coaching recommendation, not a universal rule."
+    },
+    {
+      "id": "st-x-3",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/es/content/dam/usta/2026-pdfs/usta-public-parks-resource-guide.pdf"
+      ],
+      "rationale": "General surface tendency and coaching recommendation, not a universal rule."
+    },
+    {
+      "id": "strat-06",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/improve-your-tennis-game--approaching-the-net-in-singles.html"
+      ],
+      "rationale": "Approach placement depends on ball and opponent; valid coaching option among distractors."
+    },
+    {
+      "id": "st-x-7",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/improve-your-tennis-game--approaching-the-net-in-singles.html"
+      ],
+      "rationale": "Approach placement depends on ball and opponent; valid coaching option among distractors."
+    },
+    {
+      "id": "strat-08",
+      "verdict": "contextual",
+      "sources": [
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "Reasonable percentage-play guidance among choices, conditional on skill and opponent."
+    },
+    {
+      "id": "st-x-4",
+      "verdict": "contextual",
+      "sources": [
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "Reasonable percentage-play guidance among choices, conditional on skill and opponent."
+    },
+    {
+      "id": "st-x-9",
+      "verdict": "contextual",
+      "sources": [
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "Reasonable percentage-play guidance among choices, conditional on skill and opponent."
+    },
+    {
+      "id": "strat-02",
+      "verdict": "verified",
+      "sources": [
+        "https://braingametennis.com/features/blog/",
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "Serve-plus-one refers to server first shot after return; planning is a coaching application."
+    },
+    {
+      "id": "card-11",
+      "verdict": "verified",
+      "sources": [
+        "https://braingametennis.com/features/blog/",
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "Serve-plus-one refers to server first shot after return; planning is a coaching application."
+    },
+    {
+      "id": "st-x-10",
+      "verdict": "verified",
+      "sources": [
+        "https://braingametennis.com/features/blog/",
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "Serve-plus-one refers to server first shot after return; planning is a coaching application."
+    },
+    {
+      "id": "card-50",
+      "verdict": "contextual",
+      "sources": [
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "USTA explicitly teaches wide/open court and T/behind patterns; tendencies, not mandatory choices."
+    },
+    {
+      "id": "card-51",
+      "verdict": "contextual",
+      "sources": [
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "USTA explicitly teaches wide/open court and T/behind patterns; tendencies, not mandatory choices."
+    },
+    {
+      "id": "phys-01",
+      "verdict": "verified",
+      "sources": [
+        "https://twu.tennis-warehouse.com/learning_center/tennis-physics.php"
+      ],
+      "rationale": "Downward aerodynamic force of topspin verified."
+    },
+    {
+      "id": "phys-02",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary",
+        "https://twu.tennis-warehouse.com/learning_center/kickserve.php"
+      ],
+      "rationale": "Low slice is a typical trajectory; bounce depends on entry angle, speed and court."
+    },
+    {
+      "id": "extra-21",
+      "verdict": "verified",
+      "sources": [
+        "https://ushsta.org/practice-the-split-step/"
+      ],
+      "rationale": "Split step is timed around opponent contact; preparation begins just before."
+    },
+    {
+      "id": "st-x-5",
+      "verdict": "verified",
+      "sources": [
+        "https://ushsta.org/practice-the-split-step/"
+      ],
+      "rationale": "Split step is timed around opponent contact; preparation begins just before."
+    },
+    {
+      "id": "extra-22",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.tennis.com/news/articles/tip-work-on-proper-recovery"
+      ],
+      "rationale": "Recovery and crosscourt reset are conditional coaching guidance."
+    },
+    {
+      "id": "st-x-6",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.tennis.com/news/articles/tip-work-on-proper-recovery"
+      ],
+      "rationale": "Recovery and crosscourt reset are conditional coaching guidance."
+    },
+    {
+      "id": "st-x-8",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.tennis.com/news/articles/tip-work-on-proper-recovery"
+      ],
+      "rationale": "Recovery and crosscourt reset are conditional coaching guidance."
+    },
+    {
+      "id": "st-x-1",
+      "verdict": "contextual",
+      "sources": [
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf",
+        "https://www.usta.com/content/dam/usta/pdfs/1%20court%20concept%20with%20%281%29%2060%20and%20%282%29%2036s.pdf"
+      ],
+      "rationale": "Crosscourt offers margin but is not always the optimal serve-plus-one direction."
+    },
+    {
+      "id": "wh-46",
+      "verdict": "contextual",
+      "sources": [
+        "https://www.wtatennis.com/news/4056363/everts-50-year-wimbledon-anniversary-commemorated-with-navratilova"
+      ],
+      "rationale": "Contrasting styles are documented; causal account about conditioning is simplified."
+    },
+    {
+      "id": "lingo-05",
+      "verdict": "correction",
+      "sources": [
+        "https://ushsta.org/inside-out-forehand-drill/"
+      ],
+      "rationale": "Opponent backhand depends on opponent handedness.",
+      "replacement": {
+        "explain": "A right-handed player runs around the backhand side and hits a forehand diagonally toward the opposing ad court. That is a right-handed opponent’s backhand side, but a left-hander’s forehand side."
+      }
+    },
+    {
+      "id": "strat-01",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/content/dam/usta/pdfs/1%20court%20concept%20with%20%281%29%2060%20and%20%282%29%2036s.pdf"
+      ],
+      "rationale": "Diagonal is sqrt(78²+27²)=82.54 ft; posts are outside sidelines, so net-post height is not down-the-line crossing height.",
+      "replacement": {
+        "explain": "The full singles-court diagonal is about 82.5 feet, versus 78 feet along a sideline. A crosscourt ball also travels over the lower central part of the net. These margins often make it a safer rally direction."
+      }
+    },
+    {
+      "id": "strat-03",
+      "verdict": "correction",
+      "sources": [
+        "https://s3.amazonaws.com/ustaassets/assets/1/15/12422_player_development_journal_2016_single_pages.pdf"
+      ],
+      "rationale": "Open-court pattern depends on return quality; hitting behind is not exclusive to a T serve.",
+      "replacement": {
+        "question": "After a wide deuce-court serve pulls the returner off court and produces an attackable return, which common serve-plus-one pattern uses the open space?",
+        "explain": "One common pattern is wide serve, then attack the open court. Return quality and the opponent’s recovery can make another target preferable."
+      }
+    },
+    {
+      "id": "strat-09",
+      "verdict": "correction",
+      "sources": [
+        "https://braingametennis.com/features/blog/"
+      ],
+      "rationale": "Percentage must be attributed rather than asserted for every professional match.",
+      "replacement": {
+        "question": "In Craig O’Shannessy’s published Brain Game rally-length breakdown, approximately what share of points fall in the 0–4-shot category?",
+        "explain": "That published breakdown gives roughly 70% to 0–4 shots. It is a coaching benchmark, not a fixed percentage for every match or level."
+      }
+    },
+    {
+      "id": "strat-10",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennis.com/news/articles/tip-work-on-proper-recovery"
+      ],
+      "rationale": "Original side reference is ambiguous.",
+      "replacement": {
+        "choices": [
+          "To the exact centre hash every time",
+          "Toward a position that covers the opponent’s reply angles, usually short of the centre mark after a wide crosscourt",
+          "All the way to the opposite alley",
+          "Stand still and admire it"
+        ],
+        "explain": "After a wide crosscourt from the baseline, recover toward the middle while shading toward the likely crosscourt reply. The best position changes with the opponent’s contact point and available angles."
+      }
+    },
+    {
+      "id": "phys-spin-1",
+      "verdict": "correction",
+      "sources": [
+        "https://twu.tennis-warehouse.com/learning_center/kickserve.php",
+        "https://twu.tennis-warehouse.com/learning_center/tennis-physics.php"
+      ],
+      "rationale": "Magnus acts in flight, not as upward bounce force.",
+      "replacement": {
+        "explain": "A typical heavy topspin ball can rebound high because of its incoming trajectory and interaction with the court. Bounce also depends on speed, angle and surface; the Magnus force acts during flight."
+      }
+    },
+    {
+      "id": "grip-1",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennis.com.au/wp-content/uploads/2010/08/Stroke-and-Tactical-Fundamentals.pdf"
+      ],
+      "rationale": "Original confuses semi-western bevel 4 with full western; omit extraneous numbering.",
+      "replacement": {
+        "explain": "A Western forehand grip is associated with topspin-oriented forehands. Semi-Western is a different grip; grip alone does not create spin."
+      }
+    },
+    {
+      "id": "grip-3",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennis.com.au/wp-content/uploads/2010/08/Stroke-and-Tactical-Fundamentals.pdf"
+      ],
+      "rationale": "Must specify right-handed player and numbering convention.",
+      "replacement": {
+        "question": "Using the common eight-bevel numbering with the top face as 1 and counting clockwise, a right-handed eastern forehand grip places the index-finger base knuckle…",
+        "explain": "On bevel 3 for a right-hander under that numbering convention. A left-handed grip mirrors the position."
+      }
+    },
+    {
+      "id": "wd-21",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/about-us/organisation/tennis-glossary/"
+      ],
+      "rationale": "I is a formation, not a court name; break points can occur on deuce side.",
+      "replacement": {
+        "question": "In doubles, what do “deuce court” and “ad court” mean?",
+        "choices": [
+          "Indoor and advantage sets",
+          "The right-hand and left-hand halves respectively, viewed from each player’s own end facing the net",
+          "Italy and Adelaide",
+          "First serve and second serve"
+        ],
+        "explain": "Deuce is the right half and ad is the left half from your own end facing the net. “I-formation” names a doubles formation, not a court. Break points can be played on either half."
+      }
+    },
+    {
+      "id": "lg-x-10",
+      "verdict": "correction",
+      "sources": [
+        "https://www.itftennis.com/en/about-us/organisation/tennis-glossary/"
+      ],
+      "rationale": "Holding every service game is sufficient but not necessary; exchanged breaks can restore on-serve state.",
+      "replacement": {
+        "choices": [
+          "Neither player has a net service-break advantage in the set",
+          "One player necessarily leads by a service break",
+          "A tiebreak must be in progress",
+          "The umpire is serving"
+        ],
+        "explain": "A set can be on serve after both players hold or after they exchange breaks. It does not require every service game to have been held."
+      }
+    },
+    {
+      "id": "lg-x-11",
+      "verdict": "correction",
+      "sources": [
+        "https://braingametennis.com/you-are-facing-a-nasty-can-opener/"
+      ],
+      "rationale": "Original confuses receiver handedness with server handedness.",
+      "replacement": {
+        "choices": [
+          "A sharply angled slice serve, typically wide from the deuce court for a right-handed server or ad court for a left-handed server",
+          "A kick serve into the body",
+          "An underhand serve",
+          "A second-serve moonball"
+        ],
+        "explain": "The nickname describes a wide slice that pulls the returner away from the court; the usual serving side depends on the server’s handedness."
+      }
+    },
+    {
+      "id": "lg-x-13",
+      "verdict": "correction",
+      "sources": [
+        "https://www.tennis.com.au/play/discover-tennis/tennis-glossary",
+        "https://twu.tennis-warehouse.com/learning_center/kickserve.php"
+      ],
+      "rationale": "Direction is not part of kick-serve definition.",
+      "replacement": {
+        "choices": [
+          "A serve with a topspin component that produces a high bounce",
+          "A flat bomb only",
+          "A drop serve",
+          "Illegal spin"
+        ],
+        "explain": "A kick serve uses a topspin component to help the ball dip into the box and rebound high; it is not defined by a particular target."
+      }
+    },
+    {
+      "id": "lg-x-17",
+      "verdict": "correction",
+      "sources": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/improve-your-tennis-game--australian-formation-doubles.html"
+      ],
+      "rationale": "Australian formation original describes the opposite half ambiguously.",
+      "replacement": {
+        "choices": [
+          "The server and net partner start on the same lateral half of their own court",
+          "Both players at net before the serve",
+          "Two-handed return only",
+          "A tiebreak format"
+        ],
+        "explain": "The server’s partner starts on the same side as the server, typically across from the opposing net player. The server usually stands nearer the centre mark."
+      }
+    },
+    {
+      "id": "lingo-06",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "lingo-08",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "card-8",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "nick-connors",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "lg-x-2",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "lg-x-4",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "lg-x-12",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "lg-x-14",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "lg-x-18",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "lg-x-19",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    },
+    {
+      "id": "lg-x-20",
+      "verdict": "unresolved",
+      "sources": [],
+      "rationale": "Meaning appears plausible on editorial review, but direct primary-source support for the complete wording was not established in this pass."
+    }
+  ],
+  "counts": {
+    "verified": 44,
+    "contextual": 21,
+    "correction": 13,
+    "unresolved": 11
+  }
+}

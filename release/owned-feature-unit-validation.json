@@ -1,0 +1,17 @@
+{
+  "progression_checks": 42,
+  "challenge_assertions": 31,
+  "question_bank_tests": 4,
+  "status": "passed",
+  "commands": [
+    "swiftc TennisIQ/Models/Progression.swift tests/ProgressionTests.swift -o /tmp/tennisiq-progression-tests && /tmp/tennisiq-progression-tests",
+    "swiftc TennisIQ/Models/Question.swift TennisIQ/Models/Challenge.swift tests/ChallengeCodecTests.swift -o /tmp/tennisiq-challenge-tests && /tmp/tennisiq-challenge-tests",
+    "node --test tests/questions.test.cjs"
+  ],
+  "sha256": {
+    "TennisIQ/Models/Progression.swift": "d74f5679def22b037d7c2c9fd333414f812eadfa27fca765a52ce4e0e46db74e",
+    "TennisIQ/Models/Challenge.swift": "2e45c65b9f53e89a9c68dd79eac151a31414332a70969b1a80ff8b7e24fc9020",
+    "tests/ProgressionTests.swift": "4f54692ed306482a29a8c5e748474cc5818b8defb09eb54361bb2519f6264452",
+    "tests/ChallengeCodecTests.swift": "735284f58fc383fbd03940227ebe3edae65f9b4c88acdbeb1d31981e6253317e"
+  }
+}
