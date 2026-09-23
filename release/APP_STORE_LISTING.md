@@ -10,7 +10,7 @@
 - App price: Free
 - Primary category: Games; suggested subcategory: Trivia
 - Secondary category: Education
-- Keywords: tennis,quiz,trivia,rules,scoring,history,grand slam,practice,sports,knowledge
+- Keywords: tennis,quiz,trivia,rules,scoring,history,grand slam,practice,sports,game center
 - Support URL: https://srq.tennis/tennis-iq/support/
 - Privacy URL: https://srq.tennis/tennis-iq/privacy/
 - Copyright: 2026 Michael Boothman (confirm matches enrolled rights holder)
@@ -43,6 +43,7 @@ Tennis IQ is an independent quiz app, not an official product of any tennis gove
 
 ## Review notes
 No login or demo account is required. Daily Rally is free and does not require purchase. From the home screen, Shot Clock, Practice, Library, My IQ and Challenge open the purchase sheet until the nonconsumable Full Game Unlock is owned. The purchase sheet displays Apple's localized price. Restore Purchases is available there and under About, Support & Privacy. After purchase, those features open directly. My IQ offers a thirty-question untimed placement and earned badges. A completed round can generate a result card; sharing is user initiated. Challenge accepts a tennisiq://challenge# link containing ten question IDs and a content/version check; it needs no server. The app includes the question bank and gameplay works offline. No web checkout or external payment is used by the native app.
+Game Center is optional and only activates when the player signs in via the system's Game Center prompt on a signed-in device; leaderboards cover Daily Rally and Shot Clock best scores, and achievements mirror the in-app badges. Players who are not Game Center signed in can play everything normally and nothing is submitted.
 
 ## In-app purchase
 - Reference name: Tennis IQ Full Game Unlock
